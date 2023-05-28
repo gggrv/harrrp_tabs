@@ -1,0 +1,123 @@
+---
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x]
+  draw labels: [i,f,m,'y',g,r,s,h,k,j]
+  tune: C
+song:
+  artist: LAMA
+  title: Fantasy
+  country: japan
+  bpm: 120
+file:
+  language: jp
+  mapper: gggrv
+  means: # how the map was created
+    - listen
+# actual mapping begins here
+map:
+  theme: &id_theme
+    -
+      -
+        x: 'r 8h 88 h7    r6 8h 88 7h79'
+      -
+        x: 'r 8h 88 h7    r6 8h 88 7h79'
+  verse 1:
+    -
+      -
+        x: '55 6s 55y  55  6s 556'
+        t: '淡い朝もやに　　ささやく祈り'
+      -
+        x: '55 6s 55y  555 6s 556'
+        t: '歪んだ景色を　　君となぞってゆく'
+    -
+      -
+        x: 'h7ss  565    h7 sss55 6 rs'
+        t: '"本当"を求め、　　「"嘘"でもいいから」なんてね'
+      -
+        x: h7ss  565    5565
+        t: '見透かしあう様に　　たどってく'
+  choir 1.1:
+    -
+      -
+        x: ' 7  h    h   77h 9h8'
+        t: 'Looking for　　言葉越えて'
+      -
+        x: ' 7hh         77h 9h8'
+        t: 'おちていく　　　　　　羽のように'
+      -
+        x: ' 7  h    h   7hh'
+        t: 'Looking for　　ミツケテ'
+      -
+        x: ' 7hh         77h s6r'
+        t: 'ここで　　　　　　　　よりそうように'
+  break 1:
+    -
+      -
+        x: '8    h898    r8 r8'
+      -
+        x: '8    h898    r8 r8 6'
+  choir 1.2:
+    -
+      -
+        x: ' 7  h    h   77h 9h8'
+        t: 'Looking for　　解きほどいて'
+      -
+        x: ' 7hh         77h 9h8'
+        t: 'ちぎれる　　　　　　　雲のように'
+      -
+        x: ' 7  h    h   7hh'
+        t: 'Looking for　　ミツケテ'
+      -
+        x: ' 7hh         77h s6r'
+        t: 'ここで　　　　　　　　よりそうように'
+  theme (second): *id_theme
+  verse 2:
+    -
+      -
+        x: '55 6s 55y          555 6s 556'
+        t: '理由(ワケ)を求める同士　　隙間つむぐ時'
+      -
+        x: '55 6s 55y          55  6s 556'
+        t: '癒えぬかさぶたを　　　　　　　そっと剥がしてゆく'
+    -
+      -
+        x: 'h7ss  565        h7 sss 5 6 rs'
+        t: '「"綺麗"が"嘘"でも　　どうでもいい」だなんてね'
+      -
+        x: 'h7ss  565        5565'
+        t: '許し合うために　　　　　　たどってく'
+  choir 2.1:
+    -
+      -
+        x: ' 7  h    h   77h 9h8'
+        t: 'Looking for　　手を伸ばして'
+      -
+        x: ' 7hh         77h 9h8'
+        t: 'よせあう　　　　　　　波のように'
+      -
+        x: ' 7  h    h   7hh'
+        t: 'Looking for　　ミツケテ'
+      -
+        x: ' 7hh         77h s6r'
+        t: 'ここで　　　　　　　　よりそうように'
+  break 2:
+    -
+      -
+        x: 'r 8h 88 h7    r6 8h 88 7h79'
+      -
+        x: 'h r 6 y       8 hj'
+  choir 2.2:
+    -
+      -
+        x: ' 7  h    h   77h 9h8'
+        t: 'Looking for　　照らし出して'
+      -
+        x: ' 7hh         77h 9h8'
+        t: 'さすらう　　　　　　　月のように'
+      -
+        x: ' 7  h    h   7hh'
+        t: 'Looking for　　ミツケテ'
+      -
+        x: ' 7hh         77h s6r'
+        t: 'ここで　　　　　　　　よりそうように'
+...

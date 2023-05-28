@@ -1,0 +1,140 @@
+---
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x]
+  draw labels: [i,f,m,'y',g,r,s,h,k,j]
+  tune: C
+song:
+  artist: 一二三 feat. 初音ミク
+  title: 猛独が襲う
+  country: japan
+file:
+  language: jp
+  lyrics from: vocadb.net
+  mapper: gggrv
+  means: # how the map was created
+    - listen
+    - ust by 直江
+# actual mapping begins here
+map:
+  intro:
+    -
+      - &id_intro
+        x: '9 9k9 j 9kk'
+      - *id_intro
+      - *id_intro
+      - *id_intro
+  theme:
+    - &id_theme
+      -
+        x: 'j9k9j x     j9k99'
+      -
+        x: 'j9k9j x xx  jxj9k'
+    - *id_theme
+  verse 1a:
+    -
+      -
+        x: '4rrr rr6g g6r6g4    6rrr r77rr 6r6gy'
+        t: '適当に生きても息は続く　　誰かに寄りかかり生きている'
+      -
+        x: '4rrr rr6g g6r6g4    grrr r77rr 6r6gy'
+        t: '支えが消えても息が続く　　次の拠り所に身を寄せる'
+  theme (second):
+    - *id_theme
+    - *id_theme
+  verse 1b:
+    -
+      -
+        x: '4rrr rr6g g6r6g4    6rrr r77rr 6r6gy'
+        t: '使い捨てじみた繋がりとか　その場限りの関係だとか'
+      -
+        x: '4rrr rr6g g6r6g4    4rrr r77r 7h k k'
+        t: '何かが違うと嘆いてみて　何も分からずにいるんだって'
+  choir 1:
+    -
+      -
+        x: '7hj9 kh k 9         7hj9 kh k k'
+        t: '誰が何と言ったって　　　　僕はずっとこんなんで'
+      -
+        x: '7hj9 kh k 8k xj j9kxj'
+        t: '切れた縁（えにし）の端に目を伏せたの'
+      -
+        x: '7hj9 kh k 9         7hj9 kh k k'
+        t: '寂しがって泣いたって　　　誰も知らないんだって'
+      -
+        x: 'j    jx 9j k9j9k'
+        t: 'また　　　　猛独が襲う'
+  theme (third):
+    - *id_theme
+    - *id_theme
+  verse 2:
+    -
+      -
+        x: '4rrr rr6g g6r6g4    6rrr r77rr 6r6gy'
+        t: '誰かの気持ちを無碍にしては　　誰かに縋りながら生きてる'
+      -
+        x: '4rrr rr6g g6r6g4    grrr r77rr 6r6gy'
+        t: 'その度とぐろを巻く罰がさ　　　　胸を締め付けて牙を立てる'
+      -
+        x: '4rrr rr6g g6r6g4    6rrr r77rr 6r6gy'
+        t: '気が付かぬ間に独が回る　　　心だけ気付いて寂しがる'
+      -
+        x: '4rrr rr6g g6r6g4    4rrr r77r 7h k k'
+        t: '痺れる様な苦しみの中で　　　一人の無力に沈んだんだ'
+  choir 2:
+    -
+      -
+        x: '7hj9 kh k 9         7hj9 kh k k'
+        t: '誰に何と言ったって　　　　もう戻れないんだって'
+      -
+        x: '7hj9 kh k 8k xj j9kxj'
+        t: '「面倒だ」なんて手放した事さえ'
+      -
+        x: '7hj9 kh k 9         7hj9 kh k k'
+        t: '例え何度泣いたって　　　　届きはしないんだって'
+      -
+        x: 'j    jx 9j k9j9k'
+        t: '心にひびが走る'
+  break:
+    -
+      -
+        x: 'k 89j    87k'
+      -
+        x: 'h h78    87k'
+  epic:
+    -
+      -
+        x: 'rh777 r7      r7r 7rr      r6r7hh7r 6r76rr'
+        t: '壊れぬ様に　　　壊さぬ様に　　　未熟な手で守ってたのにね'
+      -
+        x: 'rh77 r7 rr    rhh 8 88kk    7hk9jxj9k 9kk'
+        t: '些細な感情で力んじゃったりして　　　握り潰していたんだろう'
+  choir 3:
+    -
+      -
+        x: '7hj9 kh k 9         7hj9 kh k k'
+        t: '膝を抱いて泣いたって　　変わりはしないんだって'
+      -
+        x: '7hj9 kh k 8k xj j9kxj'
+        t: '静かな部屋に響く嗚咽さえも'
+      -
+        x: '7hj9 kh k 9         7hjx j9 k k'
+        t: '夜が飲み込んだって　　月が照らしたって'
+      -
+        x: 'h8k      h8k     h8k   h8k9jk9'
+        t: '消えない　消えない　消えない事実だけ見て'
+      -
+        x: 'h8k      h8k     h8k   h8k9jkj 99'
+        t: '癒えない　言えない隠していた声を僕を'
+      -
+        x: 'x j9k99 jj'
+        t: '猛独が襲う'
+  exit:
+    -
+      -
+        x: 'x j 9 k'
+  theme (last):
+    - *id_theme
+    - *id_theme
+    - *id_theme
+    - *id_theme
+...

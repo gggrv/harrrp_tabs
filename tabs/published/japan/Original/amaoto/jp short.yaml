@@ -1,0 +1,142 @@
+---
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x]
+  draw labels: [i,f,m,'y',g,r,s,h,k,j]
+  tune: C
+song:
+  artist: 天遊 feat. 東京塔子
+  title: 雪の雫・雨の音 (MuseDash Ver.)
+  country: japan
+  bpm: 130
+file:
+  language: jp
+  lyrics from: nicovideo.jp
+  mapper: gggrv
+  means: # how the map was created
+    - listen
+# actual mapping begins here
+map:
+  intro:
+    -
+      -
+        x: '    ry gy ryy    7 hr6'
+      -
+        x: 'g6r ry gy ryy    7 hr6'
+      -
+        x: 'g6r ry gy ryy    7 hr6'
+      -
+        x: 'g6r ry gy 6r 7 hk8'
+      -
+        x: '7r7'
+  verse 1:
+    -
+      -
+        x: 'yr66g      6 g 6  7r'
+        t: '雨音に      打たられた'
+      -
+        x: 'yr66g      6 r y  y4y'
+        t: '人混みの      駅前佇つ'
+      -
+        x: 'yr66g      6 r y  4y5g5 y'
+        t: '「おかえり」と   甘過ぎる夢でも'
+      -
+        x: '4g5g 5g6'
+        t: '今ひとりだけ'
+    -
+      -
+        x: 'yr66g     6 g 6 7r'
+        t: '急げなきゃ間に合えぬ'
+      -
+        x: 'yr66g     6 r 7 h7r6'
+        t: '盲目      逐 う 遊戯が'
+      -
+        x: 'yr66g     6 g 6 7 h r6r'
+        t: 'いつ終局に   な るのか知らぬ'
+      -
+        x: '76g4 ygr'
+        t: '教えてください'
+    -
+      -
+        x: '76  g  6  r  g5y      y 45 g        4y666 g6r 7hr'
+        t: '　　　灯火の　　　　　下で隠された　　　　　　　　寂しいけそうな面影を'
+      -
+        x: '76  r  7  r  7hg      r66 g6r76'
+        t: '　　見つめてる　　日々が　　　痛過ぎだけど'
+  choir 1:
+    -
+      -
+        x: 'rrr6r 7r'
+        t: 'だって好きだから'
+      -
+        x: 'r6r7r 7h8k 7h         7h87 ry'
+        t: '噓だと知っても許し　　　　　　長い夜渡って'
+      -
+        x: 'g6g6g6 ry'
+        t: '　　愚さめて'
+      -
+        x: '6rr r 7 hr   g r g r  7r'
+        t: '待ち続けても　　　　　答出せぬ'
+      -
+        x: 'h87    r6r'
+        t: 'はぁあ　　あぁあ'
+    -
+      -
+        x: 'rrr6r 7r'
+        t: 'だってウソだから'
+      -
+        x: 'r6r7r7r 8k7h          7h87 9 k7r    7 h h'
+        t: '玩ぶでも大丈夫　　　　　　　　　手心残された温度'
+      -
+        x: 'h8k8 767h'
+        t: '今未だ覚える'
+  verse 2:
+    -
+      -
+        x: 'yr66g 6 g 6 7r'
+        t: '雨雪が降りしきる'
+      -
+        x: 'yr66g 6 r y y4y'
+        t: '絶やさえぬ言さえ'
+      -
+        x: 'yr66g 6 r y 4y5g5 y'
+        t: '耳を塞いでも　　　鳴り響いて'
+      -
+        x: '4y5 g 5g6'
+        t: 'もう放さないで'
+      -
+        x: 'r 76 g 6 r   g5yy 4 y5 g    4y666 g6r 7hr'
+        t: '　月明かり　　　　に照らされていた　　　長く伸びる人影と'
+      -
+        x: '76r7r 7hy'
+        t: '声掛ける度が'
+      -
+        x: 'r66 g6r76'
+        t: '恐く躓いて'
+  choir final:
+    -
+      -
+        x: 'rrr6r 7r'
+        t: 'だって好きだから'
+      -
+        x: 'r6r7r 7h8k 7h         7h87 r6'
+        t: '忌まわしい思い抱いて　　　踏み躙られても'
+      -
+        x: '6g6g6 ry'
+        t: '　信じてて'
+      -
+        x: '6rr r 7 hr   g r g r  7r'
+        t: '何度も追い嶽け　　　　続けて'
+      -
+        x: 'h87    r6r'
+        t: 'はぁあ　　あぁあ'
+    -
+      -
+        x: 'rrr6r 7r'
+        t: 'だって愛してる'
+      -
+        x: 'r6r7r7r 8k 7h         7h87 9 k8r 7hh'
+        t: '違う道を選んでも　　　　　　　もう一度　　僕を見せて'
+      -
+        x: 'h8k8 767h'
+        t: '雪華の下で'
+...

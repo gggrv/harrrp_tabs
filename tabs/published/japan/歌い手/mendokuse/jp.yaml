@@ -1,0 +1,173 @@
+---
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x]
+  draw labels: [i,f,m,'y',g,r,s,h,k,j]
+  tune: C
+song:
+  artist: ラムネ feat. びす
+  title: めんどくせー
+  country: japan
+  bpm: 144
+file:
+  language: jp
+  lyrics from: www.musicenc.com
+  mapper: gggrv
+  means: # how the map was created
+    - listen
+# actual mapping begins here
+map:
+  intro:
+    -
+      -
+        x: '55yy55y    5y56'
+        t: '生きてることが馬鹿らしい'
+      -
+        x: '5 6 rrs    r6y5'
+        t: '何の甲斐もありやしない'
+      -
+        x: '5 y 55y    5y56'
+        t: '天気予報通りの'
+      -
+        x: '55s r 65   mmy5'
+        t: '雨だったならいいのに'
+      -
+        x: 'y m'
+        t: 'あーぁ'
+  theme 1: &id_theme
+    -
+      -
+        x: 's srs srs srshsrs'
+      -
+        x: '  srs srs srs56rs'
+      -
+        x: 's srs srs srshsrs'
+      -
+        x: '  srs srs srs56rs'
+  verse 1:
+    -
+      -
+        x: '5 y 55y    5y56'
+        t: '滿員電車汗の臭い'
+      -
+        x: '556 r s    r6y5'
+        t: 'ジトラス香水の香り'
+      -
+        x: '55yy55y    5y56'
+        t: '今にも吐き出しそうになる'
+      -
+        x: '55s rr6y   mmy5'
+        t: '息を止めてはい終わり'
+      -
+        x: '5 y 55yy   5y56'
+        t: '週末薔薇色の景色'
+      -
+        x: '5566rrss   r6y5'
+        t: '笑顔の奴が憎たらしい'
+      -
+        x: '5 y 5 y    5y56'
+        t: 'どうせ何も変わらない'
+      -
+        x: '5  srsr6r  6'
+        t: '放っておいてくれよ'
+  choir 1:
+    -
+      -
+        x: '6 6    6gy4y'
+        t: 'あーもうめんどくせー'
+      -
+        x: '4yr66r    6g4ygr'
+        t: 'どうせ誰も見てないから'
+      -
+        x: '6 6    6r7rh'
+        t: 'あーもうめんどくせー'
+      -
+        x: ' 7hkk8h'
+        t: '消えてしまおう'
+      -
+        x: ' 7hkk8h'
+        t: '消えてしまおう'
+  theme (second): *id_theme
+  verse 2:
+    -
+      -
+        x: '55yy55yy   5y56'
+        t: '夢を食べてきたこの街で'
+      -
+        x: '5 6 rrss   r6y5'
+        t: '才能溢れた友人'
+      -
+        x: '55yy55y    5y56'
+        t: 'ところで俺はどうする？'
+      -
+        x: ' 5r6 y65    y'
+        t: '妬んで終わり'
+      -
+        x: '55yy55yy   5y56'
+        t: '小錢を稼いでは勘違い'
+      -
+        x: '5 6 rrss   r6y5'
+        t: 'アイドル気取りの王様'
+      -
+        x: '5 yy5 yy   5y56'
+        t: '何にも持っていないのに'
+      -
+        x: '5 s r    65r 66'
+        t: 'どうしろって言うんだよ'
+  choir 2:
+    -
+      -
+        x: '6 6    6gy4y'
+        t: 'あーもうめんどくせー'
+      -
+        x: '4yr6      rr4ygr'
+        t: 'どうせ何も要らないから'
+      -
+        x: '6666   6r7rh'
+        t: '期待とかすんなよ'
+      -
+        x: ' 7hkk8h   7hkk8h'
+        t: '消えてしまえ消えてしまえ'
+  break:
+    -
+      -
+        x: 's    srs r6r 6565r56'
+      -
+        x: '5y5 5y6'
+      -
+        x: 'rsr rsh srs'
+    -
+      -
+        x: 's    srs r6r 65 srs6r565'
+      -
+        x: 'r6r srs h 8'
+  choir 3:
+    -
+      -
+        x: '6 6    6gy4y'
+        t: 'あーもうめんどくせー'
+      -
+        x: '4yr66r    6g4ygr'
+        t: 'どうせ誰も見てないのに'
+        x: '6 6    6r7rh'
+        t: 'あーもうわかんねえ'
+      -
+        x: ' 7hkk8h   7k8h7h'
+        t: 'この心に気付いてほしい'
+  outro:
+    -
+      -
+        x: '55yy55y    5y56'
+        t: '生きてることは素晴らしい'
+      -
+        x: '5 6 rrs    r6y5'
+        t: '何の甲斐もありやしない'
+      -
+        x: '55y 5 yy   5y56'
+        t: '予言通りに世界が'
+      -
+        x: '56 r5yy   mmy5'
+        t: '明日終わればいいのに'
+      -
+        x: 'y m'
+        t: 'あーぁ'
+...

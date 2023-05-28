@@ -1,0 +1,125 @@
+---
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x]
+  draw labels: [i,f,m,'y',g,r,s,h,k,j]
+  tune: C
+song:
+  artist: Clean Tears feat. 初音ミク
+  title: Skyscraper
+  country: japan
+  bpm: 98
+file:
+  language: jp
+  lyrics from: www.kkbox.com
+  mapper: gggrv
+  means: # how the map was created
+    - listen
+# actual mapping begins here
+map:
+  intro: &id_intro
+    -
+      -
+        x: 'rh8h    rh8h 8hr'
+      -
+        x: 'rh8h    rh8h 8h9'
+  verse 1:
+    -
+      -
+        x: 'rr 6r    7h89hs7'
+        t: '街灯が　　色浓く线に'
+      -
+        x: 'rr 6r    7h8r 8h'
+        t: '规则　　をなぞっていく'
+      -
+        x: 'rr 6r    7h89hs7'
+        t: '三次元　　光る摩天楼'
+      -
+        x: 'rr 6r    7h8r 8h 8        r8r8r r8r8'
+        t: '行き着く　　梦は幻'
+  lead into 1:
+    -
+      -
+        x: 'r76r 7 hs 6y 5        r8r8r r8r8'
+        t: '眠りから覚めてゆく'
+      -
+        x: '576r 7   hs7h8'
+        t: '　夜の时が花咲く'
+  choir 1:
+    -
+      -
+        x: '67h8 8 h8h 9 ss 7 s7        r 8hr'
+        t: '月のひかりをのみこんでいく'
+      -
+        x: 'rr7  8h7 s7'
+        t: '地上のキャンパス'
+      -
+        x: '67h8 8 h8h 8 9jxj9'
+        t: '吸いこまれる深海の暗へ'
+      -
+        x: '997 8hs'
+        t: '委ねながら'
+  verse 2:
+    -
+      -
+        x: 'rr 6r    7h89hs7'
+        t: '车窓を　　　流れる'
+      -
+        x: 'rr 6r    7h8r 8h'
+        t: '光粒子を　あつめていく'
+      -
+        x: 'rr 6r    7h89hs7'
+        t: '体を　巡る温度と似ている'
+      -
+        x: 'rr 6r    7h8r 8h 8        r8r8r r8r8'
+        t: '仆达の　　　意味'
+  lead into 2:
+    -
+      -
+        x: 'r76r 7 hs 6y 5        r8r8r r8r8'
+        t: '眠ることの无いまま'
+      -
+        x: '576r 7   hs7h8'
+        t: '朝の温もり忘れ'
+  aside:
+    -
+      -
+        x: ''
+        t: '揺らいでは辉いて 触れてる'
+      -
+        x: ''
+        t: '届くはず 今この时'
+  choir final:
+    -
+      -
+        x: '67h8 8 h8h 9 ss 7 s7        r 8hr'
+        t: '月のひかりをのみこんでいく'
+      -
+        x: 'rr7  8h7 s7'
+        t: '地上のキャンパス'
+      -
+        x: '67h8 8 h8h 8 9jxj9'
+        t: '吸いこまれる深海の暗へ'
+      -
+        x: '997 8h9'
+        t: '委ねながら'
+    -
+      -
+        x: '67h8 8 h8h 9 ss 7 s7        r 8hr'
+        t: '空のひかりを映しだしてく'
+      -
+        x: 'rr7  8h7 s7'
+        t: '眼下のキャンパス'
+      -
+        x: '67h8 8 h8h 8 9jxj9'
+        t: '流れることのない星たちが'
+      -
+        x: '997 8h 8 9'
+        t: '  彩る风景'
+  intro reiteration: *id_intro
+  outro: 
+    -
+      -
+        x: '98h7 8h7r'
+      -
+        x: '        rh8h 89j x'
+...
