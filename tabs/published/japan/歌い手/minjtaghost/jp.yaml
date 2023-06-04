@@ -1,29 +1,33 @@
 ---
+version: '4.0' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
-  bend + notes:
-    '5': # this hole bent by given amount (1,2,...)
-      - F# # will produce this note (bent by 1)
-    '6':
-      - Bb
-    r:
-      - Ab
-    s:
-      - Db # (bent by 1)
-      - '' # unused D=h (bent by 2)
-      - Eb # (bent by 3)
-    h:
-      - '' # unused F=k (bent by 1)
-      - F# # (bent by 2)
-    k:
-      - Ab
-      - '' # unused A=j
-      - Bb
-  tune: C
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E,'F#']
+    '6': [G,Bb]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A,Ab]
+    's': [B,Db,'',Eb]
+    'h': [D,'','F#']
+    'k': [F,Ab,'',Bb]
+    'j': [A]
 song:
-  artist: minjta feat. 初音ミク
+  artist: minjta feat. 鹿乃
   title: ghost
+  official: www.nicovideo.jp/watch/sm18519956
   country: japan
   bpm: 125
 file:
