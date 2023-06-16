@@ -40,11 +40,11 @@ file:
 # actual mapping begins here
 map:
   theme 1:
-    -
+    - &id_theme
       -
-        x: '666 7r    6    r r6 r'
+        x: '555 65    5    5 5y 5'
       -
-        x: '666 7r    6    r r6 r'
+        x: '555 65    5    5 5y 5'
   verse 1:
     -
       -
@@ -101,11 +101,7 @@ map:
         x: '  rs77h 8r r7srrr    6r r'
         t: '解れてく　一つ二つ三つ　　全部'
   theme 2:
-    -
-      -
-        x: '666 7r    6    r r6 r'
-      -
-        x: '666 7r    6    r r6 r'
+    - *id_theme
   verse 2:
       -
         x: ' r 6 r6 r6    r r7r'
@@ -216,13 +212,10 @@ map:
         x: '  rs77h 8r r7srrr    6r r'
         t: 'でもまた愛を求めてくるくるりと'
   theme 3:
+    - *id_theme
     -
       -
-        x: '666 7r    6    r r6 r'
+        x: '               5 5y 5'
       -
-        x: '666 7r    6    r r6 r'
-      -
-        x: '               r r6 r'
-      -
-        x: 'r r6 r    r r6 r    r r6 r'
+        x: '5 5y 5    5 5y 5    5 5y 5'
 ...
