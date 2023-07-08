@@ -167,40 +167,49 @@ map:
   choir 3 (fully bent): # untested
     -
       -
+        seriously: False
         +: '11 111     111 1'
         x: 'rskkss   k rrs7s'
         t: '夜の涙　　大きな街と'
       -
+        seriously: False
         +: '11 111      2 3'
         x: 'sskkss k   khksk'
         t: '君の想像を　超えるんだ'
       -
+        seriously: False
         +: ' 31    31   11113 1'
         x: ' ss    ss   rrrrs7s'
         t: 'ハロー　ハロー　届くといいな'
       -
+        seriously: False
         +: '1 21 3 11  22   31'
         x: 'skhk k sskkhh  kss'
         t: 'また少し君が　大人になる'
   choir 4 (fully bent): # untested
     -
       -
+        seriously: False
         +: ' 11 111  1  111 1'
         x: ' rskkss  sk rrs7s'
         t: '消えちゃいそうな小さな声を'
       -
+        seriously: False
         +: '11 111       2 3'
         x: 'sskkss   kkk hksk'
         t: '見つけたのが君でよかった'
       -
+        seriously: False
         +: ' 31    31   11113 1'
         x: ' ss    ss   rrrrs7s'
         t: 'ハロー？　ハロー！　そろそろ行くよ'
       -
+        seriously: False
         +: '  1 21 31   2  31'
         x: '  skhk ks k h kss'
         t: '伸ばした手を　そのままに'
       -
+        seriously: False
         +: '31 31'
         x: 'ss ss'
         t: 'バイバイ'

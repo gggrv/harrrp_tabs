@@ -1,0 +1,159 @@
+---
+version: '4.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x]
+  draw labels: [i,f,m,'y',g,r,s,h,k,j]
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E,'F#']
+    '6': [G]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: Ocelot (Rin ぎんすけ) feat. マクネナナ
+  title: Self Collapse
+  official: www.nicovideo.jp/watch/sm23907129
+  country: japan
+  bpm: 80
+file:
+  language: jp
+  lyrics from: vocadb.net
+  mapper: gggrv
+  means: # how the map was created
+    - listen
+# actual mapping begins here
+map:
+  theme 1:
+    - &id_theme1A
+      -
+        x: '56r 56r 56r 56r 5y'
+      -
+        x: '    56r 56r 56r 56    j98h'
+      -
+        x: '56r 56r 56r 56r 5y'
+      -
+        x: '    56r 56r 56r 56    h89j'
+    - &id_theme1B
+      -
+        x: '   r     s6r'
+      -
+        x: '  5r    6s6r'
+  verse 1: &id_v1
+    -
+      -
+        x: '5 5h5 h5h5'
+        t: '誰一人として'
+      -
+        x: '65h5 h5 565h5'
+        t: '味方なんてものはいない'
+    -
+      -
+        x: '5 5h5 656 y55'
+        t: '勝ち目のない力に、'
+      -
+        +: '            1'
+        x: '5655 5h5 s 556'
+        t: '耐え抜いて身を委ねて'
+    -
+      -
+        x: '5 5h5 h55h5'
+        t: '後ろ指を差され、'
+      -
+        x: '65h5 5h55 565h5'
+        t: '嘲笑われ除け者にされ'
+    -
+      -
+        x: '5 5h5 656y5'
+        t: '自分はこの世には、'
+      -
+        +: '             1'
+        x: '5655 5y5 6s5 56r'
+        t: '必要のないものと知る'
+  transition 1: &id_t1
+    -
+      -
+        +: '  1      1'
+        x: '6s5s5  5s5sr  6r'
+        t: '誰からも愛されないまま'
+      -
+        +: '  1      1'
+        x: '6s5s5  5s5sr  sr'
+        t: '誰からも望まれないまま'
+      -
+        +: '  1          1'
+        x: '6s5s5  y5y 5s5sr  6r'
+        t: '意味の無い言葉をただ只管'
+      -
+        +: '  1      1'
+        x: '6s5s5  5s5sr'
+        t: '繰り返すばかりなら'
+  choir 1: &id_c1
+    -
+      -
+        x: 'sr6r sr6r sr6r  6r sr'
+        t: '今こそ未練を断ち切って踏み出す'
+      -
+        x: 'sr6r sr6r sr66r 6r sr'
+        t: '今こそ飛び込む片道の世界'
+      -
+        x: 'sr6r sr6r sr6r  6r sr'
+        t: '今こそ未練を断ち切って踏み出す'
+      -
+        x: 'sr6r sr6r sr6r 6r sr 6r'
+        t: '今こそ飛び込む輝くあの光へ'
+  break 1:
+    - &id_break1
+      -
+        seriously: False
+        x: ' 5rm        r rrrs'
+      -
+        seriously: False
+        x: ' 5rm 5ym    r5y'
+      -
+        seriously: False
+        x: ' 5rm        r rr r5'
+      -
+        seriously: False
+        x: ' 5rm mym5m  f2'
+    - *id_break1
+  choir 1.5 (distorted): &id_c1dist
+    -
+      -
+        x: 'sr6srsr s rs6 srsr sr6sr  6r sr'
+        t: '今こそ　　未練を　　　断ち切って踏み出す'
+      -
+        x: 'sr6sr   sr6r       8h66r 6r srsr'
+        t: '今こそ　　飛び込む　　片道の　　世界'
+      -
+        x: 'sr6sr   s rs6 srsr sr6r   6r sr'
+        t: '今こそ　　未練を　　　断ち切って踏み出す'
+      -
+        x: 's rs6 sr  sh8hr     sr6r sr sr sr'
+        t: '今こそ　　　飛び込む　　輝く　　あの光へ'
+  theme 2 (repeat):
+    - *id_theme1B
+    - *id_theme1B
+  transition 2 (repeat): *id_t1
+  choir 2 (repeat): *id_c1
+  break 2 (repeat):
+    - *id_break1
+  choir 2.5 (distorted repeat): *id_c1dist
+  theme 3 (repeat):
+    - *id_theme1A
+    - *id_theme1A
+...

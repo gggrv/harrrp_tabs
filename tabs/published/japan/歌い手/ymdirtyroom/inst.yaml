@@ -1,0 +1,204 @@
+---
+version: '4.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x]
+  draw labels: [i,f,m,'y',g,r,s,h,k,j]
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E,'F#']
+    '6': [G]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B,'','',Eb]
+    'h': [D,'','F#']
+    'k': [F]
+    'j': [A]
+song:
+  artist: YM feat. 灯油
+  title: ベイビーダーティルーム
+  official: www.nicovideo.jp/watch/sm27788257
+  country: japan
+  bpm: 97 # 194 # 388
+file:
+  language: jp
+  mapper: gggrv
+  means: # how the map was created
+    - listen
+# actual mapping begins here
+map:
+  verse 1:
+    -
+      -
+        x: '5 sss    rsr 66'
+      -
+        x: '5ss r    s 8 ss'
+      -
+        +: '            1'
+        x: '5 ssr   sr 656'
+      -
+        x: 'rsr6566'
+    -
+      -
+        x: '5ss s    rsr 66'
+      -
+        x: '55s s    sh8 ss'
+      -
+        +: '               1'
+        x: '55s ss   r r 6 5'
+      -
+        +: '1'
+        x: '56r    sr65'
+  transition 1:
+    -
+      -
+        x: '6s    6r8s'
+      -
+        +: '1      1'
+        x: '56r s 655'
+    -
+      -
+        x: '6s    rshs'
+      -
+        +: '          1'
+        x: 'rsh8s  rs655'
+  choir 1:
+    -
+      -
+        +: '       1'
+        x: '5sss r656'
+      -
+        +: '       1'
+        x: '5sss r65'
+      -
+        x: '5ss 5ss 5ss'
+      -
+        x: 'r6r6 s6r5    8shs'
+    -
+      -
+        +: '       1'
+        x: '55ss r656'
+      -
+        +: '       1'
+        x: '5ss  r656'
+      -
+        x: '5ss 5ss 5ss'
+      -
+        +: '                    3'
+        x: 'r6r6 s6r     srs h 8h8'
+  #break 1:
+  verse 2:
+    -
+      -
+        x: '5 sss    rsr 66'
+      -
+        x: '55ss     rsrh8 ss'
+      -
+        +: '                1'
+        x: '55s      rsrs r656'
+      -
+        x: 'rsr65'
+  transition 2:
+    -
+      -
+        x: '5s    6r8s'
+      -
+        +: '      1'
+        x: 'r6s   56hs'
+    -
+      -
+        x: 'rs    rs7s'
+      -
+        +: '            1'
+        x: 'rsh8  s  rs658 98'
+  #break 2:
+  rant:
+    -
+      -
+        x: '5s     rss'
+      -
+        x: '5ss    rss'
+      -
+        x: '5sss   rsss'
+      -
+        x: '8 s    rsrs'
+    -
+      -
+        x: '5s     rss'
+      -
+        +: '               3'
+        x: '5ss    6rss7s  s'
+  transition 3:
+    -
+      -
+        x: '5s    6r8s'
+      -
+        +: '1       1'
+        x: '56r   s655'
+    -
+      -
+        x: '6s    rshs'
+      -
+        +: '         3'
+        x: 'rsh89s h8h'
+  choir 2:
+    -
+      -
+        +: '       1'
+        x: '5sss r656'
+      -
+        +: '       1'
+        x: '5sss r656'
+      -
+        x: '5ss 5ss 5ss'
+      -
+        x: 'r6r6 s6r5    8shs'
+    -
+      -
+        +: '       1'
+        x: '55ss r656'
+      -
+        +: '       1'
+        x: '5ss  r656'
+      -
+        x: '5ss 5ss 5ss'
+      -
+        +: '                1'
+        x: 'r6r6 s6r     5y556rsh8'
+  shout:
+    -
+      -
+        x: '898    898'
+      -
+        +: ' 3'
+        x: '9h8h shh'
+      -
+        +: '           33'
+        x: '898    899 hh8h89'
+      -
+        x: 'srs rsr6r    srs7s h7s'
+    -
+      -
+        x: '898    898'
+      -
+        +: ' 3'
+        x: '9h8h shh'
+      -
+        +: '           33'
+        x: '898    899 hh8h89'
+      -
+        x: 'srs rsr6r    srs7s h7s ts'
+      -
+        +: '   3'
+        x: 'h8 h'
+...

@@ -1,0 +1,221 @@
+---
+version: '4.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x]
+  draw labels: [i,f,m,'y',g,r,s,h,k,j]
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E,'F#']
+    '6': [G]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: かごめP feat. 結月ゆかり
+  title: Tiny PaRadisE
+  official: http://planariya.blogspot.com/2011/12/tiny-paradisec81.html
+  country: japan
+  bpm: 128
+file:
+  language: jp
+  lyrics from: http://planariya.blogspot.com/2011/12/tiny-paradisec81.html
+  mapper: gggrv
+  means: # how the map was created
+    - listen
+# actual mapping begins here
+map:
+  intro:
+    -
+      -
+        +: '1'
+        x: '56h'
+    - &id_woo
+      - &id_woo_low
+        +: '   1'
+        x: '6 s5   5h5 mm'
+      - &id_woo_high
+        +: '   1'
+        x: '6 s5   5h5 rr'
+  verse 1:
+    -
+      -
+        x: '555 55555    555h5'
+        t: 'なにも変われない僕たちは'
+      -
+        x: '5 5555 h5 56 5'
+        t: '変わったつもりで集まって'
+      -
+        x: '5 555h5 65  565  565r65'
+        t: '変わったつもりで　　　歌を紡ぐ'
+    -
+      -
+        x: '555 55555    555h5'
+        t: 'なにも変われない僕たちは'
+      -
+        x: '55 55555 r65y5'
+        t: '育ったつもりで恋をして'
+      -
+        x: '6666 6r55  rrrs55 h'
+        t: '変われない事に気付かなくて'
+  transition 1:
+    -
+      -
+        x: '  r rs 5y55y65'
+        t: '因果応報この世はスパイラル'
+      -
+        x: '  r rs5 55y6656 '
+        t: 'だってそうよ私シンデレラ'
+    -
+      -
+        x: '  shshs    rrr6    5'
+        t: '優しさなんて見えなくて'
+  choir 1: &id_choir1
+    - &id_frustration
+      -
+        x: '   6 hhhsh sh hsh'
+        t: 'そう傷ついて　つまづいて'
+      -
+        x: '66r6 hhhsh sh hsh'
+        t: 'それでも羽ばたいて'
+      -
+        x: '       sr 6'
+        t: '下がってっちゃうモチベーション'
+      -
+        +: '    1'
+        x: '    565'
+        t: 'フラストレーション'
+    -
+      -
+        x: '  6 hhhsh     sh hsh'
+        t: 'そうまばゆいくらい　輝きたいと'
+      -
+        x: ' 6r hhhsh     sh hsh'
+        t: '秘密のピース埋めたらきっと'
+      -
+        x: ' sr 66'
+        t: 'パラダイス'
+    -
+      -
+        x: '6 r ss rr ss'
+        t: 'きっと私だけがいる'
+      -
+        x: ' rr 66'
+        t: 'パラダイス'
+  break 1:
+    -
+      -
+        x: 'r s6   5h5 mm'
+      - *id_woo_high
+  verse 2:
+    -
+      -
+        x: '555 h5555    h5hh5'
+        t: 'いつも救われない僕の手'
+      -
+        x: '555 5555    5r65y5'
+        t: '救いの手いつも見えなくて'
+      -
+        x: 's shsr 65r r r 6s 55y'
+        t: 'なんで後から気付いちゃうのかな'
+      -
+        t: '(いっそ気付かなければよかった)'
+  transition 2:
+    -
+      -
+        x: '  r rs 5y55y65'
+        t: '因果応報この世はスパイラル'
+      -
+        x: '  r rs5 55y6656 '
+        t: 'だってそうよ私シンデレラ'
+      -
+        x: '  shshs    rrr6    5'
+        t: '苦しさだって見せなくて'
+  choir 2:
+    - *id_frustration
+    -
+      -
+        x: '   6 hhhsh    sh hsh'
+        t: 'そうまばゆいくらい　輝きたいと'
+      -
+        x: ' 6rh  hhsh    sh hsh'
+        t: '秘密のプレィス決めたらきっと'
+      -
+        x: ' sr 66'
+        t: 'パラダイス'
+    -
+      -
+        x: '6 r ss rr ss'
+        t: 'きっと私だけがいる'
+      - &id_paradise
+        x: ' rr 66'
+        t: 'パラダイス'
+  quiet:
+    -
+      -
+        x: '   r r6r r6rr6r'
+        t: '[最近とってもつまんない]'
+      -
+        x: '   r6r r6r r6r'
+        t: '[友情・愛情分かんない]'
+      -
+        x: '                  s6'
+        t: '[信号変わったら進むしかないや]'
+  choir 3:
+    -
+      -
+        x: '  66 hhhsh sh hsh'
+        t: '　この続く道　変わってって'
+      -
+        x: ' 6r6 hhhsh sh hsh sr66'
+        t: '僕はいつまでも　変われないでずっと'
+      -
+        x: '6sr ssrs'
+        t: 'このままで'
+  epic:
+    -
+      -
+        x: '  6r 6rs rs6'
+        t: '誰かしれっと気付いて'
+      -
+        x: ' 6srrrs'
+        t: '名前を呼んで'
+      -
+        x: '    shh sr6'
+        t: '笑ってくれればいいんだ'
+      -
+        +: '           1'
+        x: '66rs 7s   656'
+        t: 'それだけでいいの'
+  choir 4: *id_choir1
+  outro:
+    -
+      -
+        x: 'rhs    rss'
+      - *id_paradise
+    -
+      -
+        x: 'rhs rss rss'
+      - *id_paradise
+    -
+      -
+        x: 'rss rhs rss'
+      - *id_paradise
+    -
+      -
+        x: 'rss rhs rss'
+      - *id_paradise
+...

@@ -1,0 +1,88 @@
+---
+version: '4.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x]
+  draw labels: [i,f,m,'y',g,r,s,h,k,j]
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E]
+    '6': [G,Bb]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: Kuroneko Lounge (Rin ぎんすけ) feat. 初音ミク
+  title: ヨルノハテ
+  official: https://www.youtube.com/watch?v=p8qAKzjUS9M
+  country: japan
+  bpm: 125
+file:
+  language: jp
+  lyrics from: https://piapro.jp/content/1ijl4onns71y5ytu
+  mapper: gggrv
+  means: # how the map was created
+    - listen
+# actual mapping begins here
+map:
+  low:
+    -
+      -
+        x: 'g 5g 6    g 5g 6'
+  theme: &id_theme
+    -
+      -
+        x: 'gyg7 g5 y4    gyg7 g5 y3'
+      -
+        x: 'gyg7 g5 y4    yr gyg 6 gyg'
+  verse:
+    -
+      -
+        x: ' 6h7yg       g6g6r6 yg'
+        t: 'くすんだ風、　　撫でる夜の街'
+      -
+        x: ' 6h7r grg    g6g6r6 yg'
+        t: '代えのない声が、叫ぶ心持ち'
+      -
+        x: 'hk8hr 6g7r   6g66r 7y'
+        t: '私はここにいる、　魂の先'
+      -
+        x: 'hk8hr 6rg r7 6yg6r r7r  gyr'
+        t: '待ち受ける童心と、快楽主義への投資'
+  break:
+    -
+      -
+        x: 'gy7    7g5y    4' 
+      -
+        x: 'g7g    rg5r 7h' 
+  choir:
+    - &id_hatemade1
+      - &id_hate
+        x: 'hk 87   hk8 7r'
+        t: '果てまで、果てるまで'
+      -
+        +: '                 1'
+        x: 'g6r6 g  g676 g  r6r6 yr'
+        t: 'どこまでも、どこまでも、走り抜けよう'
+    -
+      - *id_hate
+      -
+        +: '                 1'
+        x: 'g6r6 g  6r76 g  r6r6 yr'
+        t: 'どこまでも、どこまでも、走り抜けよう'
+    - *id_hatemade1
+  theme (second): *id_theme
+...
