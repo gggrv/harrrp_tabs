@@ -46,16 +46,16 @@ map:
   verse 1:
     -
       -
-        x: 'rrr6r7 r6r6 r'
+        x: 'rrr 6r7r6 r6 r'
         t: '片足に鍵をかけて'
       -
-        x: 'rrr6r7 h7r'
+        x: 'rrr 6r7h7r'
         t: '満ち欠けの真夜中'
       -
-        x: 'rrr6r7 r6r6 g'
+        x: 'rrr 6r7r6r6 g'
         t: '枕元の微笑みは上辺'
       -
-        x: '5g6r 6yr6 g 66rhhh'
+        x: '5g6r 6 yr6 g 66rhhh'
         t: '今日もあの子になれなかった'
     -
       -
@@ -88,13 +88,13 @@ map:
   verse 2:
     -
       -
-        x: 'rrr6r7 r6r6 r'
+        x: 'rrr 6r7r6r6 r'
         t: '狭い狭い箱の中'
       -
-        x: 'rrr6r7 h7r  6 g'
+        x: 'rrr 6r7h7r 6 g'
         t: '酸欠して地獄堕ち'
       -
-        x: 'rrr6r7 r6r6 g'
+        x: 'rrr 6r7r6r6 g'
         t: '誰にも言わず二人で'
       -
         x: '5g6r 6 r6    g 66rhhh'

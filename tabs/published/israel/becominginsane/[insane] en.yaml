@@ -1,0 +1,241 @@
+---
+version: '4.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x]
+  draw labels: [i,f,m,'y',g,r,s,h,k,j]
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E,'F#']
+    '6': [G,Bb]
+    '7': [C,'C#']
+    '8': [E,Eb]
+    '9': [G]
+    'x': [C]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A,Ab]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: Infected Mushroom
+  title: Becoming Insane
+  official: infected-mushroom.com
+  bpm: 145
+file:
+  language: en
+  lyrics from: genius.com
+  mapper: gggrv
+  means: # how the map was created
+    - listen
+# actual mapping begins here
+map:
+  theme: &id_theme
+    - 
+      -
+        seriously: False
+        +: ' 1 1  11   1'
+        x: 'rrrrr 66 666r'
+      -
+        seriously: False
+        +: ' 1 1  11  111'
+        x: 'rrrrr 66 h767'
+      -
+        seriously: False
+        +: ' 1 1'
+        x: '88888 kk hhk8'
+      -
+        seriously: False
+        +: ' 1 1     1'
+        x: 'rrrrr 66 6r6r'
+  distorted vocals:
+    - 
+      -
+        seriously: False
+        +: '        1'
+        x: '  r    r6r'
+      -
+        seriously: False
+        +: ' 1      1'
+        x: 'r6r    r6r'
+      -
+        seriously: False
+        +: ' 1      1'
+        x: 'r6r    r6r 6 r'
+  break 1:
+    - 
+      -
+        seriously: False
+        +: '               1'
+        x: '           rrr 6 r'
+      -
+        seriously: False
+        +: '    1 1        1'
+        x: 'rrr 6 6    rrr 6 r'
+      -
+        seriously: False
+        +: '111            1 1'
+        x: '666 r r    rrr 6 r'
+    - 
+      -
+        seriously: False
+        x: 'y y 5 5'
+      -
+        seriously: False
+        +: '     1'
+        x: 'rj 8r66r'
+  low:
+    - 
+      -
+        seriously: False
+        +: '         1'
+        x: '6r r    r6 6r67 r'
+      -
+        seriously: False
+        x: '6r r      r6r67 r'
+    - 
+      -
+        seriously: False
+        +: '         1'
+        x: '6r r    r6 6r67 r'
+      -
+        seriously: False
+        x: '6r r      5r6r567 r'
+  verse (spanish):
+    -
+      -
+        +: '      1 1      1'
+        x: ' r r  6 6  6   6  6 r'
+        t: 'Dime todo lo que pasó'
+      -
+        +: '       1   1  1            1'
+        x: ' r  r  6   6  6  r   6  6  6 r'
+        t: 'No me di cuenta ni qué me pegó'
+      -
+        x: ' 5 5  g   g  g   g   y   g  y 5'
+        t: 'Todo da vueltas como un carrusel'
+      -
+        +: '                1 1 1  1'
+        x: ' y 5 5  g g  g  r r r  6   r'
+        t: 'Locura recorre todita mi piel'
+    -
+      -
+        +: '      1 1      1'
+        x: ' r r  6 6  6   6  6 r'
+        t: 'Dime todo lo que pasó'
+      -
+        +: '       1   1  1  1      1'
+        x: ' r  r  6   6  6  6   6  6  6 r'
+        t: 'No me di cuenta ni qué me pegó'
+      -
+        x: ' 8 8  k   k  k   k   h   k  h 8'
+        t: 'Todo da vueltas como un carrusel'
+      -
+        +: '                1 1 1  1'
+        x: ' 5 5 5  g g  g  r r r  r   r'
+        t: 'Locura recorre todita mi piel'
+  verse (english):
+    -
+      -
+        +: '         1  1 1       1'
+        x: ' r    r  6  6 6   6   6    6 r'
+        t: 'Wake me up before I change again'
+      -
+        +: '                1 1   1           1     1'
+        x: ' 6 r    r   r   6 6   6  r  h     7  r  7'
+        t: 'Remind me the story that I won't get insane'
+      -
+        x: ' 8    8   k k    h   k    h  8'
+        t: 'Tell me why it's always the same'
+      -
+        +: '                1  1    1         1'
+        x: 'r   r    r   r  6  6    6 6    6  6   6   r'
+        t: 'Explain me the reason why I'm so much in pain'
+    -
+      -
+        +: '         1  1 1       1'
+        x: ' r    r  6  6 6   6   6    6 r'
+        t: 'Wake me up before I change again'
+      -
+        +: '                1 1   1           1'
+        x: ' 6 r    r   r   6 6   6  r  6     6  6  r'
+        t: 'Remind me the story that I won't get insane'
+      -
+        +: '          1 1        1'
+        x: ' r    r   6 6    6   6    6  r'
+        t: 'Tell me why it's always the same'
+      -
+        +: '                1  1    1         1'
+        x: 'r   r    r   r  6  6    6 r    r  6   6   r'
+        t: 'Explain me the reason why I'm so much in pain'
+    -
+      -
+        x: ' 6 r   6   r    6 r     9 j   j   j    9 j'
+        t: 'Before I change again (Before I change again)'
+      -
+        +: '                1 1   1           1'
+        x: ' 6 r    r   r   6 6   6  r  6     6  6  r'
+        t: 'Remind me the story that I won't get insane'
+      -
+        x: ' 6 r   6   r    6 r '
+        t: 'Before I change again (Before I change again)'
+      -
+        +: '                1 1   1           1'
+        x: ' 6 r    r   r   6 6   6  r  6     6  6  r'
+        t: 'Remind me the story that I won't get insane'
+  transition:
+    -
+      -
+        x: 'y  5    y  5    y  5    y  5    y  5'
+        t: 'Insane, insane, insane, insane, insane'
+      -
+        x: '5    5 g 5   y  5    y  5    y  5    4  5    4  5'
+        t: 'I'm becoming insane, insane, insane, insane, insane'
+      -
+        +: '1    1   1'
+        x: '5    5 6 5   5  6    5  6    5  6    5  r    5  r'
+        t: 'I'm becoming insane, insane, insane, insane, insane'
+      -
+        x: '6    6 r 6   5  r    5  r    5  r    5  6    5  6'
+        t: 'I'm becoming insane, insane, insane, insane, insane'
+      -
+        +: '1    1   1'
+        x: '5    5 6 5   5  6    5  6    5  6    5  r    5  r'
+        t: 'I'm becoming insane, insane, insane, insane, insane (Voy perdiendo, perdiendo)'
+      -
+        x: 'r    r r r   7  s    7  s    7  s    7  s    7  s'
+        t: 'I'm becoming insane, insane, insane, insane, insane (Voy perdiendo, perdiendo)'
+      -
+        +: '1    1   1'
+        x: '5    5 6 5   5  6    5  6    5  6    5  r    5  r'
+        t: 'I'm becoming insane, insane, insane, insane, insane'
+      -
+        x: 'r    h h s   7  r    7  r6   7  s    7  s    7  8h'
+        t: 'I'm becoming insane, insane, insane, insane, insane, insane (Voy perdiendo el suelo!)'
+      -
+        x: '5    5 y 5   m  m'
+        t: 'I'm becoming insane!'
+  guitar:
+    -
+      -
+        x: '7 7rrr  7 7r'
+      -
+        x: '7 7r    7 7r'
+      -
+        x: 's s6    s s6'
+      -
+        x: '7  7  7r6 j'
+    -
+      -
+        x: '7 7r   7 7r    h7sr'
+      -
+        x: '7 7r    7 7r'
+  theme (repeat): *id_theme
+...
