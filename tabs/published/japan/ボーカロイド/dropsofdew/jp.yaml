@@ -29,11 +29,12 @@ song:
   title: Drops of dew
   official: karent.jp/album/2732
   country: japan
-  bpm: 126
 file:
   language: jp
   lyrics from: www.lyrical-nonsense.com
   mapper: gggrv
+  audio attachments:
+    - harp.mid
   means: # how the map was created
     - listen
 # actual mapping begins here

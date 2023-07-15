@@ -29,11 +29,12 @@ song:
   title: アイ
   official: www.nicovideo.jp/watch/sm30380835
   country: japan
-  bpm: 140
 file:
   language: jp
   lyrics from: vocadb.net
   mapper: gggrv
+  audio attachments:
+    - harp.mid
   means: # how the map was created
     - ust by Thibaud, Pianodream (Adagio Fantasque) www.youtube.com/watch?v=UWcwXdo5-To
     - listen

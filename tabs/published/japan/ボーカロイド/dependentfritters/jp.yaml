@@ -29,11 +29,12 @@ song:
   title: 従属ふりったー
   official: www.nicovideo.jp/watch/sm23964020
   country: japan
-  bpm: 144
 file:
   language: jp
   lyrics from: vocadb.net
   mapper: gggrv
+  audio attachments:
+    - harp.mid
   means: # how the map was created
     - ust by kapi www.nicovideo.jp/watch/sm23975025
     - listen

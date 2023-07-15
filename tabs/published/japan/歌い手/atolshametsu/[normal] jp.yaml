@@ -29,11 +29,12 @@ song:
   title: ハメツ
   official: www.nicovideo.jp/watch/sm30380835
   country: japan
-  bpm: 135
 file:
   language: jp
   lyrics from: j-lyric.net
   mapper: gggrv
+  audio attachments:
+    - harp.mid
   means: # how the map was created
     - listen
 # actual mapping begins here

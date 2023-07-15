@@ -29,10 +29,11 @@ song:
   title: ゆめのつなぎびと
   official: www.nicovideo.jp/watch/sm21564622
   country: japan
-  bpm: 85
 file:
   language: jp
   mapper: gggrv
+  audio attachments:
+    - main.mid
   means: # how the map was created
     - listen
 # actual mapping begins here

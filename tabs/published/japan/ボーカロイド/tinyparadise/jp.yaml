@@ -29,11 +29,12 @@ song:
   title: Tiny PaRadisE
   official: http://planariya.blogspot.com/2011/12/tiny-paradisec81.html
   country: japan
-  bpm: 128
 file:
   language: jp
   lyrics from: http://planariya.blogspot.com/2011/12/tiny-paradisec81.html
   mapper: gggrv
+  audio attachments:
+    - harp.mid
   means: # how the map was created
     - listen
 # actual mapping begins here

@@ -29,11 +29,12 @@ song:
   title: フユノ
   country: japan
   official: www.hitorie.jp
-  bpm: 137
 file:
   language: jp
   lyrics from: www.uta-net.com
   mapper: gggrv
+  audio attachments:
+    - harp (voice synth compatible).mid
   means: # how the map was created
     - listen
 # actual mapping begins here

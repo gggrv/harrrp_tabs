@@ -29,11 +29,12 @@ song:
   title: 吸血鬼とピアノ
   official: www.nicovideo.jp/watch/sm20688029
   country: japan
-  bpm: 110
 file:
   language: ru
   translation by: ○○
   mapper: gggrv
+  audio attachments:
+    - easy_harp.mid
   means: # how the map was created
     - listen
 # actual mapping begins here

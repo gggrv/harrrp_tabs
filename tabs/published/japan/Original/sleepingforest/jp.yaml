@@ -29,11 +29,12 @@ song:
   title: Sleeping Forest (INFINITY)
   official: www.youtube.com/watch?v=uyH-Up3BnoY
   country: japan
-  bpm: 100
 file:
   language: jp
   lyrics from: teddyloid-special.com/silentplanet/
   mapper: gggrv
+  audio attachments:
+    - harp.mid
   means: # how the map was created
     - listen
 # actual mapping begins here

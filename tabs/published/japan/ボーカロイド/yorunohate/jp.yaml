@@ -29,11 +29,12 @@ song:
   title: ヨルノハテ
   official: https://www.youtube.com/watch?v=p8qAKzjUS9M
   country: japan
-  bpm: 125
 file:
   language: jp
   lyrics from: https://piapro.jp/content/1ijl4onns71y5ytu
   mapper: gggrv
+  audio attachments:
+    - harp.mid
   means: # how the map was created
     - listen
 # actual mapping begins here

@@ -29,11 +29,12 @@ song:
   title: Self Collapse
   official: www.nicovideo.jp/watch/sm23907129
   country: japan
-  bpm: 80
 file:
   language: jp
   lyrics from: vocadb.net
   mapper: gggrv
+  audio attachments:
+    - main.mid
   means: # how the map was created
     - listen
 # actual mapping begins here

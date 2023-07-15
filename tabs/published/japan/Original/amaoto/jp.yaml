@@ -29,11 +29,12 @@ song:
   title: 雪の雫・雨の音
   official: www.nicovideo.jp/watch/sm38473259
   country: japan
-  bpm: 130
 file:
   language: jp
   lyrics from: nicovideo.jp
   mapper: gggrv
+  audio attachments:
+    - full harp.mid
   means: # how the map was created
     - listen
 # actual mapping begins here

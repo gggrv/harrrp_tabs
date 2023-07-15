@@ -28,11 +28,12 @@ song:
   artist: Infected Mushroom
   title: Becoming Insane
   official: infected-mushroom.com
-  bpm: 145
 file:
   language: en
   lyrics from: genius.com
   mapper: gggrv
+  audio attachments:
+    - main.mid
   means: # how the map was created
     - listen
 # actual mapping begins here

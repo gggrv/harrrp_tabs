@@ -27,12 +27,13 @@ harp:
 song:
   artist: Alice Cooper
   title: Last Man on Earth
-  official: 
-  bpm: 75 # 150
+  official: alicecooper.com
 file:
   language: en
   lyrics from: genius.com
   mapper: gggrv
+  audio attachments:
+    - harp.mid
   means: # how the map was created
     - listen
 # actual mapping begins here

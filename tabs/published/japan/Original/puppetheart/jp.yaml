@@ -29,11 +29,12 @@ song:
   title: 傀儡の心臓
   official: uni-mafumafu.jp
   country: japan
-  bpm: 126
 file:
   language: jp
   lyrics from: www.kkbox.com
   mapper: gggrv
+  audio attachments:
+    - harp.mid
   means: # how the map was created
     - listen
 # actual mapping begins here

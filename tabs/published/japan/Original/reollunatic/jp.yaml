@@ -27,13 +27,14 @@ harp:
 song:
   artist: ギガP, れをる feat. REOL
   title: Lunatic
-  official: 
+  official: reol.jp
   country: japan
-  bpm: 105
 file:
   language: jp
   lyrics from: genius.com
   mapper: gggrv
+  audio attachments:
+    - harp.mid
   means: # how the map was created
     - listen
 # actual mapping begins here
