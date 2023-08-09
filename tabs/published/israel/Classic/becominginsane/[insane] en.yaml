@@ -151,14 +151,14 @@ map:
       -
         +: '                1 1   1           1     1'
         x: ' 6 r    r   r   6 6   6  r  h     7  r  7'
-        t: 'Remind me the story that I won't get insane'
+        t: "Remind me the story that I won't get insane"
       -
         x: ' 8    8   k k    h   k    h  8'
-        t: 'Tell me why it's always the same'
+        t: "Tell me why it's always the same"
       -
         +: '                1  1    1         1'
         x: 'r   r    r   r  6  6    6 6    6  6   6   r'
-        t: 'Explain me the reason why I'm so much in pain'
+        t: "Explain me the reason why I'm so much in pain"
     -
       -
         +: '         1  1 1       1'
@@ -167,15 +167,15 @@ map:
       -
         +: '                1 1   1           1'
         x: ' 6 r    r   r   6 6   6  r  6     6  6  r'
-        t: 'Remind me the story that I won't get insane'
+        t: "Remind me the story that I won't get insane"
       -
         +: '          1 1        1'
         x: ' r    r   6 6    6   6    6  r'
-        t: 'Tell me why it's always the same'
+        t: "Tell me why it's always the same"
       -
         +: '                1  1    1         1'
         x: 'r   r    r   r  6  6    6 r    r  6   6   r'
-        t: 'Explain me the reason why I'm so much in pain'
+        t: "Explain me the reason why I'm so much in pain"
     -
       -
         x: ' 6 r   6   r    6 r     9 j   j   j    9 j'
@@ -183,14 +183,14 @@ map:
       -
         +: '                1 1   1           1'
         x: ' 6 r    r   r   6 6   6  r  6     6  6  r'
-        t: 'Remind me the story that I won't get insane'
+        t: "Remind me the story that I won't get insane"
       -
         x: ' 6 r   6   r    6 r '
         t: 'Before I change again (Before I change again)'
       -
         +: '                1 1   1           1'
         x: ' 6 r    r   r   6 6   6  r  6     6  6  r'
-        t: 'Remind me the story that I won't get insane'
+        t: "Remind me the story that I won't get insane"
   transition:
     -
       -
@@ -198,31 +198,31 @@ map:
         t: 'Insane, insane, insane, insane, insane'
       -
         x: '5    5 g 5   y  5    y  5    y  5    4  5    4  5'
-        t: 'I'm becoming insane, insane, insane, insane, insane'
+        t: "I'm becoming insane, insane, insane, insane, insane"
       -
         +: '1    1   1'
         x: '5    5 6 5   5  6    5  6    5  6    5  r    5  r'
-        t: 'I'm becoming insane, insane, insane, insane, insane'
+        t: "I'm becoming insane, insane, insane, insane, insane"
       -
         x: '6    6 r 6   5  r    5  r    5  r    5  6    5  6'
-        t: 'I'm becoming insane, insane, insane, insane, insane'
+        t: "I'm becoming insane, insane, insane, insane, insane"
       -
         +: '1    1   1'
         x: '5    5 6 5   5  6    5  6    5  6    5  r    5  r'
-        t: 'I'm becoming insane, insane, insane, insane, insane (Voy perdiendo, perdiendo)'
+        t: "I'm becoming insane, insane, insane, insane, insane (Voy perdiendo, perdiendo)"
       -
         x: 'r    r r r   7  s    7  s    7  s    7  s    7  s'
-        t: 'I'm becoming insane, insane, insane, insane, insane (Voy perdiendo, perdiendo)'
+        t: "I'm becoming insane, insane, insane, insane, insane (Voy perdiendo, perdiendo)"
       -
         +: '1    1   1'
         x: '5    5 6 5   5  6    5  6    5  6    5  r    5  r'
-        t: 'I'm becoming insane, insane, insane, insane, insane'
+        t: "I'm becoming insane, insane, insane, insane, insane"
       -
         x: 'r    h h s   7  r    7  r6   7  s    7  s    7  8h'
-        t: 'I'm becoming insane, insane, insane, insane, insane, insane (Voy perdiendo el suelo!)'
+        t: "I'm becoming insane, insane, insane, insane, insane, insane (Voy perdiendo el suelo!)"
       -
         x: '5    5 y 5   m  m'
-        t: 'I'm becoming insane!'
+        t: "I'm becoming insane!"
   guitar:
     -
       -
