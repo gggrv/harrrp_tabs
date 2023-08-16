@@ -1,5 +1,5 @@
 ---
-version: '4.0' # format version
+version: '4.0.9' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -32,9 +32,14 @@ file:
   language: en
   lyrics from: genius.com
   mapper: gggrv
+  audio attachments: None
   means: # how the map was created
     - midi by www.midisfree.com
     - listen
+  limitations: not fully adheres to the original song structure, contains purposefully unmapped paragraphs
+  label position:
+    - stress marks
+    - rhythm
 # actual mapping begins here
 map:
   rhythm:
