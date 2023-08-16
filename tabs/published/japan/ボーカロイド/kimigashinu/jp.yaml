@@ -1,0 +1,159 @@
+---
+version: '4.0.9' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x]
+  draw labels: [i,f,m,'y',g,r,s,h,k,j]
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E]
+    '6': [G]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C,B]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: かめりあ feat. 初音ミク
+  title: 君が死ぬのを眺めているよ
+  official: 
+  country: japan
+file:
+  language: jp
+  lyrics from: vocadb.net
+  mapper: gggrv
+  audio attachments:
+    harp.mid: ok
+  means: # how the map was created
+    - ust by Kream (UtauReizo) rainerr.weebly.com/ust-list.html
+  limitations: this map is an approximation of midi data credited above; only main melody without additinal decorations is mapped
+  label position:
+    - rhythm
+# actual mapping begins here
+map:
+  verse 1:
+    -
+      -
+        x: '98k8 7 77h7 h h98'
+        t: '誰かに意識されたモノは、'
+      -
+        x: 'rrr7 rrr 7h h7r'
+        t: 'ここから旅立ってゆくんだ。'
+    -
+      -
+        +: '    1'
+        x: ' 98xx9  9 9j7h h98'
+        t: '今　君が聞いたこの音も、'
+      -
+        x: ' r  r7 rr 7h h7r'
+        t: 'もう　いなくなってしまった。'
+  transition 1:
+    -
+      -
+        x: '8r  rrrrrrr7rr'
+        t: 'でも、僕はここに残るよ。'
+      -
+        x: 'r8hhh89    6r7 rr8h h7'
+        t: '名前もないし、触れはしないけど。'
+      -
+        x: ' rrr r rrrr7rr    r 8hhh 89 '
+        t: '永遠　いつまでだって　名のない場所に、'
+      -
+        +: ' 1'
+        x: 'jxx'
+        t: 'いるよ。'
+  choir 1:
+    -
+      -
+        x: '5 65y 65y  65y  65y y56r66 7s6r'
+        t: '空気も、星も、海も　君が踏んでいる靴だって、'
+      -
+        x: '     r65y      yg5 y5656 67s65'
+        t: '何所（どこ）かへ　昔　旅立ってしまったけど。'
+      -
+        x: '5 65y 65y  65y  65y y56r66 7s6r'
+        t: 'しばらく　僕はここに　立ち止まっている予定だから、'
+      -
+        x: '7 h66 6r  76r r8r  r77s 7h8'
+        t: '他人のまま　君が死ぬのを眺めているよ。'
+  verse 2:
+    -
+      -
+        x: '98k8 7 77h7 h h98'
+        t: '誰かに認識されたモノは、'
+      -
+        x: 'rrr7 rrr 7h h7r'
+        t: 'ここから立ち去ってゆくんだ。'
+    -
+      -
+        +: '    1'
+        x: ' 98xx9  9 9j7h  98'
+        t: 'さっき行ってしまったその音は、'
+      -
+        x: '  rrr7 r r7 h h7r'
+        t: 'いま　どこにいるんだろうね。'
+  transition 2:
+    -
+      -
+        x: '8r  rrrrrrr7rr'
+        t: 'でも、僕はここに残るよ。'
+      -
+        x: 'rr8hhh89    6r7 rr8h h7'
+        t: '呼ばれる名の無い　色んな物の中で。'
+      -
+        x: ' rrr r rrrr7rr    r 8hhh 89 '
+        t: '多次元　並列的な世界の終わりまで、'
+      -
+        +: ' 1'
+        x: 'jxx'
+        t: 'いくよ。'
+  choir 2:
+    -
+      -
+        x: '     5 65y    65y  65y  65y y56r66 7s6r'
+        t: '蜻蛉（とんぼ）も、蝉も、蝶も　いつか捕まえた蜘蛛だって。'
+      -
+        x: 'r65y   yg5   y5656 67s65'
+        t: '誰かに　昔　飛び込んでしまったけど、'
+      -
+        x: '5 65y 65y  65y  65y y56r66 7s6r'
+        t: '恐らく　何度もこの世界が滅んでは生まれて、'
+      -
+        x: '7 h66 6r  76r r8r  r77s 7h8'
+        t: '他人のまま　君が死ぬのを眺めているよ。'
+  off: # unmapped
+    -
+      -
+        t: '何十回と世界が壊れて、'
+      -
+        t: 'ようやく出番が来たようだ。'
+      -
+        t: 'そろそろ行かなくちゃいけない。'
+      -
+        t: '僕が旅立った先で、会えるといいな。'
+  choir 3 (variation):
+    -
+      -
+        x: '5 65y 65y  65y  65y y56r66 7s6r'
+        t: '空気も、星も、海も　君が踏んでいる靴だって、'
+      -
+        x: '     r65y      yg5 y5656 67s65'
+        t: '何所（どこ）かへ　昔　旅立ってしまったけど。'
+      -
+        x: '5 65y 65y  65y  65y y56r66 7s6r'
+        t: 'しばらく　僕はここに　立ち止まっている予定だから、'
+      -
+        x: '7 h66 6r  h8 h 8 r s67'
+        t: '他人のまま･･･'
+...

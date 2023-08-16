@@ -1,0 +1,47 @@
+---
+version: '4.0.9' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x]
+  draw labels: [i,f,m,'y',g,r,s,h,k,j]
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E]
+    '6': [G]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: Feryquitous (Terao Kazuki)
+  title: Industrial Nation (Feryquitous Remix)
+  original artist: Jerico
+  original title: Industrial Nation
+  official: jerico909.jimdofree.com/オリジナル作品/
+  country: japan
+file:
+  language: instrumental
+  mapper: gggrv
+  audio attachments:
+    main.mid: ok, surprisingly repetitive
+  means: # how the map was created
+    - listen
+  limitations: wip; midi is custom-made from scratch and adheres to the original song structure; not compatible with standard harmonica, not beginner-friendly, exists for fun
+  label position:
+    - rhythm
+# actual mapping begins here
+map:
+  # to be done
+...
