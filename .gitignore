@@ -7,3 +7,4 @@ pytool/test
 # ignore wip
 tabs/private/*
 guide/*
+\[wip\]*
