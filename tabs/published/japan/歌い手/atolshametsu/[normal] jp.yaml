@@ -1,5 +1,5 @@
 ---
-version: '4.0.9' # format version
+version: '4.0.10' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -40,6 +40,7 @@ file:
   limitations: this map is custom-made from scratch and adheres to the original song structure
   label position:
     - rhythm
+  widechar: 1
 # actual mapping begins here
 map:
   choir 1 (lower):

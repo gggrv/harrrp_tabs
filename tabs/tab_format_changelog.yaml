@@ -17,6 +17,8 @@
 version:
   4:
     0:
+      10:
+        - added optional `file/widechar` tag to hold predefined value that corresponds to specific gui text editors' widechar rendering behavior
       9:
         - added optional `file/limitations` tag to hold comments regarding `map` tag group contents
         - added mandatory `file/label position` tag to hold an array of predefined values `rhythm`, `stress marks`
