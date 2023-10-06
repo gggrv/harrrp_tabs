@@ -29,6 +29,7 @@ version:
       7:
         - multiple `file/audio attachments` are possible
         - optional `file/audio attachments` tag available
+        - removed tag `file/bpm` because it is irrelevant to real-life harmonica performance - some songs are impossible/not enjoyable to perform at original speed/timing
       6:
         - unbent harmonica notes per hole are now mandatory in the `harp/notes` tag
         - added tag `song/original artist`
