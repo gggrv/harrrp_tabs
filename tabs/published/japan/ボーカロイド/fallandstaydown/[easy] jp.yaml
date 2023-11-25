@@ -1,5 +1,5 @@
 ---
-version: '4.0.10' # format version
+version: '4.0.11' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -27,21 +27,29 @@ harp:
 song:
   artist: うたたP feat. MAYU
   title: 七転び八起きない
-  official: 
+  official: www.youtube.com/watch?v=dTLM7d74w_A
   country: japan
 file:
-  language: jp
-  lyrics from: vocadb.net
-  mapper: gggrv
+  lyrics:
+    language: jp
+    source: vocadb.net
+    tab label position: [rhythm]
+    widechar: 1
   audio attachments:
-    harp.mid: ok
+    harp.mid:
+      status: ok
+      pack:
+        - main.mid
+        - harp.mid
+      comment: repetitive
+      mapper: gggrv
+      means: # how the midi was created
+        - ust by EchoBlosom123 at youtu.be/f-l8gkW3bDc
+        - listen
   means: # how the map was created
-    - ust by EchoBlosom123 youtu.be/f-l8gkW3bDc
-    - listen
-  limitations: this map adheres to the original song structure; raised key ending section is omitted
-  label position:
-    - rhythm
-  widechar: 1
+    - midi harp.mid
+  comment: this map adheres to the original song structure; raised key ending section is omitted
+  mapper: gggrv
 # actual mapping begins here
 map:
   intro:

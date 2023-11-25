@@ -1,5 +1,5 @@
 ---
-version: '4.0.10' # format version
+version: '4.0.11' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -30,17 +30,24 @@ song:
   official: 
   country: china
 file:
-  language: jp
-  lyrics from: piapro.jp
-  mapper: gggrv
+  lyrics:
+    language: jp
+    source: piapro.jp
+    widechar: 1
+    tab label position: [rhythm]
   audio attachments:
-    harp.mid: ok
+    harp.mid:
+      status: ok
+      pack:
+        - main.mid
+        - harp.mid
+      mapper: gggrv
+      means: # how the midi was created
+        - listen
   means: # how the map was created
-    - listen
-  limitations: this map is custom-made from scratch and adheres to the original song structure; melody is not particularly suitable for harmonica
-  label position:
-    - rhythm
-  widechar: 1
+    - midi harp.mid
+  comment: this map is custom-made from scratch and adheres to the original song structure; melody is not particularly suitable for harmonica
+  mapper: gggrv
 # actual mapping begins here
 map:
   verse 1:

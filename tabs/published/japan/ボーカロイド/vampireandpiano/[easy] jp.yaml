@@ -1,5 +1,5 @@
 ---
-version: '4.0.10' # format version
+version: '4.0.11' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -30,16 +30,25 @@ song:
   official: www.nicovideo.jp/watch/sm20688029
   country: japan
 file:
-  language: jp
-  mapper: gggrv
+  lyrics:
+    language: jp
+    source: official
+    tab label position: [rhythm]
+    widechar: 1
   audio attachments:
-    easy_harp.mid: ok
+    easy_harp.mid:
+      status: ok
+      pack:
+        - easy_harp.mid
+        - hard_main.mid
+      comment: this is a custom adaptation speficially for standard harmonica - original notes are heavily appropriated
+      mapper: gggrv
+      means: # how the midi was created
+        - listen
   means: # how the map was created
-    - listen
-  limitations: this map is custom-made from scratch and adheres to the original song structure; original notes are heavily appropriated to fit standard harmonica
-  label position:
-    - rhythm
-  widechar: 1
+    - midi easy_harp.mid
+  comment: this map is custom-made from scratch and adheres to the original song structure
+  mapper: gggrv
 # actual mapping begins here
 map:
   theme: &id_theme

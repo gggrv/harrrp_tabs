@@ -1,5 +1,5 @@
 ---
-version: '4.0.10' # format version
+version: '4.0.11' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -29,18 +29,17 @@ song:
   title: Feel Good Inc.
   official: www.gorillaz.com
 file:
-  language: en
-  lyrics from: genius.com
-  mapper: gggrv
+  lyrics:
+    language: en
+    source: genius.com
+    widechar: 1
+    tab label position: [stress marks,rhythm]
   audio attachments: None
   means: # how the map was created
     - midi by www.midisfree.com
     - listen
-  limitations: not fully adheres to the original song structure, contains purposefully unmapped paragraphs
-  label position:
-    - stress marks
-    - rhythm
-  widechar: 1
+  comment: not fully adheres to the original song structure, contains purposefully unmapped paragraphs
+  mapper: gggrv
 # actual mapping begins here
 map:
   rhythm:

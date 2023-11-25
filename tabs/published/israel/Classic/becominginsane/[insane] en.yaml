@@ -1,5 +1,5 @@
 ---
-version: '4.0.10' # format version
+version: '4.0.11' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -29,18 +29,23 @@ song:
   title: Becoming Insane
   official: infected-mushroom.com
 file:
-  language: en
-  lyrics from: genius.com
-  mapper: gggrv
+  lyrics:
+    language: en
+    source: genius.com
+    tab label position: [stress marks,rhythm]
   audio attachments:
-    main.mid: ok, surprisingly varied
+    main.mid:
+      status: ok
+      pack:
+        - main.mid
+      comment: surprisingly varied
+      mapper: gggrv
+      means: # how the midi was created
+        - listen
   means: # how the map was created
-    - listen
-  limitations: this map is custom-made from scratch and adheres to the original song structure; not suitable for standard harmonica, not beginner-friendly, exists for fun
-  label position:
-    - stress marks
-    - rhythm
-  widechar: 1
+    - midi main.mid
+  comment: this map is custom-made from scratch and adheres to the original song structure; not suitable for standard harmonica, not beginner-friendly, exists for fun
+  mapper: gggrv
 # actual mapping begins here
 map:
   theme: &id_theme

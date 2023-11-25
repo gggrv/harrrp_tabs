@@ -1,0 +1,201 @@
+---
+version: '4.0.11' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x]
+  draw labels: [i,f,m,'y',g,r,s,h,k,j]
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E]
+    '6': [G]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: AVTechNO! feat. 初音ミク
+  title: Blue Green IIXII
+  original artist: AVTechNO!
+  original title: Blue／Green
+  official: music.apple.com/jp/album/hatsune-miku-tear-ep/488097294
+  country: japan
+file:
+  lyrics:
+    language: jp
+    source: vocadb.net
+    tab label position: [rhythm]
+    widechar: 1
+  audio attachments:
+    ixi_harp.mid:
+      status: ok
+      pack:
+        - ixi.mid
+        - ixi_harp.mid
+      comment: repetitive
+      mapper: gggrv
+      means: # how the midi was created
+        - listen
+  means: # how the map was created
+    - midi ixi_harp.mid
+  comment: this map adheres to the original song structure
+  mapper: gggrv
+# actual mapping begins here
+map:
+  intro:
+    - &id_synth
+      -
+        x: '7s65 7s6r'
+      -
+        x: '7s65 7s6r'
+  verse 1:
+    -
+      -
+        x: '777s 66 55y 555'
+        t: 'キコエルかな海の声を'
+      -
+        x: '777s 66 55y 555'
+        t: 'キコエルかな風の声を'
+      -
+        x: '777s 66 566 rr6'
+        t: 'キコエルかな森の声を'
+      -
+        x: '777s 66 55 yy 555'
+        t: 'キコエルように耳を澄まして'
+    -
+      -
+        x: '777s 66 55 yy 555'
+        t: 'キコエルかな小鳥の歌を'
+      -
+        x: '777s 66 55 yy 555'
+        t: 'キコエルかな四季のせせらぎ'
+      -
+        x: '777s 66 55 66 rr6'
+        t: '感じるよねこのあたたかさ'
+      -
+        x: '666r rrrs s hhh h7'
+        t: '溢れるくらいのぬくもりを'
+  transition 1:
+    -
+      -
+        x: '77 7788k8 hhh8'
+        t: '今もむかしと変わらず'
+      -
+        x: '777h7s78 h7'
+        t: '僕を包んでくれる'
+      -
+        x: '7s 6    6s hhh7'
+        t: '優しい　　自然たち・・・。'
+    -
+      -
+        x: '77 7788k8 hhh8'
+        t: 'つらい時にはそっと＿'
+      -
+        x: '777h7s78 h'
+        t: '抱きしめてくれるよ'
+      -
+        x: '788h7    7s hhh7'
+        t: 'いつまでも　いつまでも...'
+  birds:
+    -
+      -
+        x: 'xj xj xj xxxx xj xj xj'
+  verse 2:
+    -
+      -
+        x: '777s 66 55y 555'
+        t: 'キコエルかな街の声も'
+      -
+        x: '777s 66 55y 555'
+        t: 'キコエルかな人の声も'
+      -
+        x: '777s 66 556 rr6'
+        t: 'キコエルかな僕の声も'
+      -
+        x: '777s 66 6666 rr6'
+        t: 'キコエルように話しかけるよ'
+    -
+      -
+        x: '777s 6665 yy 55'
+        t: 'どんなに時代が変わっても'
+      -
+        x: '777s 66 5 yy 555'
+        t: '君の心は忘れない'
+      -
+        x: '777ss66 5666 rr6'
+        t: '見守り続けてくれる君の'
+      -
+        x: '666rr rrrss sshhh7'
+        t: 'ぬくもりをいつまでも離さずに'
+  transition 2:
+    -
+      -
+        x: '77 7788k8 hhh8'
+        t: '今もむかしと変わらず'
+      -
+        x: '777h7s78 h7'
+        t: '僕を癒してくれる'
+      -
+        x: '7s 66   6s hh7'
+        t: '緑の　　　薫りで・・・。'
+    -
+      -
+        x: '77 77 7788k8 hhh8'
+        t: '疲れている時にはそっと＿'
+      -
+        x: '777h7s78 h'
+        t: '優しいそよ風を'
+      -
+        x: '788h7     6s hhh7'
+        t: 'いつまでも　いつまでも...'
+  choir 1:
+    -
+      -
+        x: '6666r6 g6g6r6 g5y5 g 5 y4m4'
+        t: '僕の思い出みんな君が作り出してくれたね'
+      -
+        x: '6666r6 g5g6rs 555 s s s s7  rr6'
+        t: 'それぞれの季節がくるたびに思い出す＿想い・・・。'
+    -
+      -
+        x: '6666r6 g5g6r6 g5y5 g 55 y4 m4'
+        t: '波の音も風の音も Album の見出しなんだ。'
+      -
+        x: '6666r6 g566rs 555 s s rsr  rsrs7'
+        t: '写真に写る background にはいつも君がいる'
+    -
+      -
+        x: '6666r6 g5g 66r6 g5y5 g 55y 4m4'
+        t: '青い声も緑の声も心地よい Melody だよ。'
+      -
+        x: '6666r6 g5g6rs 555 y y y y5'
+        t: '「ありがとう」の言葉すべて君にあげたい。'
+  choir2 2:
+    -
+      -
+        x: '6666r6 g5g6r6 g5y5 g 55 y4 m4'
+        t: 'LA LA LA...'
+    -
+      -
+        x: '6666r6 g5g6rs 555 s s ssr'
+        t: '言葉だけじゃあらわすことができないくらい'
+      -
+        x: 'rsr r s7'
+        t: '君が好き。'
+  outro:
+    - *id_synth
+    - *id_synth
+    - *id_synth
+    - *id_synth
+...

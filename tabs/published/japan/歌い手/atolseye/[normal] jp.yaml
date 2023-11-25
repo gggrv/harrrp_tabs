@@ -1,5 +1,5 @@
 ---
-version: '4.0.10' # format version
+version: '4.0.11' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -27,21 +27,31 @@ harp:
 song:
   artist: ATOLS feat. 腹話
   title: アイ
+  original artist: ATOLS feat. 初音ミク
+  original title: アイ
   official: www.nicovideo.jp/watch/sm30380835
   country: japan
 file:
-  language: jp
-  lyrics from: vocadb.net
-  mapper: gggrv
+  lyrics:
+    language: jp
+    source: vocadb.net
+    tab label position: [rhythm]
+    widechar: 1
   audio attachments:
-    harp.mid: ok, sliding notes not included
+    harp.mid:
+      status: ok
+      pack:
+        - main.mid
+        - harp.mid
+      comment: sliding notes not included
+      mapper: gggrv
+      means: # how the midi was created
+        - ust by Thibaud, Pianodream (Adagio Fantasque) www.youtube.com/watch?v=UWcwXdo5-To
+        - listen
   means: # how the map was created
-    - ust by Thibaud, Pianodream (Adagio Fantasque) www.youtube.com/watch?v=UWcwXdo5-To
-    - listen
-  limitations: this map adheres to the original song structure; expressive note bends not included
-  label position:
-    - rhythm
-  widechar: 1
+    - midi harp.mid
+  comment: this map adheres to the original song structure; expressive note bends not included
+  mapper: gggrv
 # actual mapping begins here
 map:
   verse 1:

@@ -1,5 +1,5 @@
 ---
-version: '4.0.10' # format version
+version: '4.0.11' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -25,23 +25,23 @@ harp:
     'k': [F]
     'j': [A]
 song:
-  artist: Leonard Cohen
+  artist: Rufus Wrainwright
   title: Hallelujah
-  original artist: Rufus Wrainwright
+  original artist: Leonard Cohen
   original title: Hallelujah
-  official: 
+  official: en.wikipedia.org/wiki/Hallelujah_(Leonard_Cohen_song)
+  country: america
 file:
-  language: en
-  lyrics from: www.harptabs.com
-  mapper: Publicly sourced, please see the `means` section
+  lyrics:
+    language: en
+    source: www.harptabs.com
+    tab label position: [stress marks]
   audio attachments: None
   means: # how the map was created
     - harmonica tab by mnight_rdr at www.harptabs.com/song.php?ID=1299
     - harmonica tab by mnight_rdr at www.harptabs.com/song.php?ID=1301
-  limitations: this map is a simple reformat of the harmonica tabs mentioned above
-  label position:
-    - stress marks
-  widechar: 1
+  comment: this map is a simple reformat of the harmonica tabs mentioned above
+  mapper: publicly sourced
 # actual mapping begins here
 map:
   verse 1:

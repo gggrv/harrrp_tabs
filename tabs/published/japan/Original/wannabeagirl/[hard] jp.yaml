@@ -1,5 +1,5 @@
 ---
-version: '4.0.10' # format version
+version: '4.0.11' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -27,20 +27,28 @@ harp:
 song:
   artist: まふまふ
   title: 女の子になりたい
-  official: 
+  official: uni-mafumafu.jp
   country: japan
 file:
-  language: jp
-  lyrics from: utaitedb.net
-  mapper: gggrv
+  lyrics:
+    language: jp
+    source: utaitedb.net
+    tab label position: [rhythm]
+    widechar: 1
   audio attachments:
-    harp.mid: pass
+    harp.mid:
+      status: pass
+      pack:
+        - main.mid
+        - harp.mid
+      comment: octave shifts and emotional highlights were lost during appropriation for standard harmonica
+      mapper: gggrv
+      means: # how the midi was created
+        - listen
   means: # how the map was created
-    - listen
-  limitations: this map is custom-made from scratch, adheres to the original song structure; octave shifts and emotional highlights were lost during appropriation for standard harmonica
-  label position:
-    - rhythm
-  widechar: 1
+    - midi harp.mid
+  comment: this map is custom-made from scratch, adheres to the original song structure
+  mapper: gggrv
 # actual mapping begins here
 map:
   intro:

@@ -17,6 +17,14 @@
 version:
   4:
     0:
+      11:
+        - `file/audio attachments/%item%` tag contents are now a dictionary
+        - added optional tag `file/audio attachments/pack`
+        - renamed tag `file/lyrics from` into `file/lyrics/source`
+        - moved tag `file/language` into `file/lyrics/language`
+        - moved tag `file/widechar` into `file/lyrics/widechar`
+        - moved tag `file/label position` into `file/lyrics/tab label position`
+        - renamed tag `file/limitations` into  `file/comment`
       10:
         - added optional `file/widechar` tag to hold predefined value that corresponds to specific gui text editors' widechar rendering behavior
       9:
