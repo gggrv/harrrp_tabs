@@ -1,1 +1,0 @@
-from .main import Paths as MainPaths
