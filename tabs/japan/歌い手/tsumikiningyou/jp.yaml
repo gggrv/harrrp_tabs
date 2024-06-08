@@ -1,5 +1,5 @@
 ---
-version: '4.0.11' # format version
+version: '4.0.12' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -27,10 +27,12 @@ harp:
 song:
   artist: とくP feat. ぱごだ
   title: 積み木の人形 remix by とくP
-  original artist: wowaka feat. 初音ミク
-  original title: 積み木の人形
-  official: www.hitorie.jp
-  country: japan
+  traceback:
+    -
+      artist: wowaka feat. 初音ミク
+      title: 積み木の人形
+  links:
+    artist: www.hitorie.jp
 file:
   lyrics:
     language: jp
@@ -38,17 +40,17 @@ file:
     tab label position: [rhythm]
     widechar: 1
   audio attachments:
-    harp_bpm_good_timing_bad.mid:
+    custom midi:
       status: pass
-      pack:
+      files:
         - main_bpm_good_timing_bad.mid
-        - harp_bpm_good_timing_bad.mid
+        - harp_bpm_good_timing_bad.mid (key change)
       comment: bpm correct, note timing does not adhere to expected line/bar; repetitive
       mapper: gggrv
       means: # how the midi was created
         - listen
   means: # how the map was created
-    - midi harp_bpm_good_timing_bad.mid
+    - custom midi
   comment: this map is custom-made from scratch and does not follow the original song structure
   mapper: gggrv
 # actual mapping begins here

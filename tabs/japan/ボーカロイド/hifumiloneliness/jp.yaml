@@ -1,5 +1,5 @@
 ---
-version: '4.0.11' # format version
+version: '4.0.12' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -27,8 +27,8 @@ harp:
 song:
   artist: 一二三 feat. 初音ミク
   title: 猛独が襲う
-  official: www.nicovideo.jp/watch/sm31388743
-  country: japan
+  links:
+    album: music.apple.com/us/album/exit-tunes-presents-vocaloseasons-feat-%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF-summer/1408577701
 file:
   lyrics:
     language: jp
@@ -37,8 +37,8 @@ file:
     widechar: 1
   audio attachments: None
   means: # how the map was created
+    - ust by 直江 at bowlroll.net/file/223429
     - listen
-    - ust by 直江 bowlroll.net/file/223429
   comment: this map adheres to the original song structure and takes several liberties to make the repetitive parts more varied
   mapper: gggrv
 # actual mapping begins here
@@ -50,14 +50,14 @@ map:
       - *id_intro
       - *id_intro
       - *id_intro
-  theme:
+  theme 1:
     - &id_theme
       -
         x: 'j9k9j x     j9k99'
       -
         x: 'j9k9j x xx  jxj9k'
     - *id_theme
-  verse 1a:
+  verse 1 A:
     -
       -
         x: '4rrr rr6g g6r6g4    6rrr r77rr 6r6gy'
@@ -65,10 +65,10 @@ map:
       -
         x: '4rrr rr6g g6r6g4    grrr r77rr 6r6gy'
         t: '支えが消えても息が続く　　次の拠り所に身を寄せる'
-  theme (second):
+  theme 2 (repeat theme 1):
     - *id_theme
     - *id_theme
-  verse 1b:
+  verse 1 B:
     -
       -
         x: '4rrr rr6g g6r6g4    6rrr r77rr 6r6gy'
@@ -90,7 +90,7 @@ map:
       -
         x: 'j    jx 9j k9j9k'
         t: 'また　　　　猛独が襲う'
-  theme (third):
+  theme 3 (repeat theme 1):
     - *id_theme
     - *id_theme
   verse 2:
@@ -159,7 +159,7 @@ map:
     -
       -
         x: 'x j 9 k'
-  theme (last):
+  theme 4 (repeat theme 1):
     - *id_theme
     - *id_theme
     - *id_theme

@@ -1,5 +1,5 @@
 ---
-version: '4.0.11' # format version
+version: '4.0.12' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -27,25 +27,26 @@ harp:
 song:
   artist: まぞっぷ feat. 鏡音リン
   title: ゆめのつなぎびと
-  official: www.nicovideo.jp/watch/sm21564622
-  country: japan
+  links:
+    album: www.nicovideo.jp/watch/sm21564622
 file:
   lyrics:
     language: instrumental
     tab label position: [rhythm]
   audio attachments:
-    main.mid:
+    custom midi:
       status: pass
-      pack:
+      files:
         - main.mid
       comment: minimal
       mapper: gggrv
       means: # how the midi was created
         - listen
   means: # how the map was created
-    - midi main.mid
+    - custom midi
   comment: midi is custom-made from scratch and adheres to the original song structure; not suitable for standard harmonica
   mapper: gggrv
+  status: appropriate midi
 # actual mapping begins here
 map:
   # to be done

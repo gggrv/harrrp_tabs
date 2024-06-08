@@ -1,5 +1,5 @@
 ---
-version: '4.0.11' # format version
+version: '4.0.12' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -27,10 +27,12 @@ harp:
 song:
   artist: マイナスP feat. 鏡音リン, 鏡音レン
   title: E.C.H.O -Tech House MIX-
-  original artist: じーざすP feat. 鏡音リン, 鏡音レン
-  original title: E.C.H.O
-  official: music.apple.com/jp/album/wanopo-remixes-01-ep/631826579
-  country: japan
+  traceback:
+    -
+      artist: じーざすP feat. 鏡音リン, 鏡音レン
+      title: E.C.H.O
+  links:
+    album: music.apple.com/jp/album/wanopo-remixes-01-ep/631826579
 file:
   lyrics:
     language: jp
@@ -38,22 +40,22 @@ file:
     tab label position: [rhythm]
     widechar: 1
   audio attachments:
-    tech_harp.mid:
+    custom midi:
       status: ok
-      pack:
+      files:
         - tech.mid
-        - tech_harp.mid
-      comment: unusual structure, sliding notes not included
+        - tech_harp.mid (key change)
+      comment: unusual structure, sliding notes not included, repetitive
       mapper: gggrv
       means: # how the midi was created
         - listen
   means: # how the map was created
-    - midi tech_harp.mid
+    - custom midi
   comment: this map is custom-made from scratch and adheres to the original song structure
   mapper: gggrv
 # actual mapping begins here
 map:
-  lalala intro:
+  lalala 1:
     - &id_lalala_phrase
       -
         x: 'r7s r7s r7s'
@@ -63,7 +65,7 @@ map:
       -
         x: '96r8'
     - *id_lalala_phrase
-  theme intro: &id_theme
+  theme 1: &id_theme
     - &id_theme_phrase
       -
         x: '96r8 8 8'
@@ -125,7 +127,7 @@ map:
       -
         x: '788 h7s7'
         t: 'ココにおいでよ。'
-  choir 1:
+  choir 2:
     -
       -
         x: '  r8h r8h r8h7'
@@ -155,7 +157,7 @@ map:
       -
         x: 's7 87  97 s7'
         t: 'お願い　お願い'
-  break:
+  break 2:
     -
       -
         x: 'h7 h7s7'
@@ -186,7 +188,7 @@ map:
       -
         x: ' 99 8h7h 7'
         t: 'わからなくなる。'
-  transition:
+  transition 3:
     -
       -
         x: ' 99 8h7h 8'
@@ -216,7 +218,7 @@ map:
       -
         x: '  788 h7s7'
         t: '「おわりにしよう。」'
-  choir 1:
+  choir 3:
     -
       -
         x: '  r8h r8h r8h7'
@@ -246,7 +248,7 @@ map:
       -
         x: 's7 87  97 s7'
         t: 'お願い　お願い'
-  lalala outro:
+  lalala 2 (repeat lalala 1):
     - *id_lalala_phrase
-  theme outro: *id_theme
+  theme 2 (repeat theme 1): *id_theme
 ...

@@ -1,5 +1,5 @@
 ---
-version: '4.0.11' # format version
+version: '4.0.12' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -27,8 +27,8 @@ harp:
 song:
   artist: うたたP feat. MAYU
   title: 七転び八起きない
-  official: www.youtube.com/watch?v=dTLM7d74w_A
-  country: japan
+  links:
+    song: www.youtube.com/watch?v=dTLM7d74w_A
 file:
   lyrics:
     language: jp
@@ -36,18 +36,18 @@ file:
     tab label position: [rhythm]
     widechar: 1
   audio attachments:
-    harp.mid:
+    custom midi:
       status: ok
-      pack:
+      files:
         - main.mid
-        - harp.mid
+        - harp.mid (key change)
       comment: repetitive
       mapper: gggrv
       means: # how the midi was created
         - ust by EchoBlosom123 at youtu.be/f-l8gkW3bDc
         - listen
   means: # how the map was created
-    - midi harp.mid
+    - custom midi
   comment: this map adheres to the original song structure; raised key ending section is omitted
   mapper: gggrv
 # actual mapping begins here
@@ -57,7 +57,7 @@ map:
       -
         x: 'h7    h7   r 7r6y'
         t: 'ダウンダウン　イカンです'
-  theme:
+  theme 1:
     -
       - &id_theme_phrase
         x: 'h 7h7h 7hk    k kh9k jkh'
@@ -153,7 +153,7 @@ map:
         x: 'r6r7 7r7r7hkh'
       -
         x: '6r7 r7h 7h8k8k9h'
-  theme 2 (repeat):
+  theme 2 (repeat theme 1):
     -
       - *id_theme_phrase
   verse 2 A:
@@ -170,7 +170,7 @@ map:
       -
         x: ' 6g6 r6r7r 6g6ry'
         t: 'わたくし　とうとうやるのです'
-  transition 2 (repeat): *id_transition
+  transition 2 (repeat transition 1): *id_transition
   verse 2 B:
     -
       -
@@ -212,7 +212,7 @@ map:
       -
         x: ' r6r 777r 7hkk9h'
         t: 'わたくし “行かん” の意を示す！'
-  transition 3 (repeat): *id_transition
+  transition 3 (repeat transition 1): *id_transition
   choir 3:
     - *id_ch1A
     -
@@ -228,7 +228,7 @@ map:
       -
         x: ' r6r 777r 7h7hkh'
         t: 'わたしはやります！また来年！'
-  theme 3 (repeat):
+  theme 3 (repeat theme 1):
     -
       - *id_theme_phrase
       - *id_theme_phrase

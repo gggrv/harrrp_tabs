@@ -1,5 +1,5 @@
 ---
-version: '4.0.11' # format version
+version: '4.0.12' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -27,7 +27,8 @@ harp:
 song:
   artist: Billy Idol
   title: White Wedding
-  official: billyidol.net
+  links:
+    artist: billyidol.net
 file:
   lyrics:
     language: en

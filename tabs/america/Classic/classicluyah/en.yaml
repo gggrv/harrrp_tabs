@@ -1,5 +1,5 @@
 ---
-version: '4.0.11' # format version
+version: '4.0.12' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -27,10 +27,12 @@ harp:
 song:
   artist: Rufus Wrainwright
   title: Hallelujah
-  original artist: Leonard Cohen
-  original title: Hallelujah
-  official: en.wikipedia.org/wiki/Hallelujah_(Leonard_Cohen_song)
-  country: america
+  traceback:
+    -
+      artist: Leonard Cohen
+      title: Hallelujah
+  links:
+    song: en.wikipedia.org/wiki/Hallelujah_(Leonard_Cohen_song)
 file:
   lyrics:
     language: en
@@ -94,7 +96,7 @@ map:
       -
         x: '7     h   h    h     h   8    8  8  h h 7'
         t: 'And from your lips she drew the Hallelujah'
-  choir 2 (repeat): *id_choir
+  choir 2 (repeat choir 1): *id_choir
   verse 3:
     -
       -
@@ -116,7 +118,7 @@ map:
       -
         x: '7    7  h   h   h    h   8 8   8  h h 7'
         t: "It's a cold and it's a broken Hallelujah"
-  choir 3 (repeat): *id_choir
+  choir 3 (repeat choir 1): *id_choir
   verse 4:
     -
       -
@@ -137,7 +139,7 @@ map:
       -
         x: '7   h h     h     h   8   8   8  h h 7'
         t: 'And every breath we drew was Hallelujah'
-  choir 4 (repeat): *id_choir
+  choir 4 (repeat choir 1): *id_choir
   verse 5:
     -
       -
@@ -158,8 +160,8 @@ map:
       -
         x: '7    7  h   h   h    h   8 8   8  h h 7'
         t: "It's a cold and it's a broken Hallelujah"
-  choir 5 (repeat): *id_choir
-  choir 6 (variation):
+  choir 5 (repeat choir 1): *id_choir
+  choir 6:
     -
       -
         x: ' 5  6 r r    r  6 5 5'

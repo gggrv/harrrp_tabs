@@ -1,5 +1,5 @@
 ---
-version: '4.0.11' # format version
+version: '4.0.12' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -27,8 +27,8 @@ harp:
 song:
   artist: Clean Tears feat. 初音ミク
   title: Skyscraper
-  official: www.youtube.com/watch?v=J0yZEdwoWFE
-  country: japan
+  links:
+    album: www.youtube.com/watch?v=J0yZEdwoWFE
 file:
   lyrics:
     language: jp
@@ -36,22 +36,22 @@ file:
     tab label position: [rhythm]
     widechar: 1
   audio attachments:
-    harp.mid:
+    custom midi:
       status: ok
-      pack:
+      files:
         - main.mid
-        - harp.mid
+        - harp.mid (key change)
       comment: minimal
       mapper: gggrv
       means: # how the midi was created
         - listen
   means: # how the map was created
-    - midi harp.mid
+    - custom midi
   comment: this map is custom-made from scratch and adheres to the original song structure
   mapper: gggrv
 # actual mapping begins here
 map:
-  intro: &id_intro
+  theme 1: &id_intro
     -
       -
         x: 'rh8h    rh8h 8hr'
@@ -71,7 +71,7 @@ map:
       -
         x: 'rr 6r    7h8r 8h 8        r8r8r r8r8'
         t: '行き着く　　梦は幻'
-  lead into 1:
+  transition 1:
     -
       -
         x: 'r76r 7 hs 6y 5        r8r8r r8r8'
@@ -107,7 +107,7 @@ map:
       -
         x: 'rr 6r    7h8r 8h 8        r8r8r r8r8'
         t: '仆达の　　　意味'
-  lead into 2:
+  transition 2:
     -
       -
         x: 'r76r 7 hs 6y 5        r8r8r r8r8'
@@ -123,7 +123,7 @@ map:
       -
         x: ''
         t: '届くはず 今この时'
-  choir final:
+  choir 2:
     -
       -
         x: '67h8 8 h8h 9 ss 7 s7        r 8hr'
@@ -150,7 +150,7 @@ map:
       -
         x: '997 8h 8 9'
         t: '  彩る风景'
-  intro reiteration: *id_intro
+  theme 2 (repeat theme 1): *id_intro
   outro: 
     -
       -

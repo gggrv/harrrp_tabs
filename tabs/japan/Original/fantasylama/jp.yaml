@@ -1,5 +1,5 @@
 ---
-version: '4.0.11' # format version
+version: '4.0.12' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -28,7 +28,8 @@ song:
   artist: LAMA
   title: Fantasy
   country: japan
-  official: www.sonymusic.co.jp/artist/lama
+  links:
+    artist: www.sonymusic.co.jp/artist/lama
 file:
   lyrics:
     language: jp
@@ -63,7 +64,7 @@ map:
       -
         x: h7ss  565    5565
         t: '見透かしあう様に　　たどってく'
-  choir 1.1:
+  choir 1 A:
     -
       -
         x: ' 7  h    h   77h 9h8'
@@ -83,7 +84,7 @@ map:
         x: '8    h898    r8 r8'
       -
         x: '8    h898    r8 r8 6'
-  choir 1.2:
+  choir 1 B:
     -
       -
         x: ' 7  h    h   77h 9h8'
@@ -113,7 +114,7 @@ map:
       -
         x: 'h7ss  565        5565'
         t: '許し合うために　　　　　　たどってく'
-  choir 2.1:
+  choir 2 A:
     -
       -
         x: ' 7  h    h   77h 9h8'
@@ -133,7 +134,7 @@ map:
         x: 'r 8h 88 h7    r6 8h 88 7h79'
       -
         x: 'h r 6 y       8 hj'
-  choir 2.2:
+  choir 2 B:
     -
       -
         x: ' 7  h    h   77h 9h8'

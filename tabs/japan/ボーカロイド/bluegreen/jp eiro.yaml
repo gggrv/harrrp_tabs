@@ -1,5 +1,5 @@
 ---
-version: '4.0.11' # format version
+version: '4.0.12' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -27,8 +27,8 @@ harp:
 song:
   artist: AVTechNO! feat. 初音ミク
   title: Blue／Green
-  official: www.youtube.com/watch?v=lBhCDe_6iP8
-  country: japan
+  links:
+    album: music.apple.com/jp/album/e-roiro-ep/345275867
 file:
   lyrics:
     language: jp
@@ -36,17 +36,17 @@ file:
     tab label position: [rhythm]
     widechar: 1
   audio attachments:
-    eiro_harp.mid:
+    custom midi:
       status: ok
-      pack:
+      files:
         - eiro.mid
-        - eiro_harp.mid
+        - eiro_harp.mid (key change)
       comment: sliding notes not included
       mapper: gggrv
       means: # how the midi was created
         - listen
   means: # how the map was created
-    - eiro_harp.mid
+    - custom midi
   comment: this map adheres to the original song structure, ambient break not included
   mapper: gggrv
 # actual mapping begins here

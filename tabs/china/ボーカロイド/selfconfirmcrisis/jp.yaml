@@ -1,5 +1,5 @@
 ---
-version: '4.0.11' # format version
+version: '4.0.12' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -27,8 +27,8 @@ harp:
 song:
   artist: 米库喵, Ncha-P feat. 初音ミク
   title: 自我認識クライシス
-  official: 
-  country: china
+  links:
+    song: piapro.jp/content/f7mc4zpn35c72q9k
 file:
   lyrics:
     language: jp
@@ -36,16 +36,16 @@ file:
     widechar: 1
     tab label position: [rhythm]
   audio attachments:
-    harp.mid:
+    custom midi:
       status: ok
-      pack:
+      files:
         - main.mid
-        - harp.mid
+        - harp.mid (key change)
       mapper: gggrv
       means: # how the midi was created
         - listen
   means: # how the map was created
-    - midi harp.mid
+    - custom midi
   comment: this map is custom-made from scratch and adheres to the original song structure; melody is not particularly suitable for harmonica
   mapper: gggrv
 # actual mapping begins here

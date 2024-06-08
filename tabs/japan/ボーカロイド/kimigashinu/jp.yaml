@@ -1,5 +1,5 @@
 ---
-version: '4.0.11' # format version
+version: '4.0.12' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -27,8 +27,8 @@ harp:
 song:
   artist: かめりあ feat. 初音ミク
   title: 君が死ぬのを眺めているよ
-  official: camtek.seesaa.net/article/278269113.html
-  country: japan
+  links:
+    album: camtek.seesaa.net/article/278269113.html
 file:
   lyrics:
     language: jp
@@ -36,16 +36,16 @@ file:
     tab label position: [rhythm]
     widechar: 1
   audio attachments:
-    harp.mid:
+    custom midi:
       status: ok
-      pack:
-        - harp.mid
+      files:
+        - harp.mid (key change)
       comment: minimal
       mapper: publicly sourced
       means: # how the midi was created
-        - ust by Kream (UtauReizo) rainerr.weebly.com/ust-list.html
+        - ust by Kream (UtauReizo) at rainerr.weebly.com/ust-list.html
   means: # how the map was created
-    - harp.mid
+    - custom midi
   comment: this map is an approximation of midi data credited above; only main melody without additinal decorations is mapped
   mapper: gggrv
 # actual mapping begins here

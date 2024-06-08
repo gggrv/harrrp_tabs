@@ -1,5 +1,5 @@
 ---
-version: '4.0.11' # format version
+version: '4.0.12' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -27,8 +27,8 @@ harp:
 song:
   artist: まぞっぷ feat. KAITO, 鏡音レン, 鏡音リン
   title: 吸血鬼とピアノ
-  official: www.nicovideo.jp/watch/sm20688029
-  country: japan
+  links:
+    song: www.nicovideo.jp/watch/sm20688029
 file:
   lyrics:
     language: jp
@@ -36,17 +36,16 @@ file:
     tab label position: [rhythm]
     widechar: 1
   audio attachments:
-    easy_harp.mid:
+    custom midi:
       status: ok
-      pack:
-        - easy_harp.mid
-        - hard_main.mid
+      files:
+        - easy_harp.mid (rearrange)
       comment: this is a custom adaptation speficially for standard harmonica - original notes are heavily appropriated
       mapper: gggrv
       means: # how the midi was created
         - listen
   means: # how the map was created
-    - midi easy_harp.mid
+    - custom midi
   comment: this map is custom-made from scratch and adheres to the original song structure
   mapper: gggrv
 # actual mapping begins here
@@ -97,7 +96,7 @@ map:
       -
         x: '3m4y 4y5 ysr   srg5 ymy4'
         t: '誰にも邪魔は出来ぬ　沈黙の調べ'
-  theme (second): *id_theme
+  theme (repeat theme 1): *id_theme
   girl:
     -
       -

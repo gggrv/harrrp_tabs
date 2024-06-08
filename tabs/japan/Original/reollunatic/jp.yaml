@@ -1,5 +1,5 @@
 ---
-version: '4.0.11' # format version
+version: '4.0.12' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -27,8 +27,8 @@ harp:
 song:
   artist: ギガP, れをる feat. REOL
   title: Lunatic
-  official: reol.jp
-  country: japan
+  links:
+    artist: reol.jp
 file:
   lyrics:
     language: jp
@@ -36,17 +36,17 @@ file:
     widechar: 1
     tab label position: [rhythm]
   audio attachments:
-    harp.mid:
+    custom midi:
       status: ok
-      pack:
+      files:
         - main.mid
-        - harp.mid
+        - harp.mid (key change)
       comment: sliding notes not included
       mapper: gggrv
       means: # how the midi was created
         - listen
   means: # how the map was created
-    - midi harp.mid
+    - custom midi
   comment: this map is custom-made from scratch and adheres to the original song structure
   mapper: gggrv
 # actual mapping begins here
@@ -83,7 +83,7 @@ map:
       -
         x: '  5g6r 7 r    g6r 6r7h k'
         t: '思ってないけど 言えるの, 好きなんて'
-  chorus 1:
+  choir 1:
     - &id_ch1A
       -
         x: '999kh  7 h'
@@ -125,7 +125,7 @@ map:
       -
         x: '5g6r 7 r    g6r 6r7h k'
         t: '多分絶対きっとずっと幸せでしょう'
-  chorus 2:
+  choir 2:
     - &id_ch2A
       -
         x: '999kh  7 h'
@@ -155,7 +155,7 @@ map:
         x: 'k9jx    9jhkj'
       -
         x: 'yg777 k8hrh    hhhh'
-  chorus 3:
+  choir 3:
     - *id_ch1A
     - *id_ch2A
     - *id_ch1A

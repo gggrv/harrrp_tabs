@@ -1,5 +1,5 @@
 ---
-version: '4.0.11' # format version
+version: '4.0.12' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -25,10 +25,10 @@ harp:
     'k': [F]
     'j': [A]
 song:
-  artist: ヒトリエ
+  artist: ヒトリエ (wowaka)
   title: フユノ
-  country: japan
-  official: www.hitorie.jp
+  links:
+    artist: www.hitorie.jp
 file:
   lyrics:
     language: jp
@@ -36,22 +36,22 @@ file:
     widechar: 1
     tab label position: [rhythm]
   audio attachments:
-    harp (voice synth compatible).mid:
+    custom midi:
       status: ok
-      pack:
-        - main (voice synth compatible).mid
-        - harp (voice synth compatible).mid
-      comment: contains redundant main track note endings
+      files:
+        - main.mid
+        - harp.mid (key change)
+      comment: repetitive
       mapper: gggrv
       means: # how the midi was created
         - listen
   means: # how the map was created
-    - midi "harp (voice synth compatible).mid"
+    - custom midi
   comment: this map is custom-made from scratch and adheres to the original song structure
   mapper: gggrv
 # actual mapping begins here
 map:
-  theme: &id_theme
+  theme 1: &id_theme
     -
       -
         x: ' 5r6 5r6    4m454'
@@ -62,7 +62,7 @@ map:
         x: ' 5r6 5r6    4m454'
       -
         x: ' 5r6 5sr    4y64'
-  verse 1a:
+  verse 1 A:
     -
       -
         x: ' 56r       56r'
@@ -77,8 +77,8 @@ map:
       -
         x: ' 4r6   5s76 5s76 665r'
         t: '言葉　届けたい届けたいのだけど'
-  theme (repeat 1): *id_theme
-  verse 1b:
+  theme 2 (repeat theme 1): *id_theme
+  verse 1 B:
     -
       -
         x: '56r      56r'
@@ -173,8 +173,8 @@ map:
       -
         x: '6r 66r6    56 7  r8 7'
         t: 'また切ないを　思　い　出す'
-  theme (repeat 2): *id_theme
-  verse 2a:
+  theme 3 (repeat theme 1): *id_theme
+  verse 2 A:
     -
       -
         x: ' 56r       56r'
@@ -189,7 +189,7 @@ map:
       -
         x: ' 4r6   5s76 5s76 6655'
         t: '色に潜りたい潜りたいのだけど'
-  verse 2b:
+  verse 2 B:
     -
       -
         x: '56r      56r'
@@ -380,5 +380,5 @@ map:
       -
         x: 'rr 6r65 r 7 87h 7'
         t: 'ただ歌を唄っている'
-  theme (final): *id_theme
+  theme 4 (repeat theme 1): *id_theme
 ...

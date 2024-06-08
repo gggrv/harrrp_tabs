@@ -1,5 +1,5 @@
 ---
-version: '4.0.11' # format version
+version: '4.0.12' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -27,23 +27,23 @@ harp:
 song:
   artist: YM feat. 灯油
   title: ベイビーダーティルーム
-  official: www.nicovideo.jp/watch/sm27788257
-  country: japan
+  links:
+    album: www.nicovideo.jp/watch/sm27788257
 file:
   lyrics:
     language: instrumental
     tab label position: [rhythm]
   audio attachments:
-    main_bpm_good_timing_bad.mid:
-      status: pass
-      pack:
-        - main_bpm_good_timing_bad.mid
-      comment: bpm correct, note timing does not adhere to expected line/bar
+    custom midi:
+      status: ok
+      files:
+        - main.mid
+      comment: guitar solo not included
       mapper: gggrv
       means: # how the midi was created
         - listen
   means: # how the map was created
-    - midi main_bpm_good_timing_bad.mid
+    - custom midi
   comment: this map is custom-made from scratch and adheres to the original song structure
   mapper: gggrv
 # actual mapping begins here

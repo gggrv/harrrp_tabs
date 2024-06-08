@@ -1,5 +1,5 @@
 ---
-version: '4.0.11' # format version
+version: '4.0.12' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -27,25 +27,25 @@ harp:
 song:
   artist: Kuroneko Lounge (Rin ぎんすけ) feat. 初音ミク
   title: ヨルノハテ
-  official: https://www.youtube.com/watch?v=p8qAKzjUS9M
-  country: japan
+  links:
+    song: www.youtube.com/watch?v=p8qAKzjUS9M
 file:
   lyrics:
     language: jp
-    source: https://piapro.jp/content/1ijl4onns71y5ytu
+    source: piapro.jp/content/1ijl4onns71y5ytu
     tab label position: [rhythm]
     widechar: 1
   audio attachments:
-    harp.mid:
+    custom midi:
       status: ok
-      pack:
+      files:
         - main.mid
-        - harp.mid
+        - harp.mid (key change)
       mapper: gggrv
       means: # how the midi was created
         - listen
   means: # how the map was created
-    - midi harp.mid
+    - custom midi
   comment: this map is custom-made from scratch and adheres to the original song structure
   mapper: gggrv
 # actual mapping begins here
@@ -54,13 +54,13 @@ map:
     -
       -
         x: 'g 5g 6    g 5g 6'
-  theme: &id_theme
+  theme 1: &id_theme
     -
       -
         x: 'gyg7 g5 y4    gyg7 g5 y3'
       -
         x: 'gyg7 g5 y4    yr gyg 6 gyg'
-  verse:
+  verse 1:
     -
       -
         x: ' 6h7yg       g6g6r6 yg'
@@ -74,13 +74,13 @@ map:
       -
         x: 'hk8hr 6rg r7 6yg6r r7r  gyr'
         t: '待ち受ける童心と、快楽主義への投資'
-  break:
+  break 1:
     -
       -
         x: 'gy7    7g5y    4' 
       -
         x: 'g7g    rg5r 7h' 
-  choir:
+  choir 1:
     - &id_hatemade1
       - &id_hate
         x: 'hk 87   hk8 7r'
@@ -89,12 +89,14 @@ map:
         +: '                 1'
         x: 'g6r6 g  g676 g  r6r6 yr'
         t: 'どこまでも、どこまでも、走り抜けよう'
+  choir 2:
     -
       - *id_hate
       -
         +: '                 1'
         x: 'g6r6 g  6r76 g  r6r6 yr'
         t: 'どこまでも、どこまでも、走り抜けよう'
+  choir 3 (repeat choir 1):
     - *id_hatemade1
-  theme (second): *id_theme
+  theme 2 (repeat theme 1): *id_theme
 ...

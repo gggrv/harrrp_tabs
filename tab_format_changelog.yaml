@@ -17,6 +17,10 @@
 version:
   4:
     0:
+      12:
+        - moved tag `song/official` to `song/links`
+        - moved tag `audio attachment/pack` to `audio attachment/files`
+        - moved tags `song/original artist`, `song/original title` to `song/traceback`
       11:
         - `file/audio attachments/%item%` tag contents are now a dictionary
         - added optional tag `file/audio attachments/pack`

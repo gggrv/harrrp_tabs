@@ -1,5 +1,5 @@
 ---
-version: '4.0.11' # format version
+version: '4.0.12' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -27,8 +27,8 @@ harp:
 song:
   artist: 鼻そうめんP (Kanzaki Hiro) feat. Fukase
   title: Set Me Free
-  official: www.youtube.com/watch?v=B4aCGFivM5o
-  country: japan
+  links:
+    song: www.youtube.com/watch?v=B4aCGFivM5o
 file:
   lyrics:
     language: jp
@@ -36,22 +36,22 @@ file:
     tab label position: [rhythm,stress marks]
     widechar: 1
   audio attachments:
-    harp.mid:
+    custom midi:
       status: ok
-      pack:
+      files:
         - main.mid
-        - harp.mid
+        - harp.mid (key change)
       comment: main repeat section is surprisingly varied
       mapper: gggrv
       means: # how the midi was created
         - listen
   means: # how the map was created
-    - midi harp.mid
+    - custom midi
   comment: this map is custom-made from scratch and greatly simplifies original song structure
   mapper: gggrv
 # actual mapping begins here
 map:
-  verse:
+  verse 1:
     -
       -
         x: 'rrr rr66  6'
@@ -72,7 +72,7 @@ map:
       -
         x: 'rrr rrr 6rs7s r65'
         t: '叫ぶことも出来ない　孤独なDANCE'
-  transition:
+  transition 1:
     -
       -
         x: ' 6r   s   7'

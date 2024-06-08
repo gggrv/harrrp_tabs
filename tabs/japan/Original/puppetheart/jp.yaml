@@ -1,5 +1,5 @@
 ---
-version: '4.0.11' # format version
+version: '4.0.12' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -27,8 +27,8 @@ harp:
 song:
   artist: まふまふ feat. まふまふ
   title: 傀儡の心臓
-  official: uni-mafumafu.jp
-  country: japan
+  links:
+    artist: uni-mafumafu.jp
 file:
   lyrics:
     language: jp
@@ -36,21 +36,21 @@ file:
     widechar: 1
     tab label position: [rhythm]
   audio attachments:
-    harp.mid:
+    custom midi:
       status: ok
-      pack:
+      files:
         - main.mid
-        - harp.mid
+        - harp.mid (key change)
       mapper: gggrv
       means: # how the midi was created
         - listen
   means: # how the map was created
-    - listen
+    - custom midi
   comment: this map is custom-made from scratch and adheres to the original song structure
   mapper: gggrv
 # actual mapping begins here
 map:
-  music box:  &id_musicbox
+  music box 1:  &id_musicbox
     -
       -
         x: '7rs 7 h 8 h8r'
@@ -85,7 +85,7 @@ map:
       -
         x: '7 s7 s7h7ss    s7 7h8 k8 h7sr'
         t: '翅を啄んでは 囁く道化 甘い嘘'
-  dark 1:
+  transition 1:
     -
       -
         x: 's7h7srr     s7h7srr'
@@ -144,7 +144,7 @@ map:
       -
         x: '7 s7 s7h7ss    s7 7h8 hk8 h7sr'
         t: 'どうせ変われやしない 望む未来は蜘蛛の糸'
-  dark 2:
+  transition 2:
     -
       -
         x: 's7h7srr     s7h7srr'
@@ -207,5 +207,5 @@ map:
       -
         x: '88k8h7sh77 7s r6 r'
         t: '私の身も心も食べてしまって'
-  music box (second):  *id_musicbox
+  music box 2 (repeat music box 1):  *id_musicbox
 ...

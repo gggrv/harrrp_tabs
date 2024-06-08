@@ -1,5 +1,5 @@
 ---
-version: '4.0.11' # format version
+version: '4.0.12' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -27,25 +27,26 @@ harp:
 song:
   artist: Alice Cooper
   title: Last Man on Earth
-  official: alicecooper.com
+  links:
+    artist: alicecooper.com
 file:
   lyrics:
     language: en
     source: genius.com
     tab label position: [stress marks]
   audio attachments:
-    harp.mid:
+    custom midi:
       status: ok
-      pack:
+      files:
         - main.mid
-        - harp.mid
-      comment: inherits several off-time notes from the original artist's expression; `main.mid` shifted down by 5
+        - harp.mid (key change)
+      comment: inherits several off-time notes from the original artist's expression
       mapper: gggrv
       means: # how the midi was created
         - listen
   means: # how the map was created
-    - midi harp.mid
-  comment: this map is custom-made from scratch and adheres to the original song structure
+    - custom midi
+  comment: this map is custom-made from scratch and adheres to the original song structure; string parts are not mapped
   mapper: gggrv
 # actual mapping begins here
 map:

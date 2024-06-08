@@ -1,5 +1,5 @@
 ---
-version: '4.0.11' # format version
+version: '4.0.12' # format version
 harp:
   blow labels: ['1','2','3','4','5','6','7','8','9',x]
   draw labels: [i,f,m,'y',g,r,s,h,k,j]
@@ -27,7 +27,8 @@ harp:
 song:
   artist: かごめP feat. 結月ゆかり
   title: Tiny PaRadisE
-  official: http://planariya.blogspot.com/2011/12/tiny-paradisec81.html
+  links:
+    artist: http://planariya.blogspot.com/2011/12/tiny-paradisec81.html
   country: japan
 file:
   lyrics:
@@ -36,17 +37,17 @@ file:
     tab label position: [rhythm]
     widechar: 1
   audio attachments:
-    harp.mid:
+    custom midi:
       status: ok
-      pack:
+      files:
         - main.mid
-        - harp.mid
+        - harp.mid (key change)
       comment: sliding notes not included
       mapper: gggrv
       means: # how the midi was created
         - listen
   means: # how the map was created
-    - listen
+    - custom midi
   comment: this map is custom-made from scratch and adheres to the original song structure
   mapper: gggrv
 # actual mapping begins here
@@ -213,7 +214,7 @@ map:
         +: '           1'
         x: '66rs 7s   656'
         t: 'それだけでいいの'
-  choir 4: *id_choir1
+  choir 4 (repeat choir 1): *id_choir1
   outro:
     -
       -
