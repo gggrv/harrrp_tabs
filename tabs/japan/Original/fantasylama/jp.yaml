@@ -36,7 +36,7 @@ file:
     source: www.lyrical-nonsense.com/global/lyrics/lama/fantasy/
     widechar: 1
     tab label position: [rhythm]
-  audio attachments: None
+  audio attachments: NULL
   means: # how the map was created
     - listen
   comment: this map is custom-made from scratch and adheres to the original song structure

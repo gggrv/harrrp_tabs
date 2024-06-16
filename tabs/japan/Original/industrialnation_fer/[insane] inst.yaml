@@ -42,7 +42,7 @@ file:
       status: ok
       files:
         - main.mid
-      comment: surprisingly repetitive, contains an error
+      comment: surprisingly repetitive
       mapper: gggrv
       means: # how the midi was created
         - listen

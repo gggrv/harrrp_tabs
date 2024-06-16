@@ -32,9 +32,10 @@ song:
     artist: www.sonymusic.co.jp/artist/lama
 file:
   lyrics:
-    language: ru translation by ○○
+    language: ru
+    source: translation by ○○
     tab label position: [rhythm,stress marks]
-  audio attachments: None
+  audio attachments: NULL
   means: # how the map was created
     - listen
   comment: this map is custom-made from scratch and adheres to the original song structure

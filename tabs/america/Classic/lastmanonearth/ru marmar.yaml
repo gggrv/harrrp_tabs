@@ -31,7 +31,8 @@ song:
     artist: alicecooper.com
 file:
   lyrics:
-    language: ru translation by ○○
+    language: ru
+    source: translation by ○○
     tab label position: [stress marks]
   audio attachments:
     custom midi:

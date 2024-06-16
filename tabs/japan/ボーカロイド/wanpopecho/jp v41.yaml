@@ -56,6 +56,7 @@ file:
 # actual mapping begins here
 map:
   theme:
+    -
       - &id_theme_pop
         x: '7s6 7s56s'
       - *id_theme_pop

@@ -33,9 +33,9 @@ file:
   lyrics:
     language: jp
     source: vocadb.net
-    label position: [rhythm]
+    tab label position: [rhythm]
     widechar: 1
-  audio attachments: None
+  audio attachments: NULL
   means: # how the map was created
     - ust by 直江 at bowlroll.net/file/223429
     - listen

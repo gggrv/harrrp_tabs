@@ -63,6 +63,7 @@ map:
       -
         x: '5 8 8    55 88 776r'
   theme:
+    -
       -
         x: '7    r6    6 r6'
       -
@@ -127,11 +128,13 @@ map:
         x: '87h6r'
         t: '影を踏む'
   theme variation:
+    -
       -
         x: '77rr66rr 66rr66 77ss'
       -
         x: 'rr6655rr 665566'
   pitch:
+    -
       -
         x: 'r s7h8h8h'
       -

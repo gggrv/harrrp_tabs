@@ -31,7 +31,8 @@ song:
     song: www.nicovideo.jp/watch/sm20688029
 file:
   lyrics:
-    language: ru translation by ○○
+    language: ru
+    source: translation by ○○
     tab label position: [rhythm,stress marks]
   audio attachments:
     custom midi:
