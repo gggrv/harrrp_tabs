@@ -1,0 +1,169 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E]
+    '6': [G]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C]
+    'i': [D]
+    'f': [G,'','F']
+    'm': [B,'','A']
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: ATOLS feat. 腹話
+  title: ハメツ
+  links:
+    album: www.nicovideo.jp/watch/sm30380835
+file:
+  lyrics:
+    language: jp
+    links:
+      third-party website: j-lyric.net
+    tab label position: [rhythm]
+    widechar: 1
+  comment: this map is custom-made from scratch and adheres to the original song structure
+  mapper: gggrv
+audio guide:
+  .mid:
+    paths:
+      harp.mid: key change
+      main.mid: song key
+    comment: sliding notes not included
+    mapper: gggrv
+    means: # how the file was created
+      - listen
+# actual mapping begins here
+map:
+  choir 1 (lower):
+    -
+      -
+        seriously: False
+        +: ' 2 2 2'
+        x: 'ifif2f 32i'
+        t: '來る破滅ノ刻'
+      -
+        seriously: False
+        +: ' 2 2 2'
+        x: 'ifif2f 32i'
+        t: '脈ヲ貫く針'
+  verse:
+    -
+      -
+        x: &id_vsame
+           '6h7h k8 87r'
+        t: '途絶え生命線'
+      -
+        x: &id_vlow
+           '6h7h k8 7hr'
+        t: '翔るエンドルフィン'
+      -
+        x: *id_vlow
+        t: '滾るアドレナリン'
+      -
+        x: 'r7h8 k8k8'
+        t: '多幸狭間ヲ'
+    -
+      -
+        x: *id_vsame
+        t: '狂い咲き実らす'
+      -
+        x: *id_vsame
+        t: '起爆剤数々'
+      -
+        x: *id_vsame
+        t: '頭 張り巡らす'
+      -
+        x: 'r7h 8k8k9'
+        t: '導火線ノ束'
+  transition:
+    -
+      -
+        x: &id_thigh
+           'kkk8 kh8k 9'
+        t: '吹き飛ぶ自我ノ外'
+      -
+        x: &id_tlow
+           'kkk8 kh8k 8'
+        t: '目眩く快楽'
+      -
+        x: *id_thigh
+        t: '吹き飛ぶ自我ノ外'
+      -
+        x: *id_tlow
+        t: '極彩ノ楽園'
+    -
+      -
+        x: *id_thigh
+        t: '飛び出す血飛沫と'
+      -
+        x: *id_tlow
+        t: '離脱する魂'
+      -
+        x: *id_thigh
+        t: '煌く火ノ鳥よ'
+      -
+        x: *id_tlow
+        t: '我が身ヲ焼き尽くせ'
+    -
+      -
+        x: *id_thigh
+        t: '渦巻く自我ノ外'
+      -
+        x: 'k k8 kh8k 8'
+        t: '銀河ノ道標'
+      -
+        x: *id_thigh
+        t: '渦巻く自我ノ外'
+      -
+        x: *id_tlow
+        t: '時空ノ道標'
+  chant:
+    -
+      -
+        x: 'kkk8kk k8     h8k 9'
+        t: '巡り巡る 輪廻×6 無限に'
+      -
+        x: 'kkk8kk k8     h8k 9 9j'
+        t: '続く続く 森羅×6 消えてゆく'
+  choir 2 (normal):
+    -
+      -
+        x: 'ygyg5g 65y'
+        t: '來る破滅ノ刻'
+      -
+        x: 'ygyg5g 65y'
+        t: '神に捧げる刻'
+  choir 3 (lower):
+    -
+      -
+        seriously: False
+        +: ' 2 2 2'
+        x: 'ifif2f 32i'
+        t: '來る破滅ノ刻'
+      -
+        seriously: False
+        +: ' 2 2 2  2'
+        x: 'ifif2f 3my'
+        t: '三途ノ川を越え'
+  outro:
+    -
+      -
+        x: 'hr8r hr8r'
+      -
+        x: 'hr8r hr8 99999'
+...

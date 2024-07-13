@@ -1,0 +1,279 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E]
+    '6': [G]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: AVTechNO! feat. 初音ミク
+  title: Blue Green IIXII
+  traceback:
+    -
+      artist: AVTechNO!
+      title: Blue／Green
+  links:
+    album: music.apple.com/jp/album/hatsune-miku-tear-ep/488097294
+file:
+  lyrics:
+    language: jp
+    links:
+      third-party website: vocadb.net
+    tab label position: [rhythm]
+    widechar: 1
+  comment: this map adheres to the original song structure
+  mapper: gggrv
+audio guide:
+  .mid:
+    paths:
+      ixi_harp.mid: key change
+      ixi.mid: song key
+    comment: repetitive
+    mapper: gggrv
+    means: # how the file was created
+      - listen
+# actual mapping begins here
+map:
+  intro:
+    - &id_synth
+      -
+        timecode_start: 0.653474
+        timecode_stop: 16.515076
+        x: '7s65 7s6r'
+      -
+        timecode_start: 16.515076
+        timecode_stop: 32.249786
+        x: '7s65 7s6r'
+  verse 1:
+    -
+      -
+        timecode_start: 32.249786
+        timecode_stop: 36.183937
+        x: '777s 66 55y 555'
+        t: 'キコエルかな海の声を'
+      -
+        timecode_start: 36.369921
+        timecode_stop: 40.304072
+        x: '777s 66 55y 555'
+        t: 'キコエルかな風の声を'
+      -
+        timecode_start: 40.485105
+        timecode_stop: 44.476656
+        x: '777s 66 566 rr6'
+        t: 'キコエルかな森の声を'
+      -
+        timecode_start: 44.591457
+        timecode_stop: 48.697810
+        x: '777s 66 55 yy 555'
+        t: 'キコエルように耳を澄まして'
+    -
+      -
+        timecode_start: 48.715472
+        timecode_stop: 52.521575
+        x: '777s 66 55 yy 555'
+        t: 'キコエルかな小鳥の歌を'
+      -
+        timecode_start: 52.821825
+        timecode_stop: 56.641174
+        x: '777s 66 55 yy 555'
+        t: 'キコエルかな四季のせせらぎ'
+      -
+        timecode_start: 56.901685
+        timecode_stop: 60.756358
+        x: '777s 66 55 66 rr6'
+        t: '感じるよねこのあたたかさ'
+      -
+        timecode_start: 61.003622
+        timecode_stop: 66.205002
+        x: '666r rrrs s hhh h7'
+        t: '溢れるくらいのぬくもりを'
+  transition 1:
+    -
+      -
+        timecode_start: 66.368373
+        timecode_stop: 72.267391
+        x: '77 7788k8 hhh8'
+        t: '今もむかしと変わらず'
+      -
+        timecode_start: 72.285053
+        timecode_stop: 75.618705
+        x: '777h7s78 h7'
+        t: '僕を包んでくれる'
+      -
+        timecode_start: 75.852723
+        timecode_stop: 82.241854
+        x: '7s 6    6s hhh7'
+        t: '優しい　　自然たち・・・。'
+    -
+      -
+        timecode_start: 82.776122
+        timecode_stop: 88.675140
+        x: '77 7788k8 hhh8'
+        t: 'つらい時にはそっと＿'
+      -
+        timecode_start: 88.692802
+        timecode_stop: 91.995546
+        x: '777h7s78 h'
+        t: '抱きしめてくれるよ'
+      -
+        timecode_start: 92.264887
+        timecode_stop: 98.759989
+        x: '788h7    7s hhh7'
+        t: 'いつまでも　いつまでも...'
+  birds:
+    -
+      -
+        x: 'xj xj xj xxxx xj xj xj'
+  verse 2:
+    -
+      -
+        timecode_start: 114.233477
+        timecode_stop: 118.330999
+        x: '777s 66 55y 555'
+        t: 'キコエルかな街の声も'
+      -
+        timecode_start: 118.330999
+        timecode_stop: 122.410859
+        x: '777s 66 55y 555'
+        t: 'キコエルかな人の声も'
+      -
+        timecode_start: 122.525661
+        timecode_stop: 126.543705
+        x: '777s 66 556 rr6'
+        t: 'キコエルかな僕の声も'
+      -
+        timecode_start: 126.608125
+        timecode_stop: 130.670323
+        x: '777s 66 6666 rr6'
+        t: 'キコエルように話しかけるよ'
+    -
+      -
+        timecode_start: 130.732139
+        timecode_stop: 134.838492
+        x: '777s 6665 yy 55'
+        t: 'どんなに時代が変わっても'
+      -
+        timecode_start: 134.857759
+        timecode_stop: 138.761002
+        x: '777s 66 5 yy 555'
+        t: '君の心は忘れない'
+      -
+        timecode_start: 138.919957
+        timecode_stop: 142.790687
+        x: '777ss66 5666 rr6'
+        t: '見守り続けてくれる君の'
+      -
+        timecode_start: 143.033535
+        timecode_stop: 148.248162
+        x: '666rr rrrss sshhh7'
+        t: 'ぬくもりをいつまでも離さずに'
+  transition 2:
+    -
+      -
+        timecode_start: 148.420364
+        timecode_stop: 154.323797
+        x: '77 7788k8 hhh8'
+        t: '今もむかしと変わらず'
+      -
+        timecode_start: 154.323797
+        timecode_stop: 157.794328
+        x: '777h7s78 h7'
+        t: '僕を癒してくれる'
+      -
+        timecode_start: 157.913544
+        timecode_stop: 164.664741
+        x: '7s 66   6s hh7'
+        t: '緑の　　　薫りで・・・。'
+    -
+      -
+        timecode_start: 164.841359
+        timecode_stop: 170.722715
+        x: '77 77 7788k8 hhh8'
+        t: '疲れている時にはそっと＿'
+      -
+        timecode_start: 170.722715
+        timecode_stop: 174.047536
+        x: '777h7s78 h'
+        t: '優しいそよ風を'
+      -
+        timecode_start: 174.294801
+        timecode_stop: 180.878211
+        x: '788h7     6s hhh7'
+        t: 'いつまでも　いつまでも...'
+  choir 1:
+    -
+      -
+        timecode_start: 184.035246
+        timecode_stop: 192.181720
+        x: '6666r6 g6g6r6 g5y5 g 5 y4m4'
+        t: '僕の思い出みんな君が作り出してくれたね'
+      -
+        timecode_start: 192.282737
+        timecode_stop: 200.371897
+        x: '6666r6 g5g6rs 555 s s s s7  rr6'
+        t: 'それぞれの季節がくるたびに思い出す＿想い・・・。'
+    -
+      -
+        timecode_start: 200.424882
+        timecode_stop: 208.655700
+        x: '6666r6 g5g6r6 g5y5 g 55 y4 m4'
+        t: '波の音も風の音も Album の見出しなんだ。'
+      -
+        timecode_start: 208.655700
+        timecode_stop: 216.868405
+        x: '6666r6 g566rs 555 s s rsr  rsrs7'
+        t: '写真に写る background にはいつも君がいる'
+    -
+      -
+        timecode_start: 216.868405
+        timecode_stop: 225.072280
+        x: '6666r6 g5g 66r6 g5y5 g 55y 4m4'
+        t: '青い声も緑の声も心地よい Melody だよ。'
+      -
+        timecode_start: 225.072280
+        timecode_stop: 233.170184
+        x: '6666r6 g5g6rs 555 y y y y5'
+        t: '「ありがとう」の言葉すべて君にあげたい。'
+  choir 2:
+    -
+      -
+        timecode_start: 233.240831
+        timecode_stop: 241.444705
+        x: '6666r6 g5g6r6 g5y5 g 55 y4 m4'
+        t: 'LA LA LA...'
+    -
+      -
+        timecode_start: 241.444705
+        timecode_stop: 248.103178
+        x: '6666r6 g5g6rs 555 s s ssr'
+        t: '言葉だけじゃあらわすことができないくらい'
+      -
+        timecode_start: 248.085516
+        timecode_stop: 250.408034
+        x: 'rsr r s7'
+        t: '君が好き。'
+  outro:
+    - *id_synth
+    - *id_synth
+    - *id_synth
+    - *id_synth
+...

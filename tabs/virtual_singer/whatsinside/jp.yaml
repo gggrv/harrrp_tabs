@@ -1,0 +1,220 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E]
+    '6': [G]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: ピノキオピー feat. 初音ミク
+  title: 内臓ありますか
+  links:
+    album: www.youtube.com/watch?v=bZc1MpOdH20
+file:
+  lyrics:
+    language: jp
+    links:
+      third-party website: vocadb.net
+    tab label position: [rhythm]
+    widechar: 1
+  comment: this map simplifies original song structure
+  mapper: gggrv
+audio guide:
+  .mid:
+    paths:
+      main.mid: song key
+    comment: minimal, several parts are simplified
+    mapper: gggrv
+    means: # how the file was created
+      - ust by モカ (mocha) at bit.ly/mokaust
+      - listen
+# actual mapping begins here
+map:
+  theme:
+    -
+      -
+        x: 'r8 r8 8 9 8'
+      -
+        x: 'r8 r8 8 9'
+    -
+      -
+        x: 'r8 r8 8 9 8'
+      -
+        x: 'rrrr    j 9k9 r'
+  verse 1 A:
+    -
+      -
+        x: '    g5 5556 665          4yy  555 5556 665'
+        t: '　　悟った気がしたけど　　　　結局 元の木阿弥である'
+      -
+        x: '44y 55 5556 665          44y  56 6r 6gg5'
+        t: 'この世を俯瞰で見渡しても　　　肉体はジャンクフード食べる'
+  verse 1 B1:
+    -
+      -
+        x: ' 6 56 6 565              655g6 5 6 6565'
+        t: '因果応報はなく　　　　　　　すべては塞翁が馬である'
+      -
+        x: '5y5y yy      55y 5y556      4444 4y4'
+        t: '何年経っても　　いじめっこの君は　　幸せそうだった'
+  verse 1 C:
+    -
+      -
+        x: '5 5y56                  5555y 56'
+        t: '言っても無駄　　　　　　　　言われても無駄'
+      -
+        x: '555y         555y           55 r 6g5'
+        t: '無気力　　　　無自覚　　　　　無関心なほど'
+      -
+        x: '555y5 y5r 6             5555y 555y5r 6'
+        t: '傷つくのを怖がった　　　　　　愛さずに愛されたがった'
+  verse 1 B2:
+    -
+      -
+        x: ' 6 56 6 565              655g6 5 6 6565'
+        t: '因果応報はなく　　　　　　　すべては塞翁が馬である'
+      -
+        x: ' 5  yy5  yy5  y 5y556    5 555g5 4'
+        t: '天が見ていても本当の邪悪は　　邪悪のままだった'
+  transition 1:
+    -
+      - &id_no_yes
+        x: ' 7r  77r       77rr7   rr     77r7  7h 7     4'
+        t: '今日もみなさん　　やりたくないこと　　ばかりやってますか　はい'
+      -
+        x: ' hs  hhsshhss  hhss 888887h 7     4'
+        t: '内心舌打ちしながらペコペコ頭下げてますか　はい'
+      -
+        x: '777 7 7 h 7     4         8 88 88h h 7      4'
+        t: '君は善人ですか？　はい　　　　やっぱり悪人ですか？　はい'
+      -
+        x: ' h s h ssh sshhs          8 7 77h 7'
+        t: '関係ないけど今夜は楽しい　　　パーティーいきますか'
+  choir 1:
+    - &id_barabara
+      -
+        x: '888 hh8 h7      6sh 8888    hh8 h7'
+        t: '血も涙もないけど　優しい気持ちも　足りないけど'
+      -
+        x: ' 6shh 888  9  8  h7  7 8h   7 7 77h 7    4'
+        t: 'バラバラの思想ぶつかっても　みんな　内臓ありますか　はい'
+      -
+        x: '888 hh8 h7      6shh 8888   hh8 h7'
+        t: '君がいなくなっても　よくあることだと　割り切っても'
+      -
+        x: ' 6shh  8888 99  88 h 7  7 8h'
+        t: '身体が　萎むくらい　泣いても　みんな'
+    - &id_organs
+      -
+        x: '7 7 77h 7    8    h7 r6'
+        t: '内臓ありますか　はい　はぁあぁい'
+  break1:
+    -
+      - &haihai
+        x: ' 8    h7 r6'
+        t: 'はい　はぁあぁい'
+      -
+        x: 'r8 r8 8 9 8'
+      -
+        x: 'r8 8j 9k9 8'
+    -
+      - *haihai
+      -
+        x: 'r8 r8 8 9 8'
+      -
+        x: 'r8 r8 898 7'
+      -
+        x: '9 88 k8r'
+  verse2:
+    -
+      -
+        x: '   6 r6 5555y4      556 r6   5555y4'
+        t: 'あっちが言うには被害者　でもこっちに言わせりゃ加害者'
+      -
+        x: '5 5 5 y5 55y 56    566 r 65y 5y4'
+        t: '両成敗という言葉使って 思考停止の傍観者'
+      -
+        x: ' 6 56 6 565              655g6 5 6 6565'
+        t: '因果応報はなく　　　　　　　すべては塞翁が馬である'
+      -
+        x: '5 y 55yy5 yy5 556    5 5555g5 4'
+        t: '喧々諤々やっても結局は　結果がすべてだった？'
+    -
+      - *id_no_yes
+      -
+        x: '  h ssh  ssh ssh    ss  88    87h 7   4'
+        t: 'たいして何にもやっていないのに　マージンとりますか　はい'
+      -
+        x: '  7 7 7777h 7     4     8 8888hhh 7      4'
+        t: '最近良いことあった？　はい　やっぱり嫌なことあった？　はい'
+      -
+        x: 'h s h  ss   h ssh s 87  77h 7'
+        t: '関係ないけど　週末限定バーゲン行きますか'
+  choir 2:
+    -
+      -
+        x: '888 hh8 h7   6shh 8888 hh8 h7'
+        t: '夢を見失うけど　探せばほんの少しあるけど'
+      -
+        x: '6sh  8888 99 88 h7  7 8h   7 7 77h 7   4'
+        t: '最悪 売れば金になるけど　みんな内臓ありますか　はい'
+      - &id_soto
+        x: '8 88hh8 h7    6sh 888 hh8 h7'
+        t: '外面が綺麗でも　醜い内面が嫌いでも'
+      - &id_same
+        x: '6shh 8888  9 88 h7   7 8h'
+        t: '生皮剥いだら おんなじだよ　みんな'
+      -
+        x: '7 7 77h 7'
+        t: '内臓ありますか'
+  soft:
+    -
+      - *id_no_yes
+      - *id_no_yes
+      -
+        x: ' 7 r7 7 r7r              7rrs7 r 7 7r7r'
+        t: '因果応報はなく　　　　　　　すべては塞翁が馬である'
+      -
+        x: 'h 7 h  77   h 77hh7 88 887h 7'
+        t: '関係ないけど　大きな声で叫んでくれますか'
+      -
+        x: 'r r    8 8 8 8'
+  choir 3 :
+    - *id_barabara
+    - *id_organs
+  epic:
+    -
+      -
+        x: '888 88hh 8 89 8    8888 8hh8 89 8'
+        t: '君の幸せ どんくらいで　そしてトラウマこんくらいで'
+      -
+        x: '888 88hh 8 89 8   8 8 9j 98 h89h7'
+        t: '雨後のたけのこ背比べ　共感と嫌悪の雨あられ'
+      - *id_soto
+      - *id_same
+      - *id_organs
+      -
+        x: '6 s ssr'
+      - *haihai
+      -
+        x: '6 s ss rrrrr'
+...

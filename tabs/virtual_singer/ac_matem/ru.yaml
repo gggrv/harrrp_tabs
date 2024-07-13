@@ -1,0 +1,163 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E]
+    '6': [G,'Bb']
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: AContrari
+  title: МАТЕМАТИЧКА
+  links:
+    song: youtu.be/3-m2YT6NPNs
+file:
+  lyrics:
+    language: ru
+    links:
+      official: youtu.be/3-m2YT6NPNs
+    tab label position: [stress marks,rhythm]
+  comment: simplified song structure
+  mapper: gggrv
+audio guide:
+  .mid:
+    paths:
+      harp.mid: key change
+      main.mid: song key
+    comment: minimal, sliding notes not included
+    mapper: gggrv
+    means: # how the file was created
+      - listen
+# actual mapping begins here
+map:
+  intro:
+    - &id_intro
+      - &id_dramatic
+        x: 'hj    xj'
+      - &id_matemate
+        x: ' 8 k  8 k  8 k  8 k'
+        t: 'Мате-мате-мате-мате...'
+      -
+        x: ' k8 k9 8h8h8h8h'
+        t: '        ...'
+    - *id_intro
+  verse 1:
+    -
+      -
+        x: ' y y  r   6 g    g'
+        t: 'Ты одна против всех,'
+      -
+        x: '  yy  r 6  g   g'
+        t: 'Твоя воля сильна,'
+      -
+        x: ' y  y  y r   6  g  g'
+        t: 'Но ты никак не поймешь,'
+      -
+        x: '  y  5 5 5   5  5  g  g'
+        t: 'Что матеша мне не нужна.'
+    -
+      -
+        x: 'y  y y   6     g  g5'
+        t: 'Я хочу стать ближнее,'
+      -
+        x: 'y y  y   r  6  g 5'
+        t: 'Отыскать общий язык.'
+      -
+        x: ' y   y y   g   g g  6'
+        t: 'Расскажи про многочлен,'
+      -
+        x: '  r  6    g 5   g 5    y'
+        t: 'Чтоб я к нему привык.'
+  choir 1: &id_ch1
+    - &id_ch1a
+      - &id_matem
+        x: ' 5 g 5 g  y   5 g  5 g  5 g  y'
+        t: 'Математичка, мате-мате-матичка,'
+      -
+        x: ' g   6  g 5     y   5  g  5 g 5 g  5  y'
+        t: 'На всё готов, чтоб ты поставила отлично.'
+      - *id_matem
+      -
+        x: ' g  6   g 5    y  5y   6  gg   y g  5'
+        t: 'Ты мой порок, ты моя вредная привычка.'
+    - *id_ch1a
+  verse 2:
+    -
+      -
+        x: ' y y  y   r   6   g g'
+        t: 'Воду возьми для цветов,'
+      -
+        x: '  y y   y r   6   g  g'
+        t: 'Сделай себе три в одном.'
+      -
+        x: ' 5   5  y 5  5    y   6g  5'
+        t: 'Как же досадно, что твою боль'
+      -
+        x: ' y   5  5 5 5    g g'
+        t: 'Нельзя запивать вином.'
+    -
+      -
+        x: ' y  yy   r  6  g g'
+        t: 'Каждая тройка тебе'
+      -
+        x: '  y  y  y  r   6  g 5'
+        t: 'Словно по сердцу ножом.'
+      -
+        x: 'y y y   5 5  y 5  g'
+        t: 'Я уже школу закончил,'
+      -
+        x: 'y  5 55  g   y  5  y'
+        t: 'А думаю лишь об одном.'
+  transition 2:
+    -
+      -
+        x: ' r   g   5  y  5     y    5 y  5  g g'
+        t: 'Как так мы сошлись друг друга не поняв?'
+      -
+        x: ' r g    y 5    y    5  y  5   y  5   g  g'
+        t: 'Дурак, тебя я не любил и сильно был неправ.'
+      -
+        x: ' r    gg  y     5   y   y yy 5   5  5  rg g'
+        t: 'Будь моей интегральной рациональной аксиомой,'
+      -
+        x: '  y 5     r   6   g  g 5     5  y y 5   5   5 y'
+        t: 'Чтобы в классном журнале - всё хорошо, как дома.'
+  break 2:
+    - &id_phrase2
+      -
+        +: '           1'
+        x: 'yyr       y6r gy y'
+      -
+        +: '  1'
+        x: 'yy6r    r'
+      -
+        +: '  1'
+        x: 'yy6r'
+    - *id_phrase2
+    -
+      -
+        x: 'hx8r'
+  choir 2 (repeat choir 1): *id_ch1
+  outro:
+    -
+      - *id_dramatic
+      - *id_matemate
+...

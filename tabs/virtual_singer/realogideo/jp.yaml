@@ -1,0 +1,247 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E]
+    '6': [G]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C,B]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: ゴボウメン feat. IA
+  title: 現実的論理主義者
+  links:
+    album: music.apple.com/de/album/ia-01-birth-md/538327450
+file:
+  lyrics:
+    language: jp
+    links:
+      third-party website: vocadb.net
+    tab label position: [rhythm]
+    widechar: 1
+  comment: this map adheres to the original song structure
+  mapper: gggrv
+audio guide:
+  .mid:
+    paths:
+      harp.mid: key change
+      main.mid: song key
+    mapper: gggrv
+    means: # how the file was created
+      - ust by 和樹松岡 at pifuyuuust.blogspot.com/2020/07/ust-vocaloid-bilibili-upust.html
+      - listen
+# actual mapping begins here
+map:
+  intro:
+    -
+      -
+        x: 'r5 h5 85    j5 h5 85 h'
+      -
+        x: 'r5 h5 85    j5 h5 85 9'
+    -
+      -
+        x: 'r5 h5 85    j5 h5 85 h'
+      -
+        x: 'r5 h5 8hh   j5 95 85 h'
+  theme: &id_theme
+    -
+      -
+        x: 'r h 8    j h 8 h'
+      -
+        x: 'r h 8    j h 8 9'
+    -
+      -
+        x: 'r h 8    j h 8 h'
+      -
+        +: '             1'
+        x: 'r h 8hh  j x x 9'
+  verse 1 A:
+    -
+      -
+        x: '  rrr8 9    rr6rrr'
+        t: '今朝のニュース僕をバカにして'
+      -
+        x: 'rr6r h  r6r'
+        t: '偉そうな肩書きと'
+      -
+        x: '   rr 6rr 6r'
+        t: '権利と言う名の武器'
+      -
+        x: '6rr rss rss rsh7'
+        t: '難しそうな言葉並べてんだ'
+    -
+      -
+        x: ' sr8 rr 66rrrr'
+        t: '頭いいの？バカにでも'
+      -
+        x: 'rrs7 s rr66rrs6'
+        t: '解るように言葉並べてよ'
+      -
+        x: '  rr 6rr 6rr 6rrs6'
+        t: '理論と言う名の盾　傘にして'
+      -
+        x: ' ss rss ssh7s'
+        t: 'いつも声　届かない'
+  chords:
+    -
+      -
+        x: '5 6 6'
+      -
+        x: '5 6 6 6'
+  verse 1 B:
+    -
+      -
+        x: '  rrr7 9  r6 rrr'
+        t: '昨日にバイバイをして'
+      -
+        x: 'rrs7 s r 56 6r5'
+        t: 'また今日が始まる頃'
+      -
+        x: '   rr 6rr 6rr 6rr'
+        t: 'パパはママの上に乗っかって'
+      -
+        x: '6ss rss rsh7'
+        t: 'バカみたいに腰を振って'
+    -
+      -
+        x: ' sr8 rr 66r r'
+        t: '寝たふり坊やは'
+      -
+        x: 'rrs7 s rr5666r5'
+        t: '携帯で行き場探してる'
+      -
+        x: '  rr 6rr 6rr 6rr 6r'
+        t: 'どうやらここも僕の居場所は'
+      -
+        x: ' 7    h    8'
+        t: 'ない　ない　ない'
+  transition 1:
+    -
+      -
+        x: 'rr6r r 6r'
+        t: 'アホみたいに映る'
+      -
+        x: 'rr6ss rss rs'
+        t: '鏡の中の人は'
+      -
+        x: 'h7s'
+        t: '誰だ？'
+  choir 1:
+    -
+      -
+        x: 'rr6r 88     s ss77'
+        t: '孤独論理　揺らいだ万象と'
+      -
+        x: 'rr6r 88     s ss77'
+        t: '猜疑心に蝕まれた'
+      -
+        x: '8s7'
+        t: '心'
+    -
+      -
+        x: '8 h   8h8 h   8h8 h   88 h  8h8 h'
+        t: 'そうさ　僕だって　いつだって　全力出してんだ'
+      -
+        x: '  889   hhhh8'
+        t: '「うるせぇ」口を出すな'
+      -
+        x: 'rr6r8 rr6r8    r6r'
+        t: '大人しく社会に　従順しろ'
+  verse 2 A:
+    -
+      -
+        x: 'rr6r 8  r6 rrr'
+        t: 'また眠る僕を叩いて'
+      -
+        x: 'rr6r h  r6r'
+        t: '偉そうに嘲笑うんだ'
+      -
+        x: '   rr 6rr 6r'
+        t: '周りも皆　敵になって'
+      -
+        x: '6rr rss rss rsh7'
+        t: '一斉射撃　バカにするんだ'
+    -
+      -
+        x: '  r8 rr 66rrrr'
+        t: '頭いいの？アホにでも'
+      -
+        x: 'rrs7 s rr5566r5'
+        t: '解るように言葉選んでよ'
+      -
+        x: ' rr 6rr 6rr 6rr'
+        t: '道を示す人なんだろ？'
+      -
+        x: 'rss sss sss 8'
+        t: 'なら僕に明日を教えて'
+  break:
+    -
+      -
+        x: '' # TODO
+  dark:
+    -
+      -
+        t: '快感ばっか求めたって'
+      -
+        t: '人間だものいいんじゃね？'
+      -
+        t: '無機質な'
+      -
+        t: '僕が笑った'
+    -
+      -
+        t: '空気のような存在です'
+      -
+        t: 'いてもいなくても同じようです'
+      -
+        t: '悲しいな'
+      -
+        t: '僕がいないや'
+  epic:
+    -
+      -
+        t: '孤独論理'
+      -
+        t: '揺らいだ万象と'
+      -
+        t: '猜疑心に蝕まれた'
+      -
+        t: '心'
+  choir 3:
+    -
+      -
+        t: '記憶論理　曖昧な現象を'
+      -
+        t: '過去がいいな　美化する嘘'
+      -
+        t: 'だってさ'
+    -
+      -
+        t: '僕はいつだってヒーローで'
+      -
+        t: '皆の中心で'
+      -
+        t: 'まあ全部嘘だけど'
+      -
+        t: 'いいじゃないか'
+      -
+        t: '夢の中くらいは'
+  theme (repeat): *id_theme
+...

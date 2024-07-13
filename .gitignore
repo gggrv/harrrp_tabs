@@ -1,5 +1,2 @@
-# ignore specific
+# other
 **desktop.ini
-# ignore wip
-private/*
-\[wip\]*

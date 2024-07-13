@@ -1,0 +1,49 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E]
+    '6': [G]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: まぞっぷ feat. 鏡音リン
+  title: ゆめのつなぎびと
+  links:
+    album: www.nicovideo.jp/watch/sm21564622
+file:
+  lyrics:
+    language: instrumental
+    tab label position: [rhythm]
+  comment: midi is custom-made from scratch and adheres to the original song structure; not suitable for standard harmonica
+  mapper: gggrv
+audio guide:
+  .mid:
+    paths:
+      main.mid: song key
+    comment: minimal
+    mapper: gggrv
+    means: # how the file was created
+      - listen
+# actual mapping begins here
+map:
+  # to be done
+...

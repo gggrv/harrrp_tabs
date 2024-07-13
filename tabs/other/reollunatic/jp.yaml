@@ -1,0 +1,179 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E]
+    '6': [G]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: ギガP, れをる feat. REOL
+  title: Lunatic
+  links:
+    artist: reol.jp
+file:
+  lyrics:
+    language: jp
+    links:
+      third-party website: genius.com
+    widechar: 1
+    tab label position: [rhythm]
+  comment: this map is custom-made from scratch and adheres to the original song structure
+  mapper: gggrv
+audio guide:
+  .mid:
+    paths:
+      harp.mid: key change
+      main.mid: song key
+    comment: sliding notes not included
+    mapper: gggrv
+    means: # how the file was created
+      - listen
+# actual mapping begins here
+map:
+  intro:
+    -
+      -
+        x: '666gy  4y'
+        t: 'シグナルを受信'
+  verse 1:
+    -
+      -
+        x: 'rrr 6r7r6 r6 r'
+        t: '片足に鍵をかけて'
+      -
+        x: 'rrr 6r7h7r'
+        t: '満ち欠けの真夜中'
+      -
+        x: 'rrr 6r7r6r6 g'
+        t: '枕元の微笑みは上辺'
+      -
+        x: '5g6r 6 yr6 g 66rhhh'
+        t: '今日もあの子になれなかった'
+    -
+      -
+        x: '  hhh rrrr 6r6g5g'
+        t: '純文学 貪って 地方都市'
+      -
+        x: '66hhh rr6r6r6 r7s 6'
+        t: '波打ち際で砂糖漬けにしてたの'
+      -
+        x: ' h h7h rr6r6 r6g5'
+        t: '本当のことなど最初から'
+      -
+        x: '  5g6r 7 r    g6r 6r7h k'
+        t: '思ってないけど 言えるの, 好きなんて'
+  choir 1:
+    - &id_ch1A
+      -
+        x: '999kh  7 h'
+        t: 'シグナルを受信'
+      -
+        x: '999kh 77 h'
+        t: 'キミからの着信'
+      -
+        x: 'h999kh'
+        t: '答えは未だノー'
+      -
+        x: '     7h7h7 h7 h77kh'
+        t: '地球 重心 遠心分離して 乖離'
+    - *id_ch1A
+  verse 2:
+    -
+      -
+        x: 'rrr 6r7r6r6 r'
+        t: '狭い狭い箱の中'
+      -
+        x: 'rrr 6r7h7r 6 g'
+        t: '酸欠して地獄堕ち'
+      -
+        x: 'rrr 6r7r6r6 g'
+        t: '誰にも言わず二人で'
+      -
+        x: '5g6r 6 r6    g 66rhhh'
+        t: 'ここまで来たの?もう戻れないね'
+    -
+      -
+        x: '  hhh rr6r6 r6g5g'
+        t: 'ストックホルム症候群 エピローグ'
+      -
+        x: '66hh h rr6r6r6 r7s h'
+        t: '終わりにして これは醒めない夢なの'
+      -
+        x: 'h7h h rr6r6 r6g5'
+        t: '泡沫に溶ける最後なら'
+      -
+        x: '5g6r 7 r    g6r 6r7h k'
+        t: '多分絶対きっとずっと幸せでしょう'
+  choir 2:
+    - &id_ch2A
+      -
+        x: '999kh  7 h'
+        t: '吟味アンド巡視'
+      -
+        x: '999kh 77 h'
+        t: '疑心からの確信'
+      -
+        x: 'h999kh'
+        t: 'それじゃいやなの'
+      -
+        x: '     7h7h7 h7 777kh'
+        t: '時空 通信 禁止 君と我愛称'
+    - *id_ch2A
+  break 2:
+    -
+      -
+        x: 'hhhh h r 6 r 7gg'
+      -
+        x: '6yyg yyyg'
+      -
+        x: 'yg777 k8hr'
+    -
+      -
+        x: 'k hhh h k hk9j'
+      -
+        x: 'k9jx    9jhkj'
+      -
+        x: 'yg777 k8hrh    hhhh'
+  choir 3:
+    - *id_ch1A
+    - *id_ch2A
+    - *id_ch1A
+    -
+      -
+        x: '999kh  7 h'
+        t: 'シグナルを受信'
+      -
+        x: '999kh 77 h'
+        t: 'キミからの着信'
+      -
+        x: 'h999kh    9k'
+        t: '答えは未だノー'
+      -
+        x: '     hkh kh khh kh'
+        t: '地球 重心 遠心分離して 乖離'
+  outro:
+    -
+      -
+        x: '44yy 4    44yy 4'
+      -
+        x: '44yy 4    44y  4444'
+...

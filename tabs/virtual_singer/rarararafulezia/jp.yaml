@@ -1,0 +1,215 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C,Eb]
+    '5': [E]
+    '6': [G,Bb,'','','','',Eb]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A,Ab]
+    's': [B,Db]
+    'h': [D]
+    'k': [F,'','',Bb]
+    'j': [A]
+song:
+  artist: 鬱P feat. 初音ミク
+  title: ララララフレシア
+  links:
+    album: www.youtube.com/watch?v=PZvIFcsIk-Y
+file:
+  lyrics:
+    language: jp
+    links:
+      official: www.youtube.com/watch?v=PZvIFcsIk-Y
+    tab label position: [rhythm]
+    widechar: 1
+  comment: this map is custom-made from scratch and adheres to the original song structure; expressive note ending bends not included
+  mapper: gggrv
+audio guide:
+  .mid:
+    paths:
+      harp.mid: key change
+      main.mid: song key
+    comment: sliding notes not included
+    mapper: gggrv
+    means: # how the file was created
+      - listen
+# actual mapping begins here
+map:
+  intro:
+    -
+      -
+        +: '  1'
+        x: '4y4g6'
+      -
+        seriously: False
+        +: ' 1   1 1'
+        x: '6rs  66r'
+        t: 'たららったたた'
+    - &id_rararara
+      - &id_rarara_high
+        seriously: False
+        +: '     11  6'
+        x: '6666 6r6 6'
+        t: 'ララララフレシア'
+      - &id_rarara_low
+        seriously: False
+        +: '     1 1 6'
+        x: '6666 4y4 6'
+        t: 'ララララフレシア'
+    - *id_rararara
+    - *id_rararara
+  verse 1:
+    -
+      -
+        x: '666 676    6g5g6'
+        t: '空も神経も不安定な朝'
+      -
+        +: '              1'
+        x: '666 67 6g6 g 667'
+        t: '垢まみれの画面の向こう側'
+      -
+        seriously: False
+        +: '     1   11     1 1'
+        x: '  77h8 7768    65667'
+        t: '「散々いろんな方に迷惑かけた」って'
+      -
+        seriously: False
+        +: '1     1    1 1 1 1 1'
+        x: '67 9 k8    878 878 87'
+        t: '笑顔で反省会する成功者'
+  transition 1:
+    -
+      -
+        x: '9 k99 9k     k kkk k8'
+        t: '忘れてないよ　忘れらんないよ'
+      -
+        seriously: False
+        +: '               1 1 1'
+        x: '7     8      7 878767'
+        t: '一言一句　　一挙一動も'
+      -
+        x: '9 k99 9k     k kkk k9'
+        t: '鉛色の感　　　情が溢れて'
+      -
+        seriously: False
+        +: '          1111'
+        x: '7777 ssss 6666   sss7 9'
+        t: '咲き乱れる　血の　　花びら'
+  choir 1: &id_choir1
+    - *id_rararara
+    - *id_rararara
+    -
+      -
+        seriously: False
+        +: '      3   1'
+        x: '7    xk 9k8 k9'
+        t: 'woo　赤黒く舞う'
+      - *id_rarara_low
+    -
+      -
+        seriously: False
+        +: '      3   1'
+        x: '7    xk 9k8 k9'
+        t: 'woo　赤黒く舞う'
+      - *id_rarara_low
+  verse 2 (too rap to map):
+    -
+      -
+        rapid_rant: True
+        t: '「負を糧に勝て　陰を金に変え　生きてゆけ」'
+      -
+        rapid_rant: True
+        t: 'それが出来りゃ苦労は無え　大半は背負わされるだけ'
+      -
+        rapid_rant: True
+        t: '吃りのスクラッチ　舌がのた打ち　吸う吐くが変拍子に'
+      -
+        rapid_rant: True
+        t: '秒針上に膿が蓄積'
+      -
+        seriously: False
+        rapid_rant: True
+        +: ' 111  1    1'
+        x: ' 444 y4y yy46'
+        t: 'やがて首が回らねえ'
+  transition 2:
+    -
+      -
+        x: '9  99 9k     k k kkk8'
+        t: 'きっと何かを　　　切掛に'
+      -
+        seriously: False
+        +: '                1    1'
+        x: '7     8      7 787 776'
+        t: '「清く正しく」とか思ったんだろう'
+      -
+        seriously: False
+        x: '9 k99 9k     k 8kk9'
+        t: 'そんなテメェの都合とか関係なく'
+      -
+        seriously: False
+        +: '          1111'
+        x: '7777 ssss 6666   sss7 9'
+        t: '咲き乱れる　血の　　花びら'
+  choir 2: *id_choir1
+  epic:
+    -
+      -
+        +: ' 1'
+        x: '766    k kk8    k9k87'
+        t: 'ウララ　　いまさらまっさらに'
+      -
+        +: ' 1'
+        x: '766    k kk8    k9x'
+        t: 'ウララ　　なるわけないよ'
+      -
+        +: ' 1'
+        x: '766    k kk8    k9k86'
+        t: 'ウララ　　まだあのときのまま'
+      -
+        +: ' 1   1     1  1'
+        x: '6r   rs   ss 7s7'
+        t: '痛い　痛い　痛い'
+  outro:
+    -
+      -
+        t: 'fxxk'
+      -
+        seriously: False
+        +: ' 1  1         1 1'
+        x: '6rs r         rsr65g6'
+        t: '精算可能だという加虐者の誤謬'
+      - *id_rarara_high
+      -
+        seriously: False
+        +: ' 1  1 1          1  1'
+        x: '6rs r r         xr xr'
+        t: '生涯　業が巣食う'
+      - *id_rarara_high
+      -
+        seriously: False
+        +: ' 1  1         1 1'
+        x: '6rs r         rsr65g6'
+        t: '精算可能だという加虐者の…'
+      - *id_rarara_high
+      -
+        seriously: False
+        +: ' 1  1 1          1  1'
+        x: '6rs r r         xr xr'
+        t: '生涯　業が巣食う'
+      - *id_rarara_high
+...

@@ -1,0 +1,233 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E]
+    '6': [G]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: うたたP feat. MAYU
+  title: 七転び八起きない
+  links:
+    song: www.youtube.com/watch?v=dTLM7d74w_A
+file:
+  lyrics:
+    language: jp
+    links:
+      third-party website: vocadb.net
+    tab label position: [rhythm]
+    widechar: 1
+  comment: this map adheres to the original song structure; raised key ending section is omitted
+  mapper: gggrv
+audio guide:
+  .mid:
+    paths:
+      harp.mid: key change
+      main.mid: song key
+    comment: repetitive
+    mapper: gggrv
+    means: # how the file was created
+      - ust by EchoBlosom123 at youtu.be/f-l8gkW3bDc
+      - listen
+# actual mapping begins here
+map:
+  intro:
+    -
+      -
+        x: 'h7    h7   r 7r6y'
+        t: 'ダウンダウン　イカンです'
+  theme 1:
+    -
+      - &id_theme_phrase
+        x: 'h 7h7h 7hk    k kh9k jkh'
+      - *id_theme_phrase
+      - *id_theme_phrase
+      - *id_theme_phrase
+      -
+        x: 'hh7 hhh hhh'
+  verse 1 A:
+    -
+      -
+        x: ' hh7hrr6g     6g67r'
+        t: '今すぐ起きなきゃ　イカンです'
+      -
+        x: ' rr6r6g5    ggg5y'
+        t: '時刻を見たら　地獄です'
+      -
+        x: ' hh7h7r6    r6r7r'
+        t: '寝たふりしたら　イカンです'
+      -
+        x: ' r66r  rr7r  6g6ry'
+        t: 'わたくし　はなはだ遺憾です'
+  transition 1: &id_transition
+    -
+      -
+        x: ' h 7h r       r67 r       9 9kh 7h'
+        t: 'オフトゥントゥン…オフトゥントゥン…'
+      -
+        x: ' 6 g6 r       r6g y'
+        t: 'オフトゥントゥン…オフトゥントゥン…'
+  verse 1 B:
+    -
+      -
+        x: '  hh7hrr6g     6g67r'
+        t: '今日こそやらなきゃ　イカンです'
+      -
+        x: ' rr6r6g5    ggg5y'
+        t: '推移というか　 “睡移” です'
+      -
+        x: ' h 7h7r6    r6r7r'
+        t: '死んだふりでも　イカンです'
+      -
+        x: ' 6gr r6r7r r66ry'
+        t: 'わたくし　遺憾の意を示す'
+  choir 1:
+    - &id_ch1A
+      -
+        x: 'h7    h7   r 7r6r'
+        t: 'ダウンダウン　イカンです'
+      -
+        x: '6g6 g666 g6rr 76r'
+        t: '今日もまた倒れてしまいます'
+      -
+        x: 'r7h 7hh7h hhk9h'
+        t: 'ふて寝して死んだふりをして'
+      -
+        x: 'h7hh 7hkh 7r6g y4y'
+        t: '今やる　今日　明日やる　今年やる'
+    -
+      -
+        x: 'h7    h7   r 7r6r'
+        t: 'ダウンダウン　イカンです'
+      -
+        x: '6g6 r666g r7r6r'
+        t: 'わたくし　はなはだ遺憾です'
+      -
+        x: 'r7hh 7h h7h 7hkh7h'
+        t: '起きあがって輝け前向きに！'
+      -
+        x: ' r6r 777r 7hkk9h'
+        t: 'わたくし “行かん” の意を示す！'
+  break:
+    -
+      -
+        x: 'h 7r 6r6r7r'
+      -
+        x: 'g6 g6g6r6g67r'
+      -
+        x: 'g h7hk h7hr7hkh'
+      -
+        x: '6r7 r7h 7h8k8k9h'
+    -
+      -
+        x: 'h77 h77'
+      -
+        x: 'r 6r7r7r'
+      -
+        x: 'gr6 r6g5g5'
+      -
+        x: 'y 4y5g5y'
+    -
+      -
+        x: 'r6r7 7r7r7hkh'
+      -
+        x: '6r7 r7h 7h8k8k9h'
+  theme 2 (repeat theme 1):
+    -
+      - *id_theme_phrase
+  verse 2 A:
+    -
+      -
+        x: ' hh7 rr6g     6g67r'
+        t: 'やられっぱなしは　イカンです'
+      -
+        x: ' rr6r6g5  5ggg5y'
+        t: '今年はひと味違うのです'
+      -
+        x: ' hh7h7r6 6r6r7r'
+        t: '少しの遅れも　イカンです'
+      -
+        x: ' 6g6 r6r7r 6g6ry'
+        t: 'わたくし　とうとうやるのです'
+  transition 2 (repeat transition 1): *id_transition
+  verse 2 B:
+    -
+      -
+        x: '  h7hr   6g6g67r'
+        t: '雨が降ってる　イカンです'
+      -
+        x: 'r66 r6g5   5ggg5y'
+        t: '電車も混んでる　ヨカンです'
+      -
+        x: ' h7h7h r6   r6r6r7r'
+        t: '何故か怒ってる　オカンです'
+      -
+        x: ' 6g6 r6r7r 7r6ry'
+        t: 'わたくし　遺憾の意を示す'
+  choir 2:
+    -
+      -
+        x: 'h7    h7   r 7r6r'
+        t: 'ダウンダウン　イカンです'
+      -
+        x: '6g6 g666 g6rr 76r'
+        t: 'やはりまた倒れてしまいます'
+      -
+        x: 'r7h 7hh7h hhk9h'
+        t: 'ふて寝して死んだふりをして'
+      -
+        x: 'h7hh 7hkh 7r6g y4y'
+        t: '今やる　今日　明日やる　今年やる'
+    -
+      -
+        x: 'h7    h7   r 7r6r'
+        t: 'ダウンダウン　イカンです'
+      -
+        x: '6g6 r666g r7r6r'
+        t: 'わたくし　はなはだ遺憾です'
+      -
+        x: 'r7hh 7hhh 7hkh7h'
+        t: '起きあがって気合だ！顔は ( ˘ω˘)ｽﾔｧ'
+      -
+        x: ' r6r 777r 7hkk9h'
+        t: 'わたくし “行かん” の意を示す！'
+  transition 3 (repeat transition 1): *id_transition
+  choir 3:
+    - *id_ch1A
+    -
+      -
+        x: 'h7    h7   r 7r6r'
+        t: 'ダウンダウン　イカンです'
+      -
+        x: '6g6 r666g r7r6r'
+        t: 'わたくし　はなはだ遺憾です'
+      -
+        x: 'r7hh 7h h7h 7hkh7h'
+        t: '起きあがって輝け前向きに！'
+      -
+        x: ' r6r 777r 7h7hkh'
+        t: 'わたしはやります！また来年！'
+  theme 3 (repeat theme 1):
+    -
+      - *id_theme_phrase
+      - *id_theme_phrase
+...

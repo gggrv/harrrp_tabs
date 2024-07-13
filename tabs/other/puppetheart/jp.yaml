@@ -1,0 +1,212 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E]
+    '6': [G]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: まふまふ feat. まふまふ
+  title: 傀儡の心臓
+  links:
+    artist: uni-mafumafu.jp
+file:
+  lyrics:
+    language: jp
+    links:
+      third-party website: www.kkbox.com
+    widechar: 1
+    tab label position: [rhythm]
+  comment: this map is custom-made from scratch and adheres to the original song structure
+  mapper: gggrv
+audio guide:
+  .mid:
+    paths:
+      harp.mid: key change
+      main.mid: song key
+    mapper: gggrv
+    means: # how the file was created
+      - listen
+# actual mapping begins here
+map:
+  music box 1:  &id_musicbox
+    -
+      -
+        x: '7rs 7 h 8 h8r'
+      -
+        x: '  s7s r 8 rrrrrr'
+  electro effects:
+    -
+      -
+        x: '5        8  x  jjrr'
+      -
+        x: '5 8 8    55 88 776r'
+  theme:
+    -
+      -
+        x: '7    r6    6 r6'
+      -
+        x: '7s   rr66  rr6'
+      -
+        x: '7    r6  556 r6'
+      -
+        x: '7s   rr665 m5s'
+  verse 1:
+    -
+      -
+        x: '7 s7 s7h7ss    7 s7 h7s7s5'
+        t: '指先ひとつから　　深く縫いつけては'
+      -
+        x: '7 s7 s7h7ss    s7 7h8 k8 h7sr'
+        t: '辿れば心まで　　　溶け込むような蜘蛛の糸'
+      -
+        x: '7 s7 s7h7ss    7 s7 h7s7s5'
+        t: 'それは殺さぬように されど生かさぬように'
+      -
+        x: '7 s7 s7h7ss    s7 7h8 k8 h7sr'
+        t: '翅を啄んでは 囁く道化 甘い嘘'
+  transition 1:
+    -
+      -
+        x: 's7h7srr     s7h7srr'
+        t: '貴方に縋る　　貴方に縋る'
+      -
+        x: 's7h7sk8     s7h7sk8'
+        t: '惨めな夢に　　惨めな夢に'
+      -
+        x: 's7h7srr s798 hh'
+        t: 'そのどれも疑わしいほど'
+      -
+        x: '8j88h8'
+        t: '魅了される'
+  choir 1:
+    -
+      -
+        x: 'rrh 88k 8h7 7h8'
+        t: 'この身を縛る苦しみが'
+      -
+        x: 'h7h7hk8 7h77'
+        t: '愛と感じてしまうの'
+      -
+        x: '88k 8h7 7h8'
+        t: '貴方の指先に'
+      -
+        x: 'r7h8 7sr6r'
+        t: '頷いているだけ'
+    -
+      -
+        x: 'rrh 88k k8h7 7h8'
+        t: '泥と雨粒に反射した'
+      -
+        x: 'h7h7hk8 7h 7s7 h'
+        t: '物言わぬ薄汚れた人形'
+      -
+        x: '88k8h7sh 7s7'
+        t: '操り糸の言うままに'
+      -
+        x: '87h6r'
+        t: '影を踏む'
+  theme variation:
+    -
+      -
+        x: '77rr66rr 66rr66 77ss'
+      -
+        x: 'rr6655rr 665566'
+  pitch:
+    -
+      -
+        x: 'r s7h8h8h'
+      -
+        x: '8h89jj98h8s7 6r65r m5s'
+  verse 2:
+    -
+      -
+        x: '7 s7 s7h7ss    7 s7 h7s7s5'
+        t: '不意に手放されて 羽ばたけたとしても'
+      -
+        x: '7 s7 s7h7ss    s7 7h8 hk8 h7sr'
+        t: 'どうせ変われやしない 望む未来は蜘蛛の糸'
+  transition 2:
+    -
+      -
+        x: 's7h7srr     s7h7srr'
+        t: '止まない雨に　止まない雨に'
+      -
+        x: 's7h7sk8     s7h7sk8'
+        t: '病める心が　　病める心が'
+      -
+        x: 's7h7srr s798 hh   8j88h8'
+        t: '手招くまま遠ざかる背を探している'
+      -
+        x: '8j88k8'
+        t: '貴方はどこ？'
+  soft 1:
+    -
+      -
+        x: 'rrh 88k 8h7 7h8'
+        t: '私の指先に'
+      -
+        x: 'h7h7hk8 7h77'
+        t: '私の明日があっても'
+      -
+        x: '88k 8h7 7h8'
+        t: '触り方を知らない'
+      -
+        x: 'r7h8 6sr6r'
+        t: '行く宛ても知らない'
+  choir 2:
+    -
+      -
+        x: '88k k8h7 7h8'
+        t: '苦しくてどうしようもない'
+      -
+        x: 'h7h7hk8 7h77'
+        t: '愛に溺れていたいの'
+      -
+        x: '88k 8h7 7h8'
+        t: '貴方の指先に'
+      -
+        x: 'r7h8 7sr6r'
+        t: '頷いているだけ'
+    -
+      -
+        x: 'rrh 88k k8h7 7h8'
+        t: '泥と雨粒に反射した'
+      -
+        x: 'h7h7hk8 7h h7r h'
+        t: '物言わぬ薄汚れた人形'
+      -
+        x: '88k8h7sh 7s7'
+        t: '操り糸の言うままに'
+      -
+        x: '87h6r'
+        t: '影を踏む'
+  epic:
+    -
+      -
+        x: '88k8h7sh   88k8h7s7'
+        t: '私をよく見て　私だけを見て'
+      -
+        x: '88k8h7sh77 7s r6 r'
+        t: '私の身も心も食べてしまって'
+  music box 2 (repeat music box 1):  *id_musicbox
+...

@@ -1,0 +1,206 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E]
+    '6': [G]
+    '7': [C]
+    '8': [E,Eb]
+    '9': [G]
+    'x': [C,B]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A,Ab]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: monaca:factory feat. GUMI
+  title: メレンゲドール
+  links:
+    album1: music.apple.com/us/album/afternoon-gravitea/910859922
+    album2: monacafactory.bandcamp.com/album/afternoon-gravity
+file:
+  lyrics:
+    language: jp
+    links:
+      third-party website: vocadb.net
+    tab label position: [rhythm]
+    widechar: 1
+  comment: this map is custom-made from scratch and adheres to the original song structure
+  mapper: gggrv
+audio guide:
+  .mid:
+    paths:
+      harp.mid: key change
+      main.mid: song key
+    comment: minimal
+    mapper: gggrv
+    means: # how the file was created
+      - listen
+# actual mapping begins here
+map:
+  theme: &id_theme
+    -
+      -
+        x: 'rr 7rr 7rr 7h798'
+      -
+        x: 'rr 7rr 7hh hh8hr'
+      -
+        x: 'rr 7rr 7rr 7h798'
+      -
+        x: 'rr 7rr 7hh hh7rr'
+  verse 1:
+    -
+      - 
+        +: '            1'
+        x: '88h8  897  r8h7'
+        t: 'ふんわり起きた革命'
+      - 
+        +: '            1'
+        x: '88h8  897  r8h7 h7'
+        t: '世界を甘く征服スル'
+  theme 1 (repeat): *id_theme
+  verse 2:
+    -
+      - 
+        +: '            1'
+        x: '88h8  897  r8h7'
+        t: '退屈しのぎバカンス'
+      - 
+        x: '88h8  897   697'
+        t: '泡立つ気持ち　確変'
+  low 1:
+    -
+      - 
+        x: 'rrr 7rrr 7rrr 7r'
+        t: 'フォークで仕留めた誘惑は'
+      - 
+        x: 'r r7rrr 7h8h7h'
+        t: '大さじ5杯のクリティカル'
+      - 
+        +: '               1'
+        x: 'rr 7r r7rrr 7h 8 8'
+        t: 'スペースキーが壊れるくらいの'
+      - 
+        x: '   8k8k8'
+        t: '＼盛り上がり／'
+  choir 1:
+    -
+      - 
+        x: '  j89j j9jx9 889'
+        t: '5 7  5  0 1の  味が'
+      - 
+        x: '  j89j 89jxj 889'
+        t: 'ぼくをまだ大人にさせない'
+      - 
+        x: 'j 98  j 9j989h 7r'
+        t: 'ひらりひらりなびくフリル'
+      - 
+        x: ' h78 9'
+        t: '似合うぜ'
+    -
+      - 
+        x: '   j89j j9jxj 889'
+        t: 'どうしてこんなにココロおどる？'
+      - 
+        x: 'j89j j9jxj 889'
+        t: 'きっと頭まわってない'
+      - 
+        x: 'j98 j 8 7 h7r'
+        t: '今夜舞うドール'
+  tatatatata 1:
+    -
+      - 
+        x: ' 77777   7 7 7 787'
+        t: 'たたたたた　たたたたまご'
+      - 
+        x: ' 7r777   7 7 7 h97'
+        t: 'ぼくはまだ　ただのたまご'
+      - 
+        x: ' 77777   7 7 7 787'
+        t: 'たたたたた　たたたたまご'
+      - 
+        x: ' 7r777   7 7 7 797'
+        t: 'ぼくはまだ　ただのたまご'
+  theme variation:
+    -
+      -
+        x: 'r  7r  7r  7h798'
+      -
+        x: 'r  7r  7h  hh8 8h7h'
+      -
+        x: 'r  7r  7r  7h798'
+      -
+        x: 'r  7r  7h h hhhh'
+  epic:
+    -
+      -
+        x: '   987h 67h'
+      - 
+        x: '            7h8 j98h7 6767'
+        t: '            ショトウ教育は大切で'
+      -
+        x: '   987h 67h'
+      - 
+        x: '            7h8 j98h7 h77'
+        t: '            世界の法則を変える'
+      -
+        x: '   987h 67h'
+      - 
+        +: '                  1'
+        x: '            7h8 jxx98h7 h7h 7 6'
+        t: '            銀河の果てまで届けるための'
+      - 
+        +: '    1'
+        x: ' 8 6rr'
+        t: 'おまじない'
+  choir 2:
+    -
+      - 
+        x: '  j89j 89jxj 889'
+        t: '5 7  5  0 1の  味で'
+      - 
+        x: '  j89j 89jxj 889'
+        t: 'ぼくはまだ大人になれない'
+      - 
+        x: 'j 98  j 9j989h 7r'
+        t: 'ひらりひらりなびくフリル'
+      - 
+        x: ' h78 9'
+        t: '似合ってる？'
+    -
+      - 
+        x: '   j89j 89jxj 889'
+        t: 'こんな甘い日常だけが'
+      - 
+        x: 'j89j j9jxj 8899'
+        t: '続くなんて思わないけど'
+      - 
+        x: 'j98 j 8 7 h7r  78'
+        t: '今日も舞うドール'
+  tatatatata 2:
+    -
+      - 
+        x: ' 77777   7 7 7 787'
+        t: 'たたたたた　たたたたまご'
+      - 
+        x: ' 7r777   7 7 7 h97'
+        t: 'ぼくはまだ　ただのたまご'
+      - 
+        x: ' 77777   7 7 7 787'
+        t: 'たたたたた　たたたたまご'
+      - 
+        x: ' 7r777   7 7 7 7977'
+        t: 'ぼくはまだ　ただのたまごだ'
+...

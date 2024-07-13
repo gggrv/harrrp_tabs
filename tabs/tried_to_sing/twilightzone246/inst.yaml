@@ -1,0 +1,119 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E]
+    '6': [G]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: かごめP feat. はにちゃむ★
+  title: Twilight Zone:246
+  links:
+    album: www.nicovideo.jp/watch/sm17588665
+file:
+  lyrics:
+    language: instrumental
+    tab label position: [rhythm]
+  comment: this map is custom-made from scratch and adheres to the original song structure
+  mapper: gggrv
+audio guide:
+  .mid:
+    paths:
+      harp.mid: key change
+      main.mid: song key
+    comment: ok
+    mapper: gggrv
+    means: # how the file was created
+      - listen
+# actual mapping begins here
+map:
+  choir 1:
+    - &id_c1
+      -
+        x: 'rhk         rhk'
+      -
+        x: 'rhk k8k8    7r7 h h'
+      -
+        x: '7hk         rhk'
+      -
+        x: 'rhj j9j9k kr 7h h'
+  wo 1:
+    - &id_woaaa
+      -
+        x: 'rj9k        h7hkh'
+      -
+        x: 'rj9k        j9jxj'
+    - *id_woaaa
+  verse 1:
+    -
+      -
+        x: '66r    ggg    gg6 g666 ry'
+      -
+        x: '66r    ggg    ggg gg r yy'
+  transition 1:
+    -
+      -
+        x: 'r6g6g y    ygy6r'
+      -
+        x: 'rrr7 7 7rr 7 7 7'
+      -
+        x: '7k8k8'
+  choir 2:
+    - *id_c1
+    - &id_c2
+      -
+        x: 'rhk         rhk'
+      -
+        x: 'rhk k8k8    7r7 h h'
+      -
+        x: 'rhk         rhk'
+      -
+        x: 'rhj j9j9kk j j j'
+  wo 2:
+    - *id_woaaa
+    - &id_eeeee
+      -
+        x: 'k 8k8k8'
+    - *id_woaaa
+  break:
+    - &id_break
+      -
+        x: 'y4y    y4yg ygy4'
+      -
+        x: 'y4y    y4yg ygy4'
+      -
+        x: 'r6r    r6r7 r78 k8h7'
+      -
+        x: 'k 8k8k8k8'
+    - *id_break
+  choir 3:
+    - *id_c1
+    - *id_c1
+    - *id_c2
+  wo 3:
+    - *id_woaaa
+    - *id_eeeee
+    - *id_woaaa
+    -
+      -
+        x: 'k 8k8k8 k8h7'
+...

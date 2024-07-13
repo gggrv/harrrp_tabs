@@ -1,0 +1,124 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E]
+    '6': [G]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: まぞっぷ feat. KAITO, 鏡音レン, 鏡音リン
+  title: 吸血鬼とピアノ
+  links:
+    song: www.nicovideo.jp/watch/sm20688029
+file:
+  lyrics:
+    language: jp
+    links:
+      official: www.nicovideo.jp/watch/sm20688029
+    tab label position: [rhythm]
+    widechar: 1
+  comment: this map is custom-made from scratch and adheres to the original song structure
+  mapper: gggrv
+audio guide:
+  .mid:
+    paths:
+      easy_harp.mid: rearrange
+      hard_main: song key
+    comment: this is a custom adaptation specifically for standard harmonica - original notes are heavily appropriated
+    mapper: gggrv
+    means: # how the file was created
+      - listen
+# actual mapping begins here
+map:
+  theme: &id_theme
+    -
+      -
+        x: '5 r6r 5 g5y4   y5g 5 y 4 y m'
+      -
+        x: '5 r6r 5 g5y4   y5gr5 g 5 y 4'
+      -
+        x: '5 r6r 5 g5y4   y5g 5 y 4 y m'
+      -
+        x: '5 r6r 5 g5y4   y5grg 5 r s r'
+  soft chords:
+    -
+      -
+        x: '25 5 5y    25 5 5f'
+      -
+        x: '25 5 5y    25 5 5f'
+  vampire:
+    -
+      -
+        x: '5r6 r 5g65   5yyg 44g rr6rs'
+        t: '時計の鐘の音　　　私の時をつげる声'
+      -
+        x: '5r6 r 5g65   yg6  44g 65r'
+        t: '闇夜の始まり　　　漆黒の景色'
+    -
+      -
+        x: 'm3 m4 yy5      22 3m yy4'
+        t: '永遠の時　　　　　　　孤独に生きる'
+      -
+        x: '3m4y 4y5 ysr   6g6g 54y5 6'
+        t: '誰にも邪魔は出来ぬ　純潔の誓いを'
+  priest:
+    -
+      -
+        x: '5r6 6r 5g65  5yyg 4g r rgrs'
+        t: '神よなぜ貴方は　　試練を投げかける'
+      -
+        x: '5r6 6r 5g65  y5g4 g    65r'
+        t: '時よああ止まれと　何回祈ったか'
+    -
+      -
+        x: 'm3 m4 yy5      22 3m yy4'
+        t: '落ちる三日月　　　　　眺めて想う'
+      -
+        x: '3m4y 4y5 ysr   srg5 ymy4'
+        t: '誰にも邪魔は出来ぬ　沈黙の調べ'
+  theme (repeat theme 1): *id_theme
+  girl:
+    -
+      -
+        x: '5r6 r 5g65  5yyg 4g r rgrs'
+        t: 'ピアノが聞こえる　音のない旋律が'
+      -
+        x: '5r6 r 5g65  y5g44g 6 5 r'
+        t: '私を誘う　　　　　光のない世界'
+    -
+      -
+        x: '3234 yy5        22 3m yy4'
+        t: '恨みはしない　　　　　　嘆きもしない'
+      -
+        x: '3m4y 4y5 ysr    srg5 y4y4'
+        t: '誰にも邪魔は出来ぬ　清らかな世界'
+  theme variation:
+    -
+      -
+        x: '5 r6r 5 g5y4   y5g 5 y 4 y m'
+      -
+        x: '5 r6r 5 g5y4   y5grg g 5 y 4'
+      -
+        x: '5 r6r 5 g5y4   y5g 5 y 4 y m'
+      -
+        x: '5 r6r 5 g5y4   y5grg 5  6  s  r'
+...

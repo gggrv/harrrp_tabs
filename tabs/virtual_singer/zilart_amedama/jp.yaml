@@ -1,0 +1,206 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E]
+    '6': [G,Bb]
+    '7': [C]
+    '8': [E]
+    '9': [G,'F#']
+    'x': [C,'','Bb']
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B,'C#']
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: ジラートP feat. 初音ミク
+  title: 滲む原色
+  links:
+    album: www.nicovideo.jp/watch/sm28547464
+file:
+  lyrics:
+    language: jp
+    links:
+      official: piapro.jp
+    tab label position: [rhythm, stress marks]
+    widechar: 1
+  comment: this map adheres to the original song structure
+  mapper: gggrv
+audio guide:
+  .mid:
+    paths:
+      harp.mid: key change
+      main.mid: song key
+    mapper: gggrv
+    means: # how the file was created
+      - listen
+# actual mapping begins here
+map:
+  intro:
+    -
+      -
+        x: 'g5h 6g8  67 r6k'
+      -
+        x: 'g5h 6g8  rk 7r9'
+      -
+        x: 'g5h 6gk  67 r6k'
+      -
+        x: 'g5h 6g7k'
+  theme 1: &id_theme_block
+    -
+      - &id_theme_phrase
+        x: 'hj9j xj9j    7k8k 9k8k'
+      - *id_theme_phrase
+      - *id_theme_phrase
+      - *id_theme_phrase
+  verse 1:
+    -
+      -
+        x: 'k8 k8 k8 7h    k8 k8 k87'
+        t: '感情包んで　　　　軒先下げた'
+      -
+        x: 'k8 k8 k8 7h    k8 k9 k8 kh'
+        t: 'てるてるぼうずが　　揺らぎ始めてる'
+      -
+        x: 'k8 k8 k8 7h    k8 k8 k87'
+        t: '君に触れた冬　　　叶わない春'
+      -
+        x: 'k8 k8 k8 7h k8 k8k'
+        t: '言葉を紡げば嘘みたい'
+  transition 1:
+    -
+      -
+        x: ' 7h h8 7k8h  r7h h8 7k9k'
+        t: '君だけにいいよ　僕に触れていいの'
+      -
+        seriously: False
+        +: '          1             1   1'
+        x: 'r7h h8 8k99  r7h h h h8hs h sh8'
+        t: '繋いだ手絡めて　解(ほど)いた季節嬲(なぶ)る雨'
+  choir 1:
+    - &id_ch1a
+      -
+        x: 'jjj 9k9 k8k 87r'
+        t: '悲しみを涙で溶いて'
+      -
+        x: 'jjj 9k9 k8k k9k'
+        t: '君の笑顔が戻るなら'
+      -
+        x: 'jjj 9k9 k8k 87r'
+        t: '雨音が僕を解(ほど)'
+      -
+        x: 'r7h j h7 h'
+        t: 'いてくれたらいいな'
+    -
+      -
+        x: 'jjj 9k9 k8k 87r'
+        t: '鮮やかに染まる画板の'
+      -
+        x: 'jjj 9k9 k8k kxj'
+        t: '画用紙の夕景零して'
+      -
+        x: 'jjj 9k9 k8k 87r'
+        t: '水溜りに溶けて消えて'
+      -
+        x: 'r7h j h7rh'
+        t: 'くれるのでしょうか？'
+  theme 2 (repeat theme 1): *id_theme_block
+  verse 2:
+    -
+      -
+        x: 'k8 k8 k8 7h    k8 k8 k87'
+        t: '「許されるのなら」…ないことだけど'
+      -
+        x: 'k8 k8 k8 7h    k8 k9 k8 kh'
+        t: '柔い髪先を　　　　愛しく梳かして'
+      -
+        x: 'k8 k8 k8 7h    k8 k8 k87'
+        t: '透けた水糸に　　　君を結んで'
+      -
+        x: 'k8 k8 k8 7h k8 k8k'
+        t: '指先の便り感じて'
+  transition 2:
+    -
+      -
+        seriously: False
+        +: '                       1'
+        x: ' 7h h8 8k8h  r7h h8 8k99'
+        t: '触れ濡れて滲む絵の具が消えるように'
+      -
+        seriously: False
+        +: '                        1 1  1'
+        x: ' 7h h8 8k8h  r7h h h h8hs sh sh8h'
+        t: '僕の体ひとつ雨に降られ消えるでしょうか？'
+  break:
+    -
+      -
+        seriously: False
+        +: '       1 1     1'
+        x: 'k87    6r6    r67'
+      -
+        seriously: False
+        +: '              2 2     2'
+        x: '78k    8kx    xjx    jx'
+      -
+        seriously: False
+        +: '       1  1  1'
+        x: '8k87 h76 76r 6r 78k'
+  epic:
+    -
+      -
+        x: 'k8 k8 k8 7h    k8 k8 k877h'
+        t: 'ハロー今、僕、君　　パレットを浸して'
+      -
+        x: 'k8 k8 k8 77h   k8 k9 k8 kh'
+        t: '何の色もない　　　「今まで」を望んだ'
+      -
+        x: 'jj 99 k8k    jj 99 k8k'
+        t: '消えていいよ　　消していいよ'
+      -
+        x: 'k8k   kk 8 9k9'
+        t: '僕の　　全て'
+  choir 2:
+    -
+      - *id_ch1a
+      -
+        x: 'jjj 9k9 k8k 87r'
+        t: '紫陽花香る君の肩も'
+      -
+        x: 'jjj 9k9 k8k kxj'
+        t: '少し伸びた後ろ髪も'
+      -
+        x: 'jjj 9k9 k8k 87r'
+        t: '記憶から溢れて消えて'
+      -
+        x: '  r7h j h7h'
+        t: 'くれるのでしょうか？'
+    -
+      -
+        x: 'r7h j h8k'
+        t: '滲む原色に'
+    -
+      -
+        x: 'h7h j h7h     kh'
+        t: 'ただ「好きでした」　あぁ'
+  theme 3 (repeat theme 1): *id_theme_block
+  outro:
+    -
+      -
+        x: 'h'
+      -
+        x: 'k87'
+      -
+        x: 'k87 kkk'
+...

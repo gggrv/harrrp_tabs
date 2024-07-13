@@ -1,0 +1,273 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C,Eb]
+    '5': [E]
+    '6': [G,Ab]
+    '7': [C]
+    '8': [E,Eb]
+    '9': [G]
+    'x': [C,B]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D,'C#']
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: ____natural feat. 重音テト, GUMI
+  title: Satsuki
+  links:
+    album: booth.pm/en/items/974708
+    song: www.nicovideo.jp/watch/sm33108572
+file:
+  lyrics:
+    language: jp
+    links:
+      official: piapro.jp
+    tab label position: [rhythm,stress marks]
+    widechar: 1
+  comment: this map adheres to the original song structure; flute solo is not suitable for harmonica, partially mapped
+  mapper: gggrv
+audio guide:
+  .mid:
+    paths:
+      harp.mid: key change
+      main.mid: song key
+    comment: sliding notes not included, `harp` version severely butchered
+    mapper: gggrv
+    means: # how the file was created
+      - listen
+# actual mapping begins here
+map:
+  verse 1:
+    -
+      -
+        x: '6r6r6r 7 5y'
+        t: '下り坂途中で'
+      -
+        x: '6r6r6r 7 hhh 77 h'
+        t: 'すぐ君の横通り越していく'
+      -
+        x: 'r6r 6r7 5y'
+        t: '触れることもなく'
+      -
+        x: '6r6r6r 7 h hh77 7h'
+        t: '君は僕の思考を奪うよね'
+    -
+      -
+        x: 'r6 r6r 7 5y'
+        t: '朝露の中'
+      -
+        x: '6r6r6r 7 h hh77 7h'
+        t: 'どこへでも行ける訳でもないけれど'
+      -
+        x: '6r6r6r 7   5  y'
+        t: '絡みつくday by day'
+      -
+        x: 'r 6r6r 7 7h hh7h 7'
+        t: '高まる瞬間すぐそこにあって'
+    -
+      -
+        x: '6666 r    7 r'
+  transition 1: &id_tr1
+    -
+      -
+        x: '8 98h7  h   h    h8h'
+        t: '鮮やかなpink hop smell'
+      -
+        x: '7 6r7 rr7'
+        t: '命萌え盛って'
+      -
+        x: '778 h 7r6h 78'
+        t: '体中走り抜ける'
+      -
+        x: 'r6 hh78'
+        t: '街並みに'
+      -
+        x: 's s7 7 7 r88    k'
+        t: '僕は傀儡と化す'
+  choir 1: &id_ch1
+    -
+      -
+        x: '  7     h       8'
+        t: 'Flash, Bounce, Love'
+      -
+        +: '            1'
+        x: '7 6r7 j98h xx89 h7'
+        t: '下りゆく世界も花香るさ'
+      -
+        x: 'r7rh8'
+        t: '腕広げ'
+      -
+        x: 'ss s   7 7 7 h'
+        t: '右へ　　左へ'
+      -
+        +: '      1'
+        x: '9 j8jxx8'
+        t: '意識揺らして'
+    -
+      -
+        x: ' 7    h    8'
+        t: 'Life with Love'
+      -
+        x: 'h7 5    rh 8'
+        t: 'すうっと　ふわっと'
+      -
+        x: 'ss7    rh    8h7s'
+        t: '君の　　後ろ　　姿が'
+      -
+        x: 'srs srs'
+        t: '凪を裂いた'
+      -
+        +: '                  1'
+        x: '6  r      h    x  x  j    9  7  r'
+        t: "I don't know why you are so casual."
+  break 1 (guitar):
+    -
+      -
+        x: 'h7h hh 7h'
+      -
+        x: 'hhh 9 j    8h7r'
+      -
+        x: '    9 j    8h7r'
+    -
+      -
+        x: 'yy y5r hh hh h'
+      -
+        x: '    9 j    89h7r'
+      -
+        x: 'y567s65'
+  verse 2:
+    -
+      -
+        x: '6r6r6r 7 5y'
+        t: '「花の色は'
+      -
+        x: 'r 6r6r 7 h h76 7    6r 7'
+        t: 'うつりにけりないたずらに…」なんて'
+      -
+        +: '   1'
+        x: '5 54y  s ss'
+        t: 'ぶら下げながら'
+      -
+        x: 'r 6r6r 7 h hh7h 7'
+        t: '皐月の花、心に添えて'
+    -
+      -
+        x: '6666 r    r 8'
+  transition 2:
+    -
+      -
+        x: '8 98h7  h   h    h8h'
+        t: '鮮やかなpink hot shape'
+      -
+        x: 'h rrr 6r 7 r78'
+        t: 'その気ない扇情にも'
+      -
+        x: '  h 8k99 j'
+        t: '僕の気持ちは'
+      -
+        x: '8h 9 rrs7'
+        t: 'ほらやすやすと'
+      -
+        x: ' 7 77788    k'
+        t: '踊らされるまま'
+  choir 2:
+    -
+      -
+        x: ' 7      h     8'
+        t: 'Pash, Twist, Love'
+      -
+        +: '             1'
+        x: '77 rr7 j98h xx89 h7'
+        t: '下らない世界も花香るさ'
+      -
+        x: 'r7rh8'
+        t: '意味もなく'
+      -
+        x: 'ss s   7 7 7 h'
+        t: '前へ後ろへ'
+      -
+        x: '9 j8h j98'
+        t: '踵回して'
+    -
+      -
+        x: ' 7    h    8'
+        t: 'Mode with love'
+      -
+        x: '77 r5    7h 8'
+        t: 'すうっと　ふわっと'
+      -
+        x: '7s7  h  8h7s'
+        t: '遭遇した初めてに'
+      -
+        x: 's rs rs rs7'
+        t: '吹鳴響かせる'
+      -
+        +: '              1'
+        x: '7  r    7  x  x    j 9  7 r'
+        t: 'I have to rewrite my innocence.'
+  break 2 (flute solo):
+    -
+      -
+        x: 'ssss s'
+      -
+        x: 's7r rs8'
+      -
+        x: '4y56 5y5    h 8'
+      -
+        x: '8888 s    ssss 7'
+      -
+        x: '9j876'
+    -
+      -
+        x: 'y4y4 5y5y r67s r65y 6 r'
+      -
+        x: '5y5 6 r'
+      -
+        x: '8h 7rh 8h 8h7r'
+      -
+        x: '7r 7r 7r 77r'
+      -
+        x: '7r65g'
+    -
+      -
+        +: '                  1'
+        x: '4y5gg    g66r8    88'
+      -
+        +: ' 1'
+        x: 'r6rr h h 7r'
+      -
+        +: '               1'
+        x: '7r 7r    6 5  4yy'
+  transition 3 (repeat): *id_tr1
+  choir 3 (repeat): *id_ch1
+  ending:
+    -
+      - &id_casual
+        x: '6  r      7    8  h  7    r  7  r'
+        t: "I don't know why you are so casual."
+      -
+        x: '65 s'
+    -
+      - *id_casual
+      -
+        x: '8h8h 7sr6 r6r6 5y 5'
+      -
+        x: 'y58    h h8'
+      -
+        x: '56r h 7h h7h7r'
+      -
+        x: 'y7s655'
+...

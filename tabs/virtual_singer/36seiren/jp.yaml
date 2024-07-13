@@ -1,0 +1,222 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E]
+    '6': [G,'Bb']
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C,'','Bb']
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: 36g feat. 初音ミク
+  title: せいれーん
+  links:
+    song: www.nicovideo.jp/watch/sm19565776
+file:
+  lyrics:
+    language: jp
+    links:
+      third-party website: vocadb.net/S/18830
+    tab label position: [rhythm]
+    widechar: 1
+  comment: this map adheres to the original song structure, not suitable for harmonica
+  mapper: gggrv
+audio guide:
+  .mid:
+    paths:
+      harp.mid: key change
+      main.mid: song key
+    comment: repetitive
+    mapper: gggrv
+    means: # how the file was created
+      - listen
+# actual mapping begins here
+map:
+  theme 1:
+    - &theme_phrase
+      -
+        timecode_start: 0.000000
+        timecode_stop: 3.490683
+        x: 'rh rh rhrh rh'
+      -
+        timecode_start: 3.490683
+        timecode_stop: 6.640054
+        x: 'rh67 67 67 6r'
+      -
+        timecode_start: 6.640054
+        timecode_stop: 7.912214
+        x: '6 g 5 g 6'
+    - *theme_phrase
+    - *theme_phrase
+    - *theme_phrase
+  verse 1:
+    -
+      -
+        timecode_start: 31.648856
+        timecode_stop: 35.837675
+        x: 'gg556g     g6r gg'
+        t: 'ゆらめいてる　あわの中'
+      -
+        timecode_start: 39.390415
+        timecode_stop: 45.347846
+        x: 'gg556g     g6r gg   y6g'
+        t: 'またたいては　消えてく星　を見る'
+  transition 1:
+    -
+      -
+        timecode_start: 46.170096
+        timecode_stop: 58.860667
+        x: '5g 65   yg 54'
+        t: 'つかめど　すがれど'
+      -
+        timecode_start: 62.118637
+        timecode_stop: 75.990280
+        x: 'g  65   g  65    5g'
+        t: 'ゆめの   おわりを　　また'
+      -
+        timecode_start: 77.196997
+        timecode_stop: 78.337893
+        x: ' 4y'
+        t: '知る'
+      -
+        timecode_start: 80.970731
+        timecode_stop: 86.074885
+        x: 'y4   4y'
+        t: 'ただ　しろい'
+      -
+        timecode_start: 88.562080
+        timecode_stop: 89.911409
+        x: ' y4'
+        t: 'せかい'
+  theme 2 (repeat theme 1):
+    - *theme_phrase
+    - *theme_phrase
+  verse 2:
+    -
+      -
+        timecode_start: 109.043042
+        timecode_stop: 114.010278
+        x: ' gg556g     g6r gg'
+        t: 'ただようように　流れる日々'
+      -
+        timecode_start: 116.794762
+        timecode_stop: 124.811083
+        x: ' gg556g     y5 5gy'
+        t: 'あらがうように　歌っている'
+  siren:
+    -
+      -
+        timecode_start: 126.803633
+        timecode_stop: 129.644860
+        x: ' g  y'
+        t: 'Si-ren'
+      -
+        timecode_start: 130.761057
+        timecode_stop: 134.515537
+        x: ' 6  g6g'
+        t: 'Si-reen'
+      -
+        timecode_start: 134.709257
+        timecode_stop: 140.281016
+        x: ' 5  g 5 y'
+        t: 'Si-re-e-n-'
+  theme 3:
+    - *theme_phrase
+  silence:
+    -
+      -
+        timecode_start: 142.393487
+        timecode_stop: 146.037270
+        x: ' 6  5'
+        t: 'Si-lence'
+      -
+        timecode_start: 146.258664
+        timecode_stop: 149.893222
+        +: '    1'
+        x: ' r  6 r g'
+        t: 'Si-le-e-ence'
+      -
+        timecode_start: 149.967020
+        timecode_stop: 155.012967
+        +: ' 1'
+        x: ' 6  r'
+        t: 'Si-lence'
+  choir 1:
+    -
+      -
+        timecode_start: 156.664200
+        timecode_stop: 163.499751
+        x: '67  7r r6r   6 7 r7'
+        t: 'からっぽのままで　飛ぶよ'
+      -
+        timecode_start: 164.154710
+        timecode_stop: 172.152582
+        +: '                1'
+        x: '66r 66r      5g66r'
+        t: 'とおくとおく　　　青空へ'
+    -
+      -
+        timecode_start: 172.152582
+        timecode_stop: 179.108055
+        x: '7 7r r6r     6 9 h8 7'
+        t: 'まっ白がまた　　呼ぶよ'
+      -
+        timecode_start: 179.181854
+        timecode_stop: 184.772062
+        +: ' 2'
+        x: ' x  j k 8 j k'
+        t: 'Si-re-e-e-e-en'
+  choir 2:
+    -
+      -
+        timecode_start: 187.668638
+        timecode_stop: 195.085350
+        x: '67  7r r6r   6 7 r7'
+        t: 'からっぽのままで　飛ぶよ'
+      -
+        timecode_start: 195.214497
+        timecode_stop: 203.175470
+        +: '                1'
+        x: '66r 66r      5g66r'
+        t: 'とおくとおく　　　青空へ'
+    -
+      -
+        timecode_start: 203.295392
+        timecode_stop: 209.964897
+        x: '7 7r r6r     6 9 h8 7'
+        t: 'まっ白がまた　　呼ぶよ ねえ'
+      -
+        timecode_start: 210.130943
+        timecode_stop: 213.940772
+        +: ' 2'
+        x: ' x  j k 8'
+        t: 'さーよーなら'
+      -
+        timecode_start: 214.060694
+        timecode_stop: 217.667577
+        +: ' 2    2'
+        x: ' x  j xjk7'
+        t: 'さーよーならーあーあ'
+      -
+        timecode_start: 217.667577
+        timecode_stop: 219.595553
+        x: ' rr67r'
+        t: '行かなくちゃ'
+...

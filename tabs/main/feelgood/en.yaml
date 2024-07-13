@@ -1,0 +1,255 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E]
+    '6': [G]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: Gorillaz
+  title: Feel Good Inc.
+  links:
+    artist: www.gorillaz.com
+file:
+  lyrics:
+    language: en
+    links:
+      third-party website: genius.com
+    tab label position: [stress marks,rhythm]
+  means: # how the map was created
+    - midi at www.midisfree.com
+    - listen
+  comment: not fully adheres to the original song structure, contains purposefully unmapped paragraphs
+  mapper: gggrv
+audio guide: NULL
+# actual mapping begins here
+map:
+  rhythm:
+    - &id_feelgood
+      -
+        x: 'y y5g r      8    h'
+        t: '            feel good.'
+      -
+        x: '6 6r6 gy     8    h'
+        t: '            feel good.'
+    - *id_feelgood
+    - *id_feelgood
+    - *id_feelgood
+  verse 1:
+    -
+      -
+        x: ' j j     9  9    j   9  k  9 k     8'
+        t: "City's breaking down on a camel's back."
+      -
+        x: '  h   h    k    k  h   k      k   h      k   h'
+        t: "They just have to go 'cause they don't know wack."
+      -
+        x: ' 9   j    j   9     9    j     9    k  9  k    k  8'
+        t: "So while you fill the streets, it's appealing to see."
+      -
+        x: ' h   k     k  k     h  k   k   k     h      9     k     h'
+        t: "You won't get out the county 'cause you're damned and free."
+    -
+      -
+        x: ' 9      j  j  9   9 j 9   k       9 k k    8'
+        t: "You've got a new horizon. It's ephemeral style."
+      -
+        x: '   h h   k k  h     k    k  h k    h'
+        t: 'A melancholy town where we never smile.'
+      -
+        x: '9   j   j  9  9  j   9    k  9  k    8'
+        t: 'And all I wanna hear is the message beep.'
+      -
+        x: ' h   k       k      k  h  k    k'
+        t: "My dreams, they've gotta kiss me"
+      -
+        x: '  k    k  9     k   8   k     h'
+        t: "'Cause I don't get to sleep, no."
+  windmill 1:
+    -
+      -
+        x: ' h   8     k   9    j    x  j'
+        t: 'Windmill, windmill for the land.'
+      -
+        x: ' 9    k h k   9   h   7'
+        t: 'Turn forever hand in hand.'
+      -
+        x: ' h   8     k   9    j    x  j'
+        t: 'Take it all in on your stride.'
+      -
+        x: '       9  k     h  k    9'
+        t: 'It is ticking, falling down.'
+    -
+      -
+        x: ' h    8 k 9    j   x    j'
+        t: 'Love forever. Love is free.'
+      -
+        x: ' 9     9    k h k    9  h    7'
+        t: "Let's turn forever, you and me."
+      -
+        x: ' h   8     k   9    j    x  j'
+        t: 'Windmill, windmill for the land.'
+      -
+        x: ' 9 9   k h k 9'
+        t: 'Is everybody in?'
+  verse 2 (too rap to map):
+    -
+      -
+        rapid_rant: True
+        t: 'Laughing gas these hazmats, fast cats.'
+      -
+        rapid_rant: True
+        t: 'Lining them up like ass cracks.'
+      -
+        rapid_rant: True
+        t: 'Lay these ponies at the track.'
+      -
+        rapid_rant: True
+        t: "It's my chocolate attack."
+    -
+      -
+        rapid_rant: True
+        t: "Shit, I'm stepping in hotter this year."
+      -
+        rapid_rant: True
+        t: "Care Bear reppin' it harder this year."
+      -
+        rapid_rant: True
+        t: 'Watch me as I gravitate.'
+      -
+        rapid_rant: True
+        t: 'Ha-ha-ha-ha-ha-ha.'
+    -
+      -
+        rapid_rant: True
+        t: "Yo, we gon' ghost town,"
+      -
+        rapid_rant: True
+        t: 'This Motown.'
+      -
+        rapid_rant: True
+        t: 'With your sound'
+      -
+        rapid_rant: True
+        t: "You're in the blink."
+      -
+        rapid_rant: True
+        t: "Gon' bite the dust."
+      -
+        rapid_rant: True
+        t: "Can't fight with us."
+      -
+        rapid_rant: True
+        t: 'With your sound'
+      -
+        rapid_rant: True
+        t: 'You kill the Inc.'
+    -
+      -
+        t: "So don't stop, get it, get it, get it"
+      -
+        t: "Until you're cheddar head."
+      -
+        t: 'And watch the way I navigate.'
+      -
+        t: 'Ha-ha-ha-ha-ha.'
+  rhythm (second):
+    - *id_feelgood
+    - *id_feelgood
+  soft:
+    -
+      -
+        x: '       j    99k9    998k    8    j9k 9'
+      -
+        x: 'jj9j 9    99k9 k    kkhk 9    87 j9k 9'
+      -
+        x: 'jj9j 9    99k9 k    kkhk 9    87 j9k 9'
+  windmill 2:
+    -
+      -
+        x: ' h   8     k   9    j    x  j'
+        t: 'Windmill, windmill for the land.'
+      -
+        x: ' 9    k h k   9   h   7'
+        t: 'Turn forever hand in hand.'
+      -
+        x: ' h   8     k   9    j    x  j'
+        t: 'Take it all in on your stride.'
+      -
+        x: '       9  k     h  k    9'
+        t: 'It is ticking, falling down.'
+    -
+      -
+        x: ' h    8 k 9    j   x    j'
+        t: 'Love forever. Love is free.'
+      -
+        x: ' 9     9    k h k    9  h    7'
+        t: "Let's turn forever, you and me."
+      -
+        x: ' h   8     k   9    j    x  j'
+        t: 'Windmill, windmill for the land.'
+      -
+        x: ' 9 9   k h k 9'
+        t: 'Is everybody in?'
+  verse 3 (too rap to map):
+    -
+      -
+        rapid_rant: True
+        t: "Don't stop, shit it, get it."
+      -
+        rapid_rant: True
+        t: "Peep how your captain's in it."
+      -
+        rapid_rant: True
+        t: 'Feel good'
+      -
+        rapid_rant: True
+        t: 'Steady, watch me navigate.'
+      -
+        rapid_rant: True
+        t: 'Aha-ha-ha-ha-ha.'
+      -
+        rapid_rant: True
+        t: 'Feel good'
+    -
+      -
+        rapid_rant: True
+        t: "Don't stop, shit it, get it."
+      -
+        rapid_rant: True
+        t: "Peep how your captain's in it."
+      -
+        rapid_rant: True
+        t: 'Feel good'
+      -
+        rapid_rant: True
+        t: 'Steady, watch me navigate.'
+      -
+        rapid_rant: True
+        t: 'Aha-ha-ha-ha-ha.'
+      -
+        rapid_rant: True
+        t: 'Feel good'
+  rhythm (third):
+    - *id_feelgood
+    - *id_feelgood
+...

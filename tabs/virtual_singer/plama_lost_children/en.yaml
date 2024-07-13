@@ -1,0 +1,142 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E,F#]
+    '6': [G]
+    '7': [C]
+    '8': [E]
+    '9': [G,F#]
+    'x': [C,B]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: PLAMA feat. 鏡音リン, 鏡音レン
+  title: Lost Children
+  links:
+    album: www.youtube.com/watch?v=D-WhpF3nkSo
+file:
+  lyrics:
+    language: en
+    links:
+      third-party website: vocadb.net
+    tab label position: [stress marks,rhythm]
+  comment: this map is custom-made from scratch and adheres to the original song structure
+  mapper: gggrv
+audio guide:
+  .mid:
+    paths:
+      main.mid: song key
+    comment: repetitive
+    mapper: gggrv
+    means: # how the file was created
+      - listen
+# actual mapping begins here
+map:
+  theme 1 A: &id_theme_block
+    - &id_theme_paragraph
+      -
+        x: '5rs    5rs    5rsrs rh6'
+      -
+        +: '                      1'
+        x: '5rs    yrs    sr6 hr6r5'
+    - *id_theme_paragraph
+  verse 1 A, B: &id_double_verse
+    -
+      -
+        x: ' 5 6 r   s     r    6    6  6    6    6    6  6'
+        t: 'Nobody knows where will we go. Where will we go.'
+      -
+        x: ' 55 6 r   s     r     6     6  6    6     6     6  6'
+        t: 'No-body knows where should we go. Where should we go.'
+    - &id_verseB
+      -
+        x: ' 5 6 r   s     r    6    6  6    6    6    6  6'
+        t: 'Nobody knows where will we go. Where will we go.'
+      -
+        x: ' s5 6 r   r6     6     y     6  r    6     y     6  r'
+        t: 'No-body kno-ws where should we go. Where should we go.'
+  when 1:
+    -
+      -
+        x: '  5   6    r  s  h  s      y   5    r   s r  6'
+        t: 'When was the be-ginning? When will be the ending?'
+      -
+        x: ' r 6   5     y   s    r    r'
+        t: 'Baby, Would you come with me?'
+      -
+        x: ' h    r    6   h    r    6'
+        t: 'Come with me. Come with me.'
+  theme 1 B (repeat theme 1 A): *id_theme_block
+  aside 1: &id_split
+    -
+      -
+        x: ' 5    5    5'
+        t: 'Come with me.'
+  break 1 A:
+    - &id_break1A
+      -
+        +: '  1        1'
+        x: '9 9 8    9 9 h'
+      -
+        +: '  1      1   1'
+        x: '9 9 8    h 9 9'
+    - *id_break1A
+  verse 1.5 B (repeat verse 1 B):
+    - *id_verseB
+  break 1 B:
+    - &id_break1B
+      -
+        +: '           1'
+        x: '9 h 8    x h 9'
+      -
+        +: '           1'
+        x: '9 h 8    h x j'
+    - *id_break1B
+  verse 1.55 B (repeat verse 1 B):
+    - *id_verseB
+  # piano break
+  when 2:
+    -
+      -
+        x: '  5   6    r  s  h  s      y   5    r   s r     6hr'
+        t: 'When was the be-ginning? When will be the en---di---ng?'
+      -
+        x: ' r 6   5     y   s    r    r'
+        t: 'Baby, Would you come with me?'
+      -
+        x: ' h    r    6   h    r    6'
+        t: 'Come with me. Come with me.'
+  lost 2:
+    -
+      -
+        +: '   1'
+        x: ' 5 5   6     s  r     h   s'
+        t: 'We all are the lost children.'
+      -
+        x: ' 5  5     5     6   r    h sr6 hr6'
+        t: "We can't walk this world alo-------ne."
+      -
+        +: ' 1           1        1'
+        x: ' x h   9     9  9     9   9'
+        t: 'We all are the lost children.'
+      -
+        +: '                            1  1   1  1 1'
+        x: '  h   h        s      8 9   9  9 8 99 999'
+        t: "'cuz we can't reach the answer alo-------ne."
+  aside 2 (repeat aside 1): *id_split
+...

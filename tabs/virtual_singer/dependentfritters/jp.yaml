@@ -1,0 +1,336 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E]
+    '6': [G]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: koyori (電ポルP) feat. 初音ミク
+  title: 従属ふりったー
+  links:
+    song: www.nicovideo.jp/watch/sm23964020
+file:
+  lyrics:
+    language: jp
+    links:
+      third-party website: vocadb.net
+    tab label position: [rhythm]
+    widechar: 1
+  comment: this map adheres to the original song structure
+  mapper: gggrv
+audio guide:
+  .mid:
+    paths:
+      harp.mid: key change
+      main.mid: song key
+    comment: sliding notes not included
+    mapper: gggrv
+    means: # how the file was created
+      - ust by kapi at www.nicovideo.jp/watch/sm23975025
+      - listen
+# actual mapping begins here
+map:
+  theme 1: &id_theme1
+    -
+      - &id_theme1_1
+        timecode_start: 0.144024
+        timecode_stop: 3.464578
+        x: '666 7r    6    r r6 r'
+      - *id_theme1_1
+      - *id_theme1_1
+      - *id_theme1_1
+  verse 1:
+    -
+      -
+        timecode_start: 14.106987
+        timecode_stop: 17.179771
+        x: ' r 6 r6 r6    r r7r'
+        t: '"だってだってだって本当だもん"'
+      -
+        timecode_start: 17.236863
+        timecode_stop: 20.372135
+        x: '6r 66  r6 r6  r r65'
+        t: '知らないふりして ほざけば'
+      -
+        timecode_start: 20.681381
+        timecode_stop: 23.688198
+        x: '7 h8h    77 h7h r'
+        t: 'やがてころころりんと'
+      -
+        timecode_start: 23.688198
+        timecode_stop: 27.009018
+        x: 'rr8 r r66 r r7sr'
+        t: '雪の達磨の如しです'
+    -
+      -
+        timecode_start: 27.451476
+        timecode_stop: 30.581991
+        x: ' r 6 r6 r6    r r7r'
+        t: 'すったもんだ そんで "懲りたもん"'
+      -
+        timecode_start: 30.581991
+        timecode_stop: 33.679203
+        x: '6r  6  r6 r6  r r65'
+        t: 'いがっとしても飲み込むよ'
+      -
+        timecode_start: 34.093116
+        timecode_stop: 37.004780
+        x: '7 h8h    77 h7h r'
+        t: '甘い蜜のオブラート'
+      -
+        timecode_start: 37.004780
+        timecode_stop: 40.582512
+        x: 'rr8 rrr66 r r7sr'
+        t: '治癒どころか揶揄されてます'
+  transition 1:
+    -
+      -
+        timecode_start: 40.582512
+        timecode_stop: 43.632147
+        x: 'rh 88  877h8h'
+        t: '齧っただけの愛とか'
+      -
+        timecode_start: 43.879544
+        timecode_stop: 47.162302
+        x: 'r7 77  7h8h77   777'
+        t: '君だけを好きだとか'
+      -
+        timecode_start: 47.233667
+        timecode_stop: 50.487880
+        x: 'r8 88  8776h7'
+        t: 'さぞご立派な証明で'
+      -
+        timecode_start: 50.540214
+        timecode_stop: 54.679344
+        x: '6rrr r7h78'
+        t: 'それを語るのだろう'
+  choir 1:
+    -
+      -
+        timecode_start: 54.736436
+        timecode_stop: 58.081044
+        x: '  rs7sr    r 666r'
+        t: 'ばらしましょう ばらしましょう'
+      -
+        timecode_start: 58.081044
+        timecode_stop: 61.378076
+        x: '  rs7sr 8r 666r'
+        t: '隠し事は良くないな'
+      -
+        timecode_start: 61.425652
+        timecode_stop: 64.722684
+        x: '  rs7sr    r 666r'
+        t: '今にほら今にほら'
+      -
+        timecode_start: 64.770260
+        timecode_stop: 68.704813
+        x: '  rs77h 8r r7srrr    6r r'
+        t: '解れてく　一つ二つ三つ　　全部'
+  theme 2 (repeat theme 1): *id_theme1
+  verse 2:
+    -
+      -
+        timecode_start: 82.397736
+        timecode_stop: 85.286217
+        x: ' r 6 r6 r6    r r7r'
+        t: '煎って入れてあげた珈琲を'
+      -
+        timecode_start: 85.710288
+        timecode_stop: 88.726791
+        x: '6r 66  r6 r6  r r65'
+        t: 'ひと飲みです ごくりと'
+      -
+        timecode_start: 89.030841
+        timecode_stop: 92.023340
+        x: '7 h8h    77 h7h r'
+        t: '終われば煙吐いて'
+      -
+        timecode_start: 92.023340
+        timecode_stop: 95.551928
+        x: 'rr8 r r66 r r7sr'
+        t: '積み重なる塵だとて'
+  transition 2:
+    -
+      -
+        timecode_start: 95.551928
+        timecode_stop: 98.896486
+        x: 'rh 88  877h8h'
+        t: '値切って買った偽物を'
+      -
+        timecode_start: 98.896486
+        timecode_stop: 102.249045
+        x: 'r7 77  7h8h77   777'
+        t: '自慢げに見せ付けては'
+      -
+        timecode_start: 102.249045
+        timecode_stop: 105.561597
+        x: 'r8 88  8776h7'
+        t: 'さぞご立派なドレスを'
+      -
+        timecode_start: 105.561597
+        timecode_stop: 109.738293
+        x: '6rrr r7h78'
+        t: 'それに着せるのだろう'
+  choir 2:
+    -
+      -
+        timecode_start: 109.738293
+        timecode_stop: 113.026841
+        x: '  rs7sr    r 666r'
+        t: '遊びましょう遊びましょう'
+      -
+        timecode_start: 113.026841
+        timecode_stop: 116.395403
+        x: '  rs7sr 8r 666r'
+        t: '恥じらいも初で素敵ね'
+      -
+        timecode_start: 116.395403
+        timecode_stop: 119.723958
+        x: '  rs7sr    r 666r'
+        t: '今だけよ 今だけよ'
+      -
+        timecode_start: 119.723958
+        timecode_stop: 123.948662
+        x: '  rs77h 8r r7srrr    6r r'
+        t: '解いてね　一つ二つ三つ　　全部'
+  mocking 1:
+    -
+      -
+        timecode_start: 124.108689
+        timecode_stop: 127.709289
+        x: ' 5 r    5y 6    y5 r    y5 7'
+      -
+        timecode_start: 127.813306
+        timecode_stop: 130.373733
+        x: '56 r    6r r r'
+    -
+      -
+        timecode_start: 130.749796
+        timecode_stop: 133.950329
+        x: 'r 888877h 8hs7s'
+        t: '誰か誰かに見られてるよ'
+      -
+        timecode_start: 133.950329
+        timecode_stop: 137.294887
+        x: '6r  6r  6rr7rr'
+        t: '君？君？それとも君？'
+    -
+      -
+        timecode_start: 137.422908
+        timecode_stop: 140.535427
+        x: 'r 888877h 8hs7s'
+        t: '妖しく光る周りの目で'
+      -
+        timecode_start: 140.535427
+        timecode_stop: 143.927993
+        x: '6r  6r  6rr7h8'
+        t: 'そらびくびくしてるぞ'
+    -
+      -
+        timecode_start: 143.927993
+        timecode_stop: 147.288553
+        x: 'r 888877h 8hs7s'
+        t: '誰か誰かに追われてるよ'
+      -
+        timecode_start: 147.288553
+        timecode_stop: 150.537094
+        x: '6r  6r  6rr7rr'
+        t: '右往左往逃げ惑って'
+    -
+      -
+        timecode_start: 150.761132
+        timecode_stop: 155.041845
+        x: 'r 888 77h 8hs7s'
+        t: '何時になっても こびり付いている'
+      -
+        timecode_start: 155.313891
+        timecode_stop: 162.715124
+        x: 'sr r6 sr r6 68 8'
+        t: '不埒な気の迷いが'
+  soft:
+    -
+      -
+        timecode_start: 163.003172
+        timecode_stop: 166.427743
+        x: '  rs7sr    r 666r'
+        t: '終わりましょう 終わりましょう'
+      -
+        timecode_start: 166.427743
+        timecode_stop: 169.708290
+        x: '  rs7sr 8r 666r'
+        t: 'ひと時はひと時'
+      -
+        timecode_start: 169.708290
+        timecode_stop: 173.068850
+        x: '  rs7sr    r 666r'
+        t: 'でも永遠に残る傷'
+      -
+        timecode_start: 173.068850
+        timecode_stop: 176.829477
+        x: '  rs77h 8r r7srrr    6r r'
+        t: '懺悔して愛を吐いた君の前で'
+  choir 3:
+    -
+      -
+        timecode_start: 176.453414
+        timecode_stop: 179.757965
+        x: '  rs7sr    r 666r'
+        t: 'ばらしましょう ばらしましょう'
+      -
+        timecode_start: 179.757965
+        timecode_stop: 183.038512
+        x: '  rs7sr 8r 666r'
+        t: '隠し事は良くないな'
+      -
+        timecode_start: 183.038512
+        timecode_stop: 186.367067
+        x: '  rs7sr    r 666r'
+        t: '今にほら今にほら'
+      -
+        timecode_start: 186.367067
+        timecode_stop: 190.447747
+        x: '  rs77h 8r r7srrr    6r r'
+        t: '解れてく一つ二つ三つ全部'
+      -
+        timecode_start: 190.063683
+        timecode_stop: 193.560266
+        x: '  rs77h 8r r7srrr    6r r'
+        t: '交わらぬ一つ二つ三つ全部'
+      -
+        timecode_start: 193.072185
+        timecode_stop: 197.056849
+        x: '  rs77h 8r r7srrr    6r r'
+        t: 'でもまた愛を求めてくるくるりと'
+  theme 3:
+    -
+      - *id_theme1_1
+      - *id_theme1_1
+      -
+        timecode_start: 210.099023
+        timecode_stop: 211.795306
+        x: '               r r6 r'
+      -
+        timecode_start: 211.795306
+        timecode_stop: 215.571935
+        x: 'r r6 r    r r6 r    r r6 r'
+...

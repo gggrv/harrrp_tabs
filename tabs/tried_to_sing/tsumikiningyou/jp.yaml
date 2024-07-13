@@ -1,0 +1,177 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E]
+    '6': [G]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C,B]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: とくP feat. ぱごだ
+  title: 積み木の人形 remix by とくP
+  traceback:
+    -
+      artist: wowaka feat. 初音ミク
+      title: 積み木の人形
+  links:
+    artist: www.hitorie.jp
+file:
+  lyrics:
+    language: jp
+    links:
+      third-party website: vocadb.net
+    tab label position: [rhythm]
+    widechar: 1
+  comment: this map is custom-made from scratch and does not follow the original song structure
+  mapper: gggrv
+audio guide:
+  .mid:
+    paths:
+      harp_bpm_good_timing_bad.mid: key change
+      main_bpm_good_timing_bad.mid: song key
+    comment: bpm correct, note timing does not adhere to expected line/bar; repetitive
+    mapper: gggrv
+    means: # how the file was created
+      - listen
+# actual mapping begins here
+map:
+  verse 1 A:
+    -
+      -
+        x: 'r 5   7 sr6r65   5 j 987h 8h7s'
+        t: 'まだ　見つからないの　砂が流れ落ちてく'
+      -
+        x: '  rrr 6r 6r6r7hh8r 9h  j98 h8h7h8'
+        t: '単純な答えがあるならば硝子の色を壊せたのかな'
+    -
+      -
+        x: 'r 5   7 sr6r65   5 j 987h 8h7s'
+        t: 'なぜ　逃げ出せないの　扉に挟まれてる'
+      -
+        x: '  r7r 6r 6r6r7hh8r 9h  j98 h8h7h8'
+        t: '残念の塊集めては積み木のよに重ねる退屈'
+  break 1 (theme):
+    -
+      -
+        x: '8h8 r    h99 9 898'
+      -
+        x: '8h8 r    hj 9898 8h8h'
+      -
+        x: 'r8j 8r   8hj 8 8h8'
+      -
+        x: '8h8 r    hj 9898 8h8j'
+  verse 1 B:
+    -
+      -
+        x: '8rjr5  7 sr6r65   5 j 987h 8h7s'
+        t: '無くなった時間の連れを当てにしてもう疲れた'
+      -
+        x: '   jrr 67 r8r    rr78 h89 89j 98j 897'
+        t: 'どうなったって良いのよ，意味も理由も景色の中埋めて'
+    -
+      -
+        x: '8r8r5  7 sr6r65   5 j 987h 8h7s'
+        t: '始まった　蝶番の音が独りをただ鳴らした'
+      -
+        +: '                            1'
+        x: ' 7rr 67 78r 7778 hh8 hh9 898xj'
+        t: 'そうやってわたしだけ無色透明な虹を手に捕った'
+  choir 1:
+    - &id_choir1
+      -
+        x: ' 8h88      h8j8     8h88  8j jjjj98h'
+        t: '環になった　台に立った　勘違ったって踊りましょうよ'
+      -
+        x: ' 8h88      h8888'
+        t: 'そうしちゃった　そうしちゃったった'
+      -
+        x: ' 8h88      h8888'
+        t: 'そうしちゃった　そうしちゃったった'
+    - *id_choir1
+  break 2 (yeyeye):
+    -
+      -
+        x: '888h8r 7 r'
+      -
+        x: '8h888r 7'
+  verse 2 A:
+    -
+      -
+        x: '7 r   7 sr6r65   5 j 98hh 8h7s'
+        t: '錆付いた声の届かない箱の中'
+      -
+        x: '  r8r 6r 6r6r77h8r 9h  j98 h8h7h8'
+        t: '玩具の兵隊さんから硝子の靴を投げつけられて，'
+      -
+        x: '  r58 r'
+        t: '割れちゃった。'
+    -
+      -
+        x: '           7 sr6r65  65 j 98hh 8h7s'
+        t: '　　　　　　ばらばらの音が痛みをまた照らした'
+      -
+        x: ' j8r 67 78r rr78 7h8 7h8 88887'
+        t: 'もう嫌って話から積み木崩しの衝動砕け散った'
+  verse 2 B:
+    -
+      -
+        x: '7s 5  7 sr6r65   5 j 98hh 8h7s'
+        t: '　物　　言わない身を人形と名付けたの'
+      -
+        x: '  r8r 6r 6r6r77h8r 9h  j98 h8h7h8'
+        t: '玩具にすらなれない　ただ重ねる普通の喜怒と哀楽'
+    -
+      -
+        x: 'r58 r    7 sr6r65   5 j 98hh 8h7s'
+        t: '負けちゃった　調子のいい嘘を並べた末の夜に'
+      -
+        x: ' jrr 67 78r    rr7h 7h8 hh9 898xj'
+        t: 'どうやって戻ろうか　積まれたころの姿を目に焼いた'
+  choir 2:
+    -
+      -
+        x: ' 8h88      h8j8     8h88  8j jjjj98h'
+        t: '間に合った　最後だった　勘違ったって駆け込みながら'
+      -
+        x: ' 8h88      h8j8'
+        t: 'どうしちゃった？どうしちゃった？'
+      -
+        x: ' 8h88      7h h8h9j9'
+        t: 'どうしちゃった？を繰り返すの'
+    - *id_choir1
+  break 3 (heeey):
+    -
+      -
+        x: '        7    67rh77'
+      -
+        x: 'h7 h7 877    h7 h7 8'
+  epic:
+    -
+      -
+        x: 'r6r5  7 sr6r65  y5 j 987h 8h7s'
+        t: '始まった　蝶番の音が独りをただ鳴らした'
+      -
+        x: '8rr 6r 68r    7hh8 h89 89j 98hr 8'
+        t: 'そうやってわたしだけ無色透明な虹を手に捕って'
+      -
+        x: 'h8r8 r'
+        t: '壊れちゃった'
+...

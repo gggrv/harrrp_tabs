@@ -1,0 +1,382 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E]
+    '6': [G]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: ヒトリエ (wowaka)
+  title: フユノ
+  links:
+    artist: www.hitorie.jp
+file:
+  lyrics:
+    language: jp
+    links:
+      third-party website: www.uta-net.com
+    widechar: 1
+    tab label position: [rhythm]
+  comment: this map is custom-made from scratch and adheres to the original song structure
+  mapper: gggrv
+audio guide:
+  .mid:
+    paths:
+      harp.mid: key change
+      main.mid: song key
+    comment: repetitive
+    mapper: gggrv
+    means: # how the file was created
+      - listen
+# actual mapping begins here
+map:
+  theme 1: &id_theme
+    -
+      -
+        x: ' 5r6 5r6    4m454'
+      -
+        x: ' 5r6 5sr    4y64'
+    -
+      -
+        x: ' 5r6 5r6    4m454'
+      -
+        x: ' 5r6 5sr    4y64'
+  verse 1 A:
+    -
+      -
+        x: ' 56r       56r'
+        t: '揺らいだ　　揺らいだ'
+      -
+        x: ' 4r6    4y65 y4m4y5'
+        t: '冬の　　風に踊る街模様'
+    -
+      -
+        x: ' 56r       56r'
+        t: '溶かした　　溶かした'
+      -
+        x: ' 4r6   5s76 5s76 665r'
+        t: '言葉　届けたい届けたいのだけど'
+  theme 2 (repeat theme 1): *id_theme
+  verse 1 B:
+    -
+      -
+        x: '56r      56r'
+        t: '私は　　　私は'
+      -
+        x: ' 4r6    4y65 y4m4y5'
+        t: '冷たい季節に夜を待っていた'
+    -
+      -
+        x: ' 56r       56r'
+        t: '揺らいで　　揺らいで'
+      -
+        x: ' 4r6   5s7656655r'
+        t: 'こころ　乾くんだってわかってても'
+  transition 1:
+    -
+      -
+        x: ' 7s5     7s5'
+        t: 'それは　　それは'
+      -
+        x: '7s5y5'
+        t: '切ないと'
+      -
+        x: 'y5 y 5 y56 6r'
+        t: 'いう名前の感情よ'
+    -
+      -
+        x: ' 7s5     7s5'
+        t: 'あなた　　あなた'
+      -
+        x: '7s5 5'
+        t: 'そう言って'
+      -
+        x: 'y5 y5 8h7s7'
+        t: '口元を緩めたの'
+    -
+      -
+        x: ' 7s5     7s5'
+        t: 'なぜか　　なぜか'
+      -
+        x: '7s5 5'
+        t: '切なくて'
+      -
+        x: 'y5 y 5 y5 656r'
+        t: 'この感情も知っていて'
+    -
+      -
+        x: ' 7s5     7s5'
+        t: 'こころ　　　こころ'
+      -
+        x: '7s5 5'
+        t: 'ざわついた'
+      -
+        x: 'y5y5 y 5  8h'
+        t: 'そんな或る日のこと'
+  choir 1:
+    -
+      -
+        x: '  56r8 8 r'
+        t: '踊りたいんだって'
+      -
+        x: ' 6886'
+        t: '止めないで'
+      -
+        x: ' 6r6 r645  8 8h7r'
+        t: '震えて動けなくなる前に'
+      -
+        x: 'r8r'
+        t: '舞って'
+      -
+        x: ' r6 86'
+        t: '消えないで'
+      -
+        x: ' rr6 r655  6 5'
+        t: 'この想いごと消えないで'
+    -
+      -
+        x: '  rsr8 8 r'
+        t: '笑いたいんだって'
+      -
+        x: ' 6886'
+        t: '歌唄って'
+      -
+        x: ' 6r6 r644   8 8 h7r'
+        t: 'かすれ声の　　示す方とは'
+      -
+        x: 'r8r'
+        t: '逆らって'
+      -
+        x: ' r6 86'
+        t: '逃げ出して'
+      -
+        x: '6r 66r6    56 7  r8 7'
+        t: 'また切ないを　思　い　出す'
+  theme 3 (repeat theme 1): *id_theme
+  verse 2 A:
+    -
+      -
+        x: ' 56r       56r'
+        t: '揺らいだ　　揺らいだ'
+      -
+        x: ' 4r6    4y65 y4m4y5'
+        t: '冬の　　風に霞む街模様'
+    -
+      -
+        x: ' 56r       56r'
+        t: '焦がした　　焦がした'
+      -
+        x: ' 4r6   5s76 5s76 6655'
+        t: '色に潜りたい潜りたいのだけど'
+  verse 2 B:
+    -
+      -
+        x: '56r      56r'
+        t: '私は　　　私は'
+      -
+        x: ' 4r6    4y65 y4m4y5'
+        t: '冷たい季節に夜を舞っていた'
+    -
+      -
+        x: ' 56r       56r'
+        t: '揺らいで　　揺らいで'
+      -
+        x: ' 4r6   5s76 56655r'
+        t: 'こころ 痛むんだってわかってるの'
+  transition 2:
+    -
+      -
+        x: ' 7s5     7s5'
+        t: 'それは　　それは'
+      -
+        x: '7s5y5'
+        t: '切ないと'
+      -
+        x: 'y5 y 5 y56 6r'
+        t: 'いう名前の感情で'
+    -
+      -
+        x: ' 7s5     7s5'
+        t: 'あなた　　あなた'
+      -
+        x: '7s5 5'
+        t: 'そう言って'
+      -
+        x: 'y5y5  8h7s7'
+        t: '伏し目がちに笑うの'
+    -
+      -
+        x: ' 7s5     7s5'
+        t: 'つまり　　つまり'
+      -
+        x: '7s5 5'
+        t: 'ただひとつ'
+      -
+        x: 'y5y5y 55 656r'
+        t: '誰しもが抱えている'
+    -
+      -
+        x: ' 7s5     7s5'
+        t: 'こころ　　　こころ'
+      -
+        x: '  7s5 5'
+        t: '染み付いた'
+      -
+        x: 'y5y5 y 5 8h'
+        t: '色であふれても'
+  choir 2:
+    -
+      -
+        x: '  56r8 8 r'
+        t: '踊り足りないの'
+      -
+        x: ' 6886'
+        t: '行かないで'
+      -
+        x: ' 6r6 r6g5  88h7r'
+        t: '時間はやたらと駆け足に'
+      -
+        x: 'r8r'
+        t: '去って'
+      -
+        x: ' r6 86'
+        t: '逃げ出して'
+      -
+        x: '6r 6 r655 65'
+        t: '白い息だけ残して'
+    -
+      -
+        x: '  rs78 8 r'
+        t: '忘れらんないの'
+      -
+        x: ' 6886'
+        t: '行かないで'
+      -
+        x: ' 6r6 r6g5 8 8h7r'
+        t: '幾つもの問いかけだけを'
+      -
+        x: 'r8r'
+        t: '残して'
+      -
+        x: ' r6 86'
+        t: '逃げ出した'
+      -
+        x: '6r 6 r656 7 h 7r'
+        t: 'それはたぶん正しいけど'
+  epic:
+    -
+      -
+        x: 'r 65y5  65 y4m4 55'
+        t: '冬の風　　に踊る街模様'
+      -
+        x: ' 54 56 5y5m'
+        t: '浮かぶ夜の瀬　ああ'
+      -
+        x: 'm m4y5'
+        t: '止めどなく'
+      -
+        x: 'y y56r'
+        t: '変わりゆく'
+      -
+        x: 'r 678h 77'
+        t: '夢の続きを'
+  soft:
+    -
+      -
+        x: ' 8 8 rr'
+        t: '言いたいの'
+      -
+        x: ' 6886'
+        t: '行かないで'
+      -
+        x: ' 6r6 r6g5 8 8h7r'
+        t: '幾つもの問いかけだけを'
+      -
+        x: 'r8r'
+        t: '残して'
+      -
+        x: ' r6 86'
+        t: '逃げ出した'
+    -
+      -
+        x: '56 565'
+        t: '今もまだ'
+    -
+      -
+        x: '  56r8 8 r'
+        t: '踊り足りないの'
+      -
+        x: ' 6886'
+        t: '行かないで'
+      -
+        x: ' 6r6 r6g5  88h7r'
+        t: '時間はやたらと駆け足に'
+      -
+        x: 'r8r'
+        t: '去って'
+      -
+        x: ' r6 86'
+        t: '逃げ出して'
+      -
+        x: '6r 6 r655 65'
+        t: '白い息だけ残して'
+    -
+      -
+        x: '  rsr8 8 r'
+        t: '笑いたいんだって'
+      -
+        x: ' 6886'
+        t: 'やめないで'
+      -
+        x: ' 6r6 r644 8 8h7r'
+        t: 'かすれ声の示す方とは'
+      -
+        x: 'r8r'
+        t: '逆らって'
+      -
+        x: ' r6 86'
+        t: '逃げ出して'
+      -
+        x: ' rr6 r655  65'
+        t: 'この想いごと逃げ出して'
+    -
+      -
+        x: '  rs78 8 r'
+        t: '踊りたいんだって'
+      -
+        x: ' 6886'
+        t: '止めないで'
+      -
+        x: ' 6r6 r655  88h7r'
+        t: '震えて動けなくなる前に'
+    -
+      -
+        x: 'r8r'
+        t: '唄って'
+      -
+        x: 'r6 8r6'
+        t: '歌唄って'
+      -
+        x: 'rr 6r65 r 7 87h 7'
+        t: 'ただ歌を唄っている'
+  theme 4 (repeat theme 1): *id_theme
+...

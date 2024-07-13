@@ -1,0 +1,98 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E]
+    '6': [G,Bb]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A,Ab]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: AContrari
+  title: МОИ ВОЛОСЫ
+  links:
+    song: youtu.be/-mwWtUmqKAo?t=55
+file:
+  lyrics:
+    language: ru
+    links:
+      official: youtu.be/-mwWtUmqKAo?t=55
+    tab label position: [stress marks,rhythm]
+  comment: simplified song structure
+  mapper: gggrv
+audio guide:
+  .mid:
+    paths:
+      harp.mid: key change
+      main.mid: song key
+    comment: minimal, sliding notes not included
+    mapper: gggrv
+    means: # how the file was created
+      - listen
+# actual mapping begins here
+map:
+  verse 1: &id_kol
+    - &id_v1
+      -
+        seriously: False
+        x: ' r  r    s  s'
+        t: 'Ну как мне быть'
+      - &id_vol
+        seriously: False
+        x: ' hh  7 7 s'
+        t: 'Мои волосы'
+      - *id_vol
+      -
+        seriously: False
+        x: ' r r   r  s s'
+        t: 'Хотят колбасы'
+    - *id_v1
+  transition 1:
+    -
+      - &id_tr
+        seriously: False
+        +: '   1          1'
+        x: 'r7sr rr    r rrg5r'
+      - *id_tr
+      - *id_tr
+      - *id_tr
+  phrase 1:
+    -
+      -
+        seriously: False
+        +: '   1          1         1          1'
+        x: 'r7r6r jj    r7rr r    r7rr r    r7sr r'
+      -
+        seriously: False
+        +: '   1          1                    1'
+        x: 'r7r6r jj    r7rr r    77ss      r7srr'
+      -
+        seriously: False
+        +: '                           1'
+        x: 'rs7s7sr rs7s7sr rs7s7sr r7srr'
+  verse 2: *id_kol
+  transition 2 (repeat transition 1):
+    -
+      - *id_tr
+      - *id_tr
+      - *id_tr
+      - *id_tr
+  verse 3: *id_kol
+...

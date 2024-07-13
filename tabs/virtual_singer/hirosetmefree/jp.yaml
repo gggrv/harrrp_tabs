@@ -1,0 +1,153 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E]
+    '6': [G]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C,B]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A,Ab]
+    's': [B]
+    'h': [D]
+    'k': [F,Ab]
+    'j': [A]
+song:
+  artist: 鼻そうめんP (Kanzaki Hiro) feat. Fukase
+  title: Set Me Free
+  links:
+    song: www.youtube.com/watch?v=B4aCGFivM5o
+file:
+  lyrics:
+    language: jp
+    links:
+      third-party website: vocadb.net
+    tab label position: [rhythm,stress marks]
+    widechar: 1
+  comment: this map is custom-made from scratch and greatly simplifies original song structure
+  mapper: gggrv
+audio guide:
+  .mid:
+    paths:
+      harp.mid: key change
+      main.mid: song key
+    comment: main repeat section is surprisingly varied
+    mapper: gggrv
+    means: # how the file was created
+      - listen
+# actual mapping begins here
+map:
+  verse 1:
+    -
+      -
+        x: 'rrr rr66  6'
+        t: '耳に刺さったNOISE'
+      -
+        x: 'rr rrr yy5'
+        t: '嘘だらけの世界'
+      -
+        x: 'rrr rrr 6rs7s r65' 
+        t: '声を失くした鳥のように'
+    -
+      -
+        x: ' rrr rr66   6'
+        t: '目に焼き付いたFACE'
+      -
+        x: 'rr rrr yy5'
+        t: '喉の奥痛む'
+      -
+        x: 'rrr rrr 6rs7s r65'
+        t: '叫ぶことも出来ない　孤独なDANCE'
+  transition 1:
+    -
+      -
+        x: ' 6r   s   7'
+        t: 'Se-t me free'
+      -
+        x: ' 6r   s   7'
+        t: 'Se-t me free'
+    -
+      -
+        x: '6rs7'
+        t: 'いつから'
+      -
+        x: '6rs7 s7 hs 6 6r'
+        t: '塗りつぶした世界を願う'
+  choir 1:
+    -
+      -
+        x: ' s   7   8 h s7'
+        t: 'Set me fre-e-ee'
+      -
+        x: ' 7   h   k 8 hs'
+        t: 'Set me fre-e-ee'
+    -
+      -
+        x: ' r    7s  rr 6r'
+        t: 'Give me-　ここから'
+      -
+        x: ' r    7s  r  6r rhs'
+        t: 'Give me-　脱け出す術を'
+    -
+      -
+        x: ' s   7   8 h sr'
+        t: 'Set me fre-e-ee'
+  theme A:
+    -
+      -
+        x: 'r 5 s7    5r8 h 7s    7 s'
+      -
+        x: 'r 5 s7    58k 8 h7    s 7'
+    -
+      -
+        x: 'h r 8k    h8x 9 k8    k 8'
+      -
+        +: '    1     1'
+        x: 's 5 rs    r8k 8 h7    s 7'
+  theme B:
+    -
+      -
+        +: '    1'
+        x: 'r 5 rr    5rh 7 s7    h s'
+      -
+        +: '    1           1'
+        x: 'r 5 rr    5rs r rr    s r'
+    -
+      -
+        +: '            1   1'
+        x: '8 r h8    8jx j k8    h 8'
+      -
+        +: '                        1'
+        x: 'r 5 s7    5r8 h 7s    7 r'
+  choir 2:
+    -
+      -
+        x: ' s   7   8 h s7'
+        t: 'Set me fre-e-ee'
+      -
+        x: ' 7   h   k 8 hs'
+        t: 'Set me fre-e-ee'
+    -
+      -
+        x: ' r    7s  rr 6r'
+        t: 'Take me-　どこかへ'
+      -
+        x: ' r    7s  r  6r rhs'
+        t: 'Take me-　思い続ける'
+    -
+      -
+        x: ' s   7   8 h sr'
+        t: 'Set me fre-e-ee'
+...

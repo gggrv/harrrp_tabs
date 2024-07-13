@@ -1,0 +1,100 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E]
+    '6': [G,Bb]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: Kuroneko Lounge (Rin ぎんすけ) feat. 初音ミク
+  title: ヨルノハテ
+  links:
+    song: www.youtube.com/watch?v=p8qAKzjUS9M
+file:
+  lyrics:
+    language: jp
+    links:
+      official: piapro.jp/content/1ijl4onns71y5ytu
+    tab label position: [rhythm]
+    widechar: 1
+  comment: this map is custom-made from scratch and adheres to the original song structure
+  mapper: gggrv
+audio guide:
+  .mid:
+    paths:
+      harp.mid: key change
+      main.mid: song key
+    mapper: gggrv
+    means: # how the file was created
+      - listen
+# actual mapping begins here
+map:
+  low:
+    -
+      -
+        x: 'g 5g 6    g 5g 6'
+  theme 1: &id_theme
+    -
+      -
+        x: 'gyg7 g5 y4    gyg7 g5 y3'
+      -
+        x: 'gyg7 g5 y4    yr gyg 6 gyg'
+  verse 1:
+    -
+      -
+        x: ' 6h7yg       g6g6r6 yg'
+        t: 'くすんだ風、　　撫でる夜の街'
+      -
+        x: ' 6h7r grg    g6g6r6 yg'
+        t: '代えのない声が、叫ぶ心持ち'
+      -
+        x: 'hk8hr 6g7r   6g66r 7y'
+        t: '私はここにいる、　魂の先'
+      -
+        x: 'hk8hr 6rg r7 6yg6r r7r  gyr'
+        t: '待ち受ける童心と、快楽主義への投資'
+  break 1:
+    -
+      -
+        x: 'gy7    7g5y    4' 
+      -
+        x: 'g7g    rg5r 7h' 
+  choir 1:
+    - &id_hatemade1
+      - &id_hate
+        x: 'hk 87   hk8 7r'
+        t: '果てまで、果てるまで'
+      -
+        +: '                 1'
+        x: 'g6r6 g  g676 g  r6r6 yr'
+        t: 'どこまでも、どこまでも、走り抜けよう'
+  choir 2:
+    -
+      - *id_hate
+      -
+        +: '                 1'
+        x: 'g6r6 g  6r76 g  r6r6 yr'
+        t: 'どこまでも、どこまでも、走り抜けよう'
+  choir 3 (repeat choir 1):
+    - *id_hatemade1
+  theme 2 (repeat theme 1): *id_theme
+...

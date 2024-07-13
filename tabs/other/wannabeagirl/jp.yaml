@@ -1,0 +1,279 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E]
+    '6': [G,Bb]
+    '7': [C]
+    '8': [E,Eb]
+    '9': [G,'F#']
+    'x': [C]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B,'C#']
+    'h': [D]
+    'k': [F,Ab]
+    'j': [A]
+song:
+  artist: まふまふ
+  title: 女の子になりたい
+  links:
+    artist: uni-mafumafu.jp
+file:
+  lyrics:
+    language: jp
+    links:
+      third-party website: utaitedb.net
+    tab label position: [rhythm]
+    widechar: 1
+  comment: this map is custom-made from scratch, adheres to the original song structure
+  mapper: gggrv
+audio guide:
+  .mid:
+    paths:
+      harp.mid: key change
+      main.mid: song key
+    comment: octave shifts and emotional highlights were lost during appropriation for standard harmonica
+    mapper: gggrv
+    means: # how the file was created
+      - listen
+# actual mapping begins here
+map:
+  intro:
+    -
+      -
+        +: '            1'
+        x: '7    7s7h68 88x'
+        t: 'ねえ　女の子になりたい'
+      -
+        x: '8 hh7 7s7'
+        t: 'お願いいいですか？'
+  verse 1:
+    -
+      -
+        x: 'hhhh7s7 hhh 8h'
+        t: 'チョコレートの森をくぐる'
+      -
+        +: '             1'
+        x: 'hhhh7s7h    99h'
+        t: 'オレンジかぼちゃの馬車に'
+      -
+        +: '              1'
+        x: 'hh7s7      77s6s'
+        t: '乗せられて　連れられて'
+      -
+        x: 'hhr 775 6rr'
+        t: 'ミルク色のお城'
+    -
+      -
+        x: 'h hh7s7 hhh 8h'
+        t: 'みんなきっと憧れている'
+      -
+        +: '             1'
+        x: 'h hh7s7h    99h'
+        t: '童話の中のヒロイン'
+      -
+        +: '             1'
+        x: ' hh7s7    77s6s'
+        t: 'いつか見た　夢に見た'
+      -
+        x: ' ss7 hsr 6'
+        t: 'ガラスのハイヒール'
+  transition 1 A:
+    -
+      -
+        x: '  888 kkk'
+        t: 'ナイショの気持ち'
+      -
+        seriously: False
+        +: '  111  11'
+        x: '  999 9kk'
+        t: 'ホントの気持ち'
+      -
+        x: '  x hhh 7hs'
+        t: 'ちょっと話しちゃおう'
+  transition 1 B:
+    -
+      -
+        x: ' r r s     ss7h k87'
+        t: 'ワンツースリー　魔法をかけて'
+      -
+        x: '77h8 7s7    7s8h7h   h8k9'
+        t: '新しいボクになりたいのです　お願い！'
+  choir 1:
+    -
+      -
+        x: '7 7sh7h    78 8 k8hh7'
+        t: 'やっぱりボクも可愛くなりたいな'
+      -
+        x: '7 7sh7h    78 8 k8hh7'
+        t: 'あの子みたく可愛くなりたいな'
+      -
+        x: '7 7 7h7h  78h77'
+        t: 'フリルドレスを召しませ'
+      -
+        x: '  8hh77rr s7s7h'
+        t: '世界でひとりのシンデレラ'
+    -
+      -
+        x: '7 7sh7h    78 8 k8hh7'
+        t: 'ちっちゃなユウキとおっきなハジメテ'
+      -
+        x: '7 7sh7h    h8 8 998h87'
+        t: 'きっと怖くなって震えちゃうけど'
+      -
+        +: '       1'
+        x: '7s7h68 88x'
+        t: '女の子になりたい！'
+      -
+        +: '                  1'
+        x: '8 hh7 7s7         s'
+        t: 'お願いいいですか？'
+      -
+        +: '1'
+        x: 'sh8 hh7 7s7'
+        t: '可愛くなっていいですか？'
+  verse 2:
+    -
+      -
+        x: 'hhhh7s7 hhh 8h'
+        t: '大人になれど下がらない'
+      -
+        +: '             1'
+        x: 'hhhh7s7h    99h'
+        t: '可笑しな声のトーンと'
+      -
+        +: '           1'
+        x: 'hh7s7   77s6s'
+        t: '何しても　何しても'
+      -
+        +: '                   1'
+        x: 'hhr 775 6rr       99h'
+        t: 'うまくいかない今日だ　ならば！'
+    -
+      -
+        x: 'hhhh7s7 hhh 8h'
+        t: '束の間でも夢の中に'
+      -
+        +: '             1'
+        x: 'hhhh7s7h    99h'
+        t: 'ボクを見つけてみようかな'
+      -
+        +: '            1'
+        x: 'hh7s7    77s6s'
+        t: '少しだけ　少しだけ'
+      -
+        x: ' ss7 hsr 66'
+        t: '変われる気がする'
+  transition 2 A:
+    -
+      -
+        x: '888 kkk'
+        t: 'ドキドキして'
+      -
+        seriously: False
+        +: '111  11'
+        x: '999 9kk'
+        t: 'ドキドキして'
+      -
+        x: 'x hhh 7hs'
+        t: '眠れない夜'
+  transition 2 B:
+    -
+      -
+        x: ' r r s     ss7h k87'
+        t: 'ワンツースリー　勇気を出せば'
+      -
+        x: '77h8 7s7  7s8h7h  h8k9'
+        t: '童話に続く入口はもうそこだよ'
+  choir 2:
+    -
+      -
+        x: '7 7sh7h    78 8 k8hh7'
+        t: '上目遣いで太陽が昇って'
+      -
+        x: '7 7sh7h    78 8 k8hh7'
+        t: 'ウィンクのひとつで喧嘩が収まる'
+      -
+        x: '7 7 7h7h  78h77'
+        t: '小さなリボン結んだら'
+      -
+        x: '  8hh77rr s7s7h'
+        t: '世界もひとつに　シンデレラ'
+    -
+      -
+        x: '7 7sh7h    78 8 k8hh7'
+        t: '花も照れて恥ずかしがるような'
+      -
+        x: '7 7sh7h    h8 8 998h87'
+        t: 'もう少し君をひとり占めできるような'
+      -
+        +: '       1'
+        x: '7s7h68 88x'
+        t: '女の子になりたい！'
+      -
+        x: '8 hh7 7s7'
+        t: '隣にいいですか？'
+  epic:
+    -
+      -
+        x: '5g66 66g 564 44'
+        t: '当たり前のものどれもが'
+      -
+        x: '4yy 5g5 y4'
+        t: '違って見えたんだ'
+  transition 3 B:
+    -
+      -
+        x: ' r r s     ss7h k87'
+        t: 'ワンツースリー　魔法をかけて'
+      -
+        x: '77h8 7s7    7s9k7h   h8k9'
+        t: '新しいボクになりたいのです　お願い！'
+  choir 3:
+    -
+      -
+        x: '7 7sh7h    78 8 k8hh7'
+        t: 'やっぱりボクも可愛くなりたいな'
+      -
+        x: '7 7sh7h    78 8 k8hh7'
+        t: 'あの子みたく可愛くなりたいな'
+      -
+        x: '7 7 7h7h  78h77'
+        t: '小さく首を傾げたら'
+      -
+        x: '  8hh77rr s7s7h'
+        t: 'ボクも今だけはシンデレラ'
+    -
+      -
+        x: '7 7sh7h    78 8 k8hh7'
+        t: '大事な今日を隅っこに隠れて'
+      -
+        x: '7 7sh7h    78 8 998h87'
+        t: '自分のこともわかんなくなる前に'
+      -
+        +: '       1'
+        x: '7s7h68 88x'
+        t: '女の子になりたい！'
+      -
+        +: '                  1'
+        x: '8 hh7 7s7         s'
+        t: 'お願いいいですか？'
+      -
+        +: '1'
+        x: 'sh8 hh7 7s7'
+        t: '可愛くなっていいですか？'
+    -
+      -
+        t: 'ナイショだよ'
+...

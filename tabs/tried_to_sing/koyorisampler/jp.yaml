@@ -1,0 +1,194 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E,'F#']
+    '6': [G]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D,'C#']
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: koyori (電ポルP) feat. 鹿乃
+  title: サイノウサンプラー
+  traceback:
+    -
+      artist: koyori (電ポルP) feat. 初音ミク
+      title: サイノウサンプラー
+      links:
+        song: www.nicovideo.jp/watch/sm12849032
+  links:
+    album: www.nicovideo.jp/watch/sm21502977
+file:
+  lyrics:
+    language: jp
+    links:
+      official: piapro.jp
+    tab label position: [rhythm]
+    widechar: 1
+  comment: this map adheres to the original song structure
+  mapper: gggrv
+audio guide:
+  .mid:
+    paths:
+      harp.mid: key change
+      main.mid: song key
+    comment: standard harmonica cannot represent enough keys
+    mapper: gggrv
+    means: # how the file was created
+      - ust by 沙緒 at www.nicovideo.jp/watch/sm14254489
+      - listen
+# actual mapping begins here
+map:
+  theme 1: &id_theme
+    -
+      - &id_theme_phrase1
+        x: 'h 7 6r    6h7    r6    r 6'
+      - *id_theme_phrase1
+  intro:
+    -
+      -
+        x: 'y5y4 m4      y5y4 4m4'
+        t: '君は僕の　　　　実験台に'
+      -
+        x: 'y5y4 m4      46 4  4y5      y4'
+        t: '横になって　　　しまっているんだ'
+  guitar 1:
+    -
+      -
+        x: 'r7    77    s7    7777'
+      -
+        x: 's7    77    77    7778 8'
+  verse 1:
+    -
+      -
+        x: 'y5y4 4m4     y5y4 4m4'
+        t: '溢れた君の　　才能良いなぁ'
+      -
+        x: 'y5y4 m4      46 44 4y5 g5 y4'
+        t: '僕にわけて　　欲しいからメスを取ったよ'
+  transition 1:
+    -
+      -
+        x: 'm4 4y y5y4   m4 4y y5g5'
+        t: '不思議な感触　気持ち良い感触'
+      -
+        x: 'm4 4y y5y4     y5g 5y   y4m 5 5'
+        t: 'どれも良い快感　でもあっという間の時間'
+  choir 1:
+    -
+      -
+        x: ' y     gg6  5gr'
+        t: 'あぁ　なんだってなんだって'
+      -
+        x: ' r66g    y5  y5g 6g'
+        t: 'こんなコトしちゃったんだろう'
+      -
+        x: ' 5   ggg g6 55ggr'
+        t: 'あぁ　君がいま目の前で'
+      -
+        x: 'g6r7 gg 5y'
+        t: '動かなくなったんだ'
+  theme 2 (repeat theme 1): *id_theme
+  verse 2:
+    -
+      -
+        x: 'y5y4 4m4     4y5y4 4m4'
+        t: '震える君は　　　口を動かした'
+      -
+        x: 'y5y4 4m4     46444  4y5 g5 y4'
+        t: '何を言ってるの　聞かないでメスを入れたよ'
+  transition 2:
+    -
+      -
+        x: 'm4 4y y5y4   m4 4y y5g5'
+        t: '不明な感覚　　　不能な感覚'
+      -
+        x: 'm4 4y   y5y4     y5g 5y   y4m 5 5'
+        t: '知らない　シラナイ　　でも知ってしまいたいよ'
+  choir 2:
+    -
+      -
+        x: ' y     gg6  5gr'
+        t: 'あぁ　なんだってなんだって'
+      -
+        x: ' r66g    y5  y5g 6g'
+        t: 'こんなモノ見ちゃったんだろう'
+      -
+        x: ' 5   ggg g6 55ggr'
+        t: 'あぁ　僕はいま目の前で'
+      -
+        x: 'g6r7 gg 5y'
+        t: '動けなくなったんだ'
+  break 1:
+    -
+      - &id_theme_phrase_high
+        x: 'x hx hx    77r7 x7'
+      - *id_theme_phrase_high
+      - *id_theme_phrase_high
+      - *id_theme_phrase_high
+  soft:
+    -
+      -
+        x: 'yr g 5y5gg     yr g 5y56g'
+        t: 'それを頂戴な　　　これも頂戴な'
+      -
+        x: 'yr g 5y5gg     yrgg5'
+        t: 'とても継接な　　　コレクション'
+      -
+        +: '   1           1'
+        x: '5 yy 5g 5g 6g5 y rrr'
+        t: 'どうしても君になれない予感'
+  quiet:
+    -
+      -
+        x: ' y     gg6  5gr'
+        t: 'あぁ　なんだってなんだって'
+      -
+        x: ' r66g    y5  y5g 6g'
+        t: 'こんなコトしちゃったんだろう'
+      -
+        x: ' 5   ggg g6 55ggr'
+        t: 'あぁ　君がいま目の前で'
+      -
+        x: 'g6r7 gg 5'
+        t: '動かなくなった'
+  choir 3:
+    -
+      -
+        x: 'gg6    5gr'
+        t: '泣いたって泣いたって'
+      -
+        x: 'rr66g  y5 y5g 6g'
+        t: '垂れ流す隅っこの時間'
+      -
+        x: ' 5   ggg  g6 ggrrg'
+        t: 'あぁ　僕は　いま横になる'
+      -
+        +: '          1'
+        x: 'g6r7 ggg5 yy    5y'
+        t: '実験台の上'
+  theme 3 (repeat theme 1): *id_theme
+  outro:
+    -
+      -
+        +: ' 1   1'
+        x: '555y yy'
+        t: '僕は君の'
+...

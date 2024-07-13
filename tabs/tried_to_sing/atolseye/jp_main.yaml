@@ -1,0 +1,216 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C,Eb]
+    '5': [E]
+    '6': [G,Bb]
+    '7': [C]
+    '8': [E,Eb]
+    '9': [G]
+    'x': [C,'',Bb]
+    'i': [D]
+    'f': [G]
+    'm': [B,Bb]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: ATOLS feat. 腹話
+  title: アイ
+  traceback:
+    -
+      artist: ATOLS feat. 初音ミク
+      title: アイ
+  links:
+    album: www.nicovideo.jp/watch/sm30380835
+file:
+  lyrics:
+    language: jp
+    links:
+      third-party website: vocadb.net
+    tab label position: [rhythm]
+    widechar: 1
+  comment: this map adheres to the original song structure; expressive note bends not included
+  mapper: gggrv
+audio guide:
+  .mid:
+    paths:
+      main.mid: song key
+    comment: sliding notes not included
+    mapper: gggrv
+    means: # how the file was created
+      - ust by Thibaud, Pianodream (Adagio Fantasque) at www.youtube.com/watch?v=UWcwXdo5-To
+      - listen
+# actual mapping begins here
+map:
+  verse 1:
+    -
+      -
+        seriously: False
+        +: '   1 1 1 2'
+        x: '7 7676 67x9'
+        t: '　　輝く光へ'
+      -
+        seriously: False
+        +: '   1   1'
+        x: 'k9k8  h67'
+        t: '　音は踊る'
+      -
+        seriously: False
+        +: '   1 1 1 2'
+        x: '7 7676 67x9'
+        t: '高鳴りの狭間で'
+    -
+      -
+        seriously: False
+        +: '   1 1 1 2'
+        x: '7 7676 67x9'
+        t: 'つたわるこの世界で'
+      -
+        seriously: False
+        +: '   1   1'
+        x: 'k9k8  h67'
+        t: 'すべてをこえ'
+      -
+        seriously: False
+        +: '   1 1 1 2  2'
+        x: '7 7676 67x9 x'
+        t: '解き放つあなたへ'
+  choir 1: &id_choir1
+    -
+      -
+        seriously: False
+        +: '  1'
+        x: '4 8'
+        t: 'I EYE'
+      -
+        seriously: False
+        +: '    1     1'
+        x: '7 7766   g4g'
+        t: 'その名は、生まれ'
+      -
+        seriously: False
+        +: ' 1  1    1    1    1'
+        x: '666 67  667  667 7h8'
+        t: '駆け巡り　引き裂かれた心'
+      -
+        seriously: False
+        +: '    1     1'
+        x: '7 7766   g4g'
+        t: '永久の想い残した'
+      -
+        seriously: False
+        +: ' 1  1    1    1    1'
+        x: '666 67  667  667 7h8'
+        t: 'この世で最後の言葉'
+    -
+      -
+        seriously: False
+        +: '  1'
+        x: '4 8'
+        t: 'I EYE'
+      -
+        seriously: False
+        +: '    1     1'
+        x: '7 7766   g4g'
+        t: 'その瞬間'
+      -
+        seriously: False
+        +: ' 1  1    1    1    1'
+        x: '666 67  667  667 7h8'
+        t: '響き渡り　瞬きだす瞳'
+      -
+        seriously: False
+        +: '    1     1'
+        x: '7 7766   g4g'
+        t: '煌くその涙は、'
+      -
+        seriously: False
+        +: ' 1  1    1    1    1'
+        x: '666 67  667  667 7h8'
+        t: '彼方へ流れる星へ'
+  break 1:
+    -
+      -
+        seriously: False
+        +: '         1 1'
+        x: '7 k97    8 8k7'
+      -
+        seriously: False
+        +: '         1 1'
+        x: '7 k97    6 89x'
+      -
+        seriously: False
+        +: '  1   1'
+        x: '7 8 h 6'
+  verse 2:
+    -
+      -
+        seriously: False
+        +: '   1 1 1 2        2'
+        x: '7 7676 67x9    xxxx'
+        t: '舞い散る花々'
+      -
+        seriously: False
+        +: '    1  1'
+        x: 'k9k 8 h6'
+        t: '攫う記憶'
+      -
+        seriously: False
+        +: '   1 1 1 2'
+        x: '7 7676 67x9  k9'
+        t: '高鳴りの狭間で'
+      -
+        seriously: False
+        +: '   1 1 11 2         2'
+        x: '7 7676 667x9    9999xx'
+        t: '奏でるこの世界で'
+      -
+        seriously: False
+        +: ' 1  1'
+        x: 'k8 h6'
+        t: 'すべてをこえ'
+      -
+        seriously: False
+        +: '   1 1 1 2  2'
+        x: '7 7676 67x9 x'
+        t: '解き放つあなたへ'
+  choir 2 (repeat choir 1): *id_choir1
+  break 2:
+    -
+      -
+        seriously: False
+        +: '   1 1  1 2'
+        x: '7 7676  67x9'
+      -
+        seriously: False
+        +: '    1   1'
+        x: 'k9k 8 h 6'
+      -
+        seriously: False
+        +: '   1 1  1 2'
+        x: '7 7676  67x9'
+    -
+      -
+        seriously: False
+        +: '   1 1  1 2'
+        x: '7 7676  67x9'
+      -
+        seriously: False
+        +: '    1   1'
+        x: 'k9k 8 h 6'
+      -
+        seriously: False
+        +: '   1 1  1 2  2'
+        x: '7 7676  67x9 x'
+...

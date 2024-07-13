@@ -1,0 +1,152 @@
+---
+version: '4.1.0' # format version
+harp:
+  blow labels: ['1','2','3','4','5','6','7','8','9',x] # exactly 1 character, used in this file
+  draw labels: [i,f,m,'y',g,r,s,h,k,j] # exactly 1 character, used in this file
+  notes:
+    '1': [C]
+    '2': [E]
+    '3': [G]
+    '4': [C]
+    '5': [E]
+    '6': [G]
+    '7': [C]
+    '8': [E]
+    '9': [G]
+    'x': [C]
+    'i': [D]
+    'f': [G]
+    'm': [B]
+    'y': [D]
+    'g': [F]
+    'r': [A]
+    's': [B]
+    'h': [D]
+    'k': [F]
+    'j': [A]
+song:
+  artist: LAMA
+  title: Fantasy
+  country: japan
+  links:
+    artist: www.sonymusic.co.jp/artist/lama
+file:
+  lyrics:
+    language: jp
+    links:
+      third-party website: www.lyrical-nonsense.com/global/lyrics/lama/fantasy/
+    widechar: 1
+    tab label position: [rhythm]
+  means: # how the map was created
+    - listen
+  comment: this map is custom-made from scratch and adheres to the original song structure
+  mapper: gggrv
+audio guide: NULL
+# actual mapping begins here
+map:
+  theme: &id_theme
+    -
+      -
+        x: 'r 8h 88 h7    r6 8h 88 7h79'
+      -
+        x: 'r 8h 88 h7    r6 8h 88 7h79'
+  verse 1:
+    -
+      -
+        x: '55 6s 55y  55  6s 556'
+        t: '淡い朝もやに　　ささやく祈り'
+      -
+        x: '55 6s 55y  555 6s 556'
+        t: '歪んだ景色を　　君となぞってゆく'
+    -
+      -
+        x: 'h7ss  565    h7 sss55 6 rs'
+        t: '"本当"を求め、　　「"嘘"でもいいから」なんてね'
+      -
+        x: h7ss  565    5565
+        t: '見透かしあう様に　　たどってく'
+  choir 1 A:
+    -
+      -
+        x: ' 7  h    h   77h 9h8'
+        t: 'Looking for　　言葉越えて'
+      -
+        x: ' 7hh         77h 9h8'
+        t: 'おちていく　　　　　　羽のように'
+      -
+        x: ' 7  h    h   7hh'
+        t: 'Looking for　　ミツケテ'
+      -
+        x: ' 7hh         77h s6r'
+        t: 'ここで　　　　　　　　よりそうように'
+  break 1:
+    -
+      -
+        x: '8    h898    r8 r8'
+      -
+        x: '8    h898    r8 r8 6'
+  choir 1 B:
+    -
+      -
+        x: ' 7  h    h   77h 9h8'
+        t: 'Looking for　　解きほどいて'
+      -
+        x: ' 7hh         77h 9h8'
+        t: 'ちぎれる　　　　　　　雲のように'
+      -
+        x: ' 7  h    h   7hh'
+        t: 'Looking for　　ミツケテ'
+      -
+        x: ' 7hh         77h s6r'
+        t: 'ここで　　　　　　　　よりそうように'
+  theme (second): *id_theme
+  verse 2:
+    -
+      -
+        x: '55 6s 55y          555 6s 556'
+        t: '理由(ワケ)を求める同士　　隙間つむぐ時'
+      -
+        x: '55 6s 55y          55  6s 556'
+        t: '癒えぬかさぶたを　　　　　　　そっと剥がしてゆく'
+    -
+      -
+        x: 'h7ss  565        h7 sss 5 6 rs'
+        t: '「"綺麗"が"嘘"でも　　どうでもいい」だなんてね'
+      -
+        x: 'h7ss  565        5565'
+        t: '許し合うために　　　　　　たどってく'
+  choir 2 A:
+    -
+      -
+        x: ' 7  h    h   77h 9h8'
+        t: 'Looking for　　手を伸ばして'
+      -
+        x: ' 7hh         77h 9h8'
+        t: 'よせあう　　　　　　　波のように'
+      -
+        x: ' 7  h    h   7hh'
+        t: 'Looking for　　ミツケテ'
+      -
+        x: ' 7hh         77h s6r'
+        t: 'ここで　　　　　　　　よりそうように'
+  break 2:
+    -
+      -
+        x: 'r 8h 88 h7    r6 8h 88 7h79'
+      -
+        x: 'h r 6 y       8 hj'
+  choir 2 B:
+    -
+      -
+        x: ' 7  h    h   77h 9h8'
+        t: 'Looking for　　照らし出して'
+      -
+        x: ' 7hh         77h 9h8'
+        t: 'さすらう　　　　　　　月のように'
+      -
+        x: ' 7  h    h   7hh'
+        t: 'Looking for　　ミツケテ'
+      -
+        x: ' 7hh         77h s6r'
+        t: 'ここで　　　　　　　　よりそうように'
+...
