@@ -13,7 +13,7 @@ virtual_singer\naturalsatsuki\jp.yaml,4.1.0,C (10 holes),"____natural feat. 重�
 tried_to_sing\tsumikiningyou\jp.yaml,4.1.0,C (10 holes),とくP feat. ぱごだ,積み木の人形 remix by とくP,,,1,jp /// rhythm,gggrv,1,1,0.533,40,1.766,0.532,0.312,0.001,0
 other\amaoto\jp_short.yaml,4.1.0,C (10 holes),天遊 feat. 東京塔子,雪の雫・雨の音 (MuseDash Ver.),,,0,jp /// rhythm,gggrv,1,1,0.545,40,1.717,0.703,0.235,0.0,0
 tried_to_sing\atolshametsu\jp.yaml,4.1.0,C (10 holes),ATOLS feat. 腹話,ハメツ,,,0,jp /// rhythm,gggrv,1,1,0.567,60,1.636,0.466,0.433,0.0,0
-virtual_singer\selfcollapse\jp.yaml,4.1.0,C (10 holes),Ocelot (Rin ぎんすけ) feat. マクネナナ,Self Collapse,,,0,jp /// rhythm,gggrv,1,1,0.569,40,1.377,0.069,0.311,0.014,0
+virtual_singer\selfcollapse\jp.yaml,4.1.0,C (10 holes),Ocelot (Rin ぎんすけ) feat. マクネナナ,Self Collapse,,,0,jp /// rhythm,gggrv,1,1,0.569,60,1.377,0.069,0.311,0.014,0
 tried_to_sing\twilightzone246\inst.yaml,4.1.0,C (10 holes),かごめP feat. はにちゃむ★,Twilight Zone:246,,,0,instrumental /// rhythm,gggrv,1,1,0.586,60,1.45,0.453,0.465,0.0,0
 other\amaoto\jp.yaml,4.1.0,C (10 holes),天遊 feat. 東京塔子,雪の雫・雨の音,,,0,jp /// rhythm,gggrv,1,1,0.589,40,1.835,0.645,0.342,0.0,0
 virtual_singer\realogideo\jp.yaml,4.1.0,C (10 holes),ゴボウメン feat. IA,現実的論理主義者,,,0,jp /// rhythm,gggrv,1,1,0.597,40,1.616,0.566,0.318,0.003,0
@@ -24,7 +24,7 @@ other\sleepingforest\jp.yaml,4.1.0,C (10 holes),"TeddyLoid feat. TORIENA, ボン
 other\fuyuno\jp.yaml,4.1.0,C (10 holes),ヒトリエ (wowaka),フユノ,,,0,jp /// rhythm,gggrv,1,1,0.752,60,1.55,1.043,0.283,0.0,0
 other\aisample\jp.yaml,4.1.0,C (10 holes),まふまふ feat. まふまふ,愛のサンプル,,,0,jp /// rhythm,gggrv,1,1,0.763,40,1.454,1.0,0.327,0.0,0
 virtual_singer\vampireandpiano\jp_easy.yaml,4.1.0,C (10 holes),"まぞっぷ feat. KAITO, 鏡音レン, 鏡音リン",吸血鬼とピアノ,,,0,jp /// rhythm,gggrv,1,1,0.771,60,1.509,0.911,0.403,0.0,0
-virtual_singer\zilart_amedama\jp.yaml,4.1.0,C (10 holes),ジラートP feat. 初音ミク,滲む原色,,,0,"jp /// rhythm, stress marks",gggrv,1,1,0.775,40,1.657,0.394,0.326,0.016,0
+virtual_singer\zilart_amedama\jp.yaml,4.1.0,C (10 holes),ジラートP feat. 初音ミク,滲む原色,,,0,"jp /// rhythm, stress marks",gggrv,1,1,0.775,60,1.657,0.394,0.326,0.016,0
 virtual_singer\fallandstaydown\jp.yaml,4.1.0,C (10 holes),うたたP feat. MAYU,七転び八起きない,,,0,jp /// rhythm,gggrv,1,1,0.79,40,1.607,0.996,0.373,0.0,0
 main\surovazima\ru.yaml,4.1.0,C (10 holes),Александр Пушной & КиевБро,Зима,,,0,"ru /// rhythm, stress marks",gggrv,1,1,0.81,40,1.662,0.824,0.24,0.01,0
 virtual_singer\hazeskyscraper\jp.yaml,4.1.0,C (10 holes),Clean Tears feat. 初音ミク,Skyscraper,,,0,jp /// rhythm,gggrv,1,1,0.823,60,1.431,1.136,0.314,0.0,0
@@ -36,7 +36,7 @@ virtual_singer\wanpopecho\jp_tech.yaml,4.1.0,C (10 holes),"マイナスP feat. �
 other\reollunatic\jp.yaml,4.1.0,C (10 holes),"ギガP, れをる feat. REOL",Lunatic,,,0,jp /// rhythm,gggrv,1,1,0.943,60,1.66,1.228,0.427,0.0,0
 virtual_singer\dependentfritters\jp.yaml,4.1.0,C (10 holes),koyori (電ポルP) feat. 初音ミク,従属ふりったー,,,0,jp /// rhythm,gggrv,1,1,0.945,60,1.395,1.345,0.338,0.0,1
 main\feelgood\en.yaml,4.1.0,C (10 holes),Gorillaz,Feel Good Inc.,,,0,"en /// rhythm, stress marks",gggrv,0,1,0.994,60,1.337,1.375,0.384,0.0,0
-virtual_singer\hirosetmefree\jp.yaml,4.1.0,C (10 holes),鼻そうめんP (Kanzaki Hiro) feat. Fukase,Set Me Free,,,0,"jp /// rhythm, stress marks",gggrv,1,1,0.998,40,1.59,0.719,0.325,0.019,0
+virtual_singer\hirosetmefree\jp.yaml,4.1.0,C (10 holes),鼻そうめんP (Kanzaki Hiro) feat. Fukase,Set Me Free,,,0,"jp /// rhythm, stress marks",gggrv,1,1,0.998,60,1.59,0.719,0.325,0.019,0
 virtual_singer\tinyparadise\jp.yaml,4.1.0,C (10 holes),かごめP feat. 結月ゆかり,Tiny PaRadisE,,,0,jp /// rhythm,gggrv,1,1,1.094,60,1.762,1.201,0.407,0.009,0
 main\lastmanonearth\ru_marmar.yaml,4.1.0,C (10 holes),Alice Cooper,Last Man on Earth,,,0,ru translation by ○○ /// stress marks,gggrv,1,1,1.14,80,1.444,0.163,0.177,0.045,0
 virtual_singer\wanpopecho\jp_v41.yaml,4.1.0,C (10 holes),"じーざすP feat. 鏡音リン, 鏡音レン",E.C.H.O (ワン☆オポ！VOL.4.1 Version),,,1,jp /// rhythm,gggrv,1,1,1.141,60,1.541,1.479,0.242,0.01,0
