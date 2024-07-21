@@ -2,21 +2,22 @@
 
 | Item | Description |
 | ------------- | ------------- |
-| What is this? | Part of project `harrrp`, the actual raw harmonica tabs in .yaml format. |
+| What is this? | Part of project `harrrp`, several raw harmonica tabs in .yaml format. |
 | What does it contain? | Human-readable and machine-readable at the same time harmonica tabs with tailor-made unique audio guides in `.mid` format and embedded timecodes (beta, partially applied until further notice). |
 | What does it NOT contain? | Rendering/editing/generating/transposing or any other tools or apps. |
 | Why does it NOT contain some items? | Because the items in question are available in dedicated repositories. |
 
-## Other relevant repositories
+## Relevant Links
 
-- [Tab format specification](https://github.com/gggrv/harrrp_tab_format) (click to open) - python tools for automatic difficulty estimation, etc. ✔️Fully functional.
-- [Game-like webapp](https://github.com/gggrv/harrrp_webapp_build) (click to open) - convenient rendering. 🚧Under construction.
+- [Python interfaces and tools](https://github.com/gggrv/harrrp_tab_format) (click to open) - automatic difficulty estimation, `index.csv` creation, etc. ✔️Fully functional.
+- [Game-like webapp](https://github.com/gggrv/harrrp_webapp_build) (click to open) - interactive tab renderer that looks like a rhythm game. 🚧Under construction.
+- [Request a tab](https://airtable.com/app03ufpLxoZTDiCd/pagGogV8fhzCP805w/form) (click to open) - an online form which can be used to request custom harmonica tabs.
 
 ## Usage
 
 ### Human-readable
 
-At any moment in time the tabs can be opened with any text editor and be performed by the user with the supported harmonica or any other instrument of choice. Additionally, at any moment in time the user can have access to detailed metadata regarding the underlying song origin and original creators.
+At any moment in time the tabs can be opened with any text editor and be performed by the user with supported harmonica or any other instrument of choice. Additionally, at any moment in time the user can have access to detailed metadata regarding the underlying song origin, its original creators and any other information, used for actual tab creation.
 
 ### Machine-readable
 
@@ -24,4 +25,4 @@ Any application, which supports `.yaml` format, can be used to process the harmo
 
 ## Legal
 
-All contents of the actual harmonica tabs, available in this repository, is non-profit derivative doujin work, made solely for non-commertial entertainment purposes, with full respect to the orginal creators and any involved entities.
+All contents of the actual harmonica tabs, available in this repository, is non-profit doujin work, made solely for entertainment purposes, with full respect to the orginal creators and any involved entities.
