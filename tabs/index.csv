@@ -1,55 +1,55 @@
 path,tab_format_version,physical_harmonica_name,artist,title,artist_latin,title_latin,is_cover,unique_descriptor,mapper,has_audio_guide,has_map,sort_order,tier,score_melody_variety,score_jump,score_same_breath,score_bend,has_audio_timecodes
-other\puppetheart\jp.yaml,4.1.0,C (10 holes),まふまふ feat. まふまふ,傀儡の心臓,,,0,jp /// rhythm,gggrv,1,1,0.175,20,1.665,0.051,0.171,0.0,0
-virtual_singer\dropsofdew\jp.yaml,4.1.0,C (10 holes),Clean Tears feat. 初音ミク,Drops of dew,,,0,jp /// rhythm,gggrv,1,1,0.216,20,1.037,0.098,0.17,0.0,0
+other\puppetheart\jp.yaml,4.1.0,C (10 holes),まふまふ feat. まふまふ,傀儡の心臓,,,0,jp /// rhythm,gggrv,1,1,0.175,0,1.665,0.051,0.171,0.0,0
 virtual_singer\bluegreen\jp_eiro.yaml,4.1.0,C (10 holes),AVTechNO! feat. 初音ミク,Blue／Green,,,0,jp /// rhythm,gggrv,1,1,0.257,20,1.671,0.046,0.291,0.0,1
-other\fantasylama\ru_marmar.yaml,4.1.0,C (10 holes),LAMA,Fantasy,,,0,"ru translation by ○○ /// rhythm, stress marks",gggrv,0,1,0.257,20,1.421,0.068,0.268,0.0,0
-other\fantasylama\jp.yaml,4.1.0,C (10 holes),LAMA,Fantasy,,,0,jp /// rhythm,gggrv,0,1,0.271,20,1.388,0.066,0.289,0.0,0
-main\whitewedding\en.yaml,4.1.0,C (10 holes),Billy Idol,White Wedding,,,0,en /// stress marks,gggrv,0,1,0.328,20,1.231,0.238,0.24,0.0,0
-tried_to_sing\mendokuse\jp.yaml,4.1.0,C (10 holes),ラムネ feat. びす,めんどくせー,,,0,jp /// rhythm,gggrv,1,1,0.338,20,1.685,0.333,0.203,0.0,0
-virtual_singer\merdoll\jp.yaml,4.1.0,C (10 holes),monaca:factory feat. GUMI,メレンゲドール,,,0,jp /// rhythm,gggrv,1,1,0.455,40,1.5,0.025,0.384,0.007,0
-tried_to_sing\koyorisampler\jp.yaml,4.1.0,C (10 holes),koyori (電ポルP) feat. 鹿乃,サイノウサンプラー,,,1,jp /// rhythm,gggrv,1,1,0.472,40,1.519,0.356,0.202,0.006,0
+virtual_singer\whatsinside\jp.yaml,4.1.0,C (10 holes),ピノキオピー feat. 初音ミク,内臓ありますか,,,0,jp /// rhythm,gggrv,1,1,0.26,20,1.663,0.099,0.258,0.0,0
+virtual_singer\hifumiloneliness\jp.yaml,4.1.0,C (10 holes),一二三 feat. 初音ミク,猛独が襲う,,,0,jp /// rhythm,gggrv,0,1,0.448,20,1.623,0.469,0.261,0.0,0
+other\fuyuno\jp.yaml,4.1.0,C (10 holes),ヒトリエ (wowaka),フユノ,,,0,jp /// rhythm,gggrv,1,1,0.477,20,1.55,0.494,0.283,0.0,0
 virtual_singer\bluegreen\jp_ixi.yaml,4.1.0,C (10 holes),AVTechNO! feat. 初音ミク,Blue Green IIXII,,,1,jp /// rhythm,gggrv,1,1,0.482,60,1.66,0.306,0.427,0.0,1
-virtual_singer\naturalsatsuki\jp.yaml,4.1.0,C (10 holes),"____natural feat. 重音テト, GUMI",Satsuki,,,0,"jp /// rhythm, stress marks",gggrv,1,1,0.507,40,1.711,0.202,0.252,0.01,0
 tried_to_sing\tsumikiningyou\jp.yaml,4.1.0,C (10 holes),とくP feat. ぱごだ,積み木の人形 remix by とくP,,,1,jp /// rhythm,gggrv,1,1,0.533,40,1.766,0.532,0.312,0.001,0
 other\amaoto\jp_short.yaml,4.1.0,C (10 holes),天遊 feat. 東京塔子,雪の雫・雨の音 (MuseDash Ver.),,,0,jp /// rhythm,gggrv,1,1,0.545,40,1.717,0.703,0.235,0.0,0
-tried_to_sing\atolshametsu\jp.yaml,4.1.0,C (10 holes),ATOLS feat. 腹話,ハメツ,,,0,jp /// rhythm,gggrv,1,1,0.567,60,1.636,0.466,0.433,0.0,0
-virtual_singer\selfcollapse\jp.yaml,4.1.0,C (10 holes),Ocelot (Rin ぎんすけ) feat. マクネナナ,Self Collapse,,,0,jp /// rhythm,gggrv,1,1,0.569,60,1.377,0.069,0.311,0.014,0
-tried_to_sing\twilightzone246\inst.yaml,4.1.0,C (10 holes),かごめP feat. はにちゃむ★,Twilight Zone:246,,,0,instrumental /// rhythm,gggrv,1,1,0.586,60,1.45,0.453,0.465,0.0,0
+other\reollunatic\jp.yaml,4.1.0,C (10 holes),"ギガP, れをる feat. REOL",Lunatic,,,0,jp /// rhythm,gggrv,1,1,0.557,60,1.66,0.456,0.427,0.0,0
+other\fantasylama\ru_marmar.yaml,4.1.0,C (10 holes),LAMA,Fantasy,,,0,"ru translation by ○○ /// rhythm, stress marks",gggrv,0,1,0.574,40,1.421,0.703,0.268,0.0,0
+other\fantasylama\jp.yaml,4.1.0,C (10 holes),LAMA,Fantasy,,,0,jp /// rhythm,gggrv,0,1,0.582,40,1.388,0.687,0.289,0.0,0
 other\amaoto\jp.yaml,4.1.0,C (10 holes),天遊 feat. 東京塔子,雪の雫・雨の音,,,0,jp /// rhythm,gggrv,1,1,0.589,40,1.835,0.645,0.342,0.0,0
 virtual_singer\realogideo\jp.yaml,4.1.0,C (10 holes),ゴボウメン feat. IA,現実的論理主義者,,,0,jp /// rhythm,gggrv,1,1,0.597,40,1.616,0.566,0.318,0.003,0
+virtual_singer\dependentfritters\jp.yaml,4.1.0,C (10 holes),koyori (電ポルP) feat. 初音ミク,従属ふりったー,,,0,jp /// rhythm,gggrv,1,1,0.609,40,1.395,0.673,0.338,0.0,1
+virtual_singer\dropsofdew\jp.yaml,4.1.0,C (10 holes),Clean Tears feat. 初音ミク,Drops of dew,,,0,jp /// rhythm,gggrv,1,1,0.613,40,1.037,0.891,0.17,0.0,0
 main\classicluyah\en.yaml,4.1.0,C (10 holes),Rufus Wrainwright,Hallelujah,,,1,en /// stress marks,publicly sourced,0,1,0.638,40,0.93,1.0,0.12,0.0,0
+main\feelgood\en.yaml,4.1.0,C (10 holes),Gorillaz,Feel Good Inc.,,,0,"en /// rhythm, stress marks",gggrv,0,1,0.64,40,1.337,0.667,0.384,0.0,0
 virtual_singer\ac_matem\ru.yaml,4.1.0,C (10 holes),AContrari,МАТЕМАТИЧКА,,,0,"ru /// rhythm, stress marks",gggrv,1,1,0.654,40,1.394,0.541,0.268,0.008,0
-virtual_singer\whatsinside\jp.yaml,4.1.0,C (10 holes),ピノキオピー feat. 初音ミク,内臓ありますか,,,0,jp /// rhythm,gggrv,1,1,0.657,40,1.663,0.892,0.258,0.0,0
+virtual_singer\hirosetmefree\jp.yaml,4.1.0,C (10 holes),鼻そうめんP (Kanzaki Hiro) feat. Fukase,Set Me Free,,,0,"jp /// rhythm, stress marks",gggrv,1,1,0.674,60,1.59,0.07,0.325,0.019,0
+main\whitewedding\en.yaml,4.1.0,C (10 holes),Billy Idol,White Wedding,,,0,en /// stress marks,gggrv,0,1,0.713,60,1.231,1.009,0.24,0.0,0
 other\sleepingforest\jp.yaml,4.1.0,C (10 holes),"TeddyLoid feat. TORIENA, ボンジュール鈴木",Sleeping Forest (INFINITY),,,0,"jp /// rhythm, stress marks",gggrv,1,1,0.728,40,1.625,0.988,0.29,0.0,0
-other\fuyuno\jp.yaml,4.1.0,C (10 holes),ヒトリエ (wowaka),フユノ,,,0,jp /// rhythm,gggrv,1,1,0.752,60,1.55,1.043,0.283,0.0,0
+other\wannabeagirl\jp.yaml,4.1.0,C (10 holes),まふまふ,女の子になりたい,,,0,jp /// rhythm,gggrv,1,1,0.755,70,1.475,0.033,0.264,0.026,0
+tried_to_sing\mendokuse\jp.yaml,4.1.0,C (10 holes),ラムネ feat. びす,めんどくせー,,,0,jp /// rhythm,gggrv,1,1,0.755,60,1.685,1.167,0.203,0.0,0
 other\aisample\jp.yaml,4.1.0,C (10 holes),まふまふ feat. まふまふ,愛のサンプル,,,0,jp /// rhythm,gggrv,1,1,0.763,40,1.454,1.0,0.327,0.0,0
-virtual_singer\vampireandpiano\jp_easy.yaml,4.1.0,C (10 holes),"まぞっぷ feat. KAITO, 鏡音レン, 鏡音リン",吸血鬼とピアノ,,,0,jp /// rhythm,gggrv,1,1,0.771,60,1.509,0.911,0.403,0.0,0
-virtual_singer\zilart_amedama\jp.yaml,4.1.0,C (10 holes),ジラートP feat. 初音ミク,滲む原色,,,0,"jp /// rhythm, stress marks",gggrv,1,1,0.775,60,1.657,0.394,0.326,0.016,0
+tried_to_sing\koyorisampler\jp.yaml,4.1.0,C (10 holes),koyori (電ポルP) feat. 鹿乃,サイノウサンプラー,,,1,jp /// rhythm,gggrv,1,1,0.784,40,1.519,0.98,0.202,0.006,0
 virtual_singer\fallandstaydown\jp.yaml,4.1.0,C (10 holes),うたたP feat. MAYU,七転び八起きない,,,0,jp /// rhythm,gggrv,1,1,0.79,40,1.607,0.996,0.373,0.0,0
-main\surovazima\ru.yaml,4.1.0,C (10 holes),Александр Пушной & КиевБро,Зима,,,0,"ru /// rhythm, stress marks",gggrv,1,1,0.81,40,1.662,0.824,0.24,0.01,0
-virtual_singer\hazeskyscraper\jp.yaml,4.1.0,C (10 holes),Clean Tears feat. 初音ミク,Skyscraper,,,0,jp /// rhythm,gggrv,1,1,0.823,60,1.431,1.136,0.314,0.0,0
-virtual_singer\hifumiloneliness\jp.yaml,4.1.0,C (10 holes),一二三 feat. 初音ミク,猛独が襲う,,,0,jp /// rhythm,gggrv,0,1,0.831,60,1.623,1.235,0.261,0.0,0
+virtual_singer\merdoll\jp.yaml,4.1.0,C (10 holes),monaca:factory feat. GUMI,メレンゲドール,,,0,jp /// rhythm,gggrv,1,1,0.802,40,1.5,0.72,0.384,0.007,0
+virtual_singer\naturalsatsuki\jp.yaml,4.1.0,C (10 holes),"____natural feat. 重音テト, GUMI",Satsuki,,,0,"jp /// rhythm, stress marks",gggrv,1,1,0.833,40,1.711,0.855,0.252,0.01,0
+virtual_singer\selfcollapse\jp.yaml,4.1.0,C (10 holes),Ocelot (Rin ぎんすけ) feat. マクネナナ,Self Collapse,,,0,jp /// rhythm,gggrv,1,1,0.847,60,1.377,0.626,0.311,0.014,0
 virtual_singer\kimigashinu\jp.yaml,4.1.0,C (10 holes),かめりあ feat. 初音ミク,君が死ぬのを眺めているよ,,,0,jp /// rhythm,gggrv,1,1,0.856,60,1.354,0.823,0.411,0.006,0
+virtual_singer\yorunohate\jp.yaml,4.1.0,C (10 holes),Kuroneko Lounge (Rin ぎんすけ) feat. 初音ミク,ヨルノハテ,,,0,jp /// rhythm,gggrv,1,1,0.864,60,1.839,0.768,0.419,0.008,0
+virtual_singer\36seiren\jp.yaml,4.1.0,C (10 holes),36g feat. 初音ミク,せいれーん,,,0,jp /// rhythm,gggrv,1,1,0.865,60,1.447,0.481,0.357,0.017,1
 virtual_singer\vampireandpiano\ru_easy_marmar.yaml,4.1.0,C (10 holes),"MazoP feat. KAITO, 鏡音レン, 鏡音リン",吸血鬼とピアノ,,,0,"ru translation by ○○ /// rhythm, stress marks",gggrv,1,1,0.868,60,1.554,1.215,0.326,0.0,0
-virtual_singer\yorunohate\jp.yaml,4.1.0,C (10 holes),Kuroneko Lounge (Rin ぎんすけ) feat. 初音ミク,ヨルノハテ,,,0,jp /// rhythm,gggrv,1,1,0.872,60,1.839,0.783,0.419,0.008,0
+tried_to_sing\twilightzone246\inst.yaml,4.1.0,C (10 holes),かごめP feat. はにちゃむ★,Twilight Zone:246,,,0,instrumental /// rhythm,gggrv,1,1,0.874,60,1.45,1.028,0.465,0.0,0
 virtual_singer\wanpopecho\jp_tech.yaml,4.1.0,C (10 holes),"マイナスP feat. 鏡音リン, 鏡音レン",E.C.H.O -Tech House MIX-,,,1,jp /// rhythm,gggrv,1,1,0.888,40,1.365,0.922,0.329,0.008,0
-other\reollunatic\jp.yaml,4.1.0,C (10 holes),"ギガP, れをる feat. REOL",Lunatic,,,0,jp /// rhythm,gggrv,1,1,0.943,60,1.66,1.228,0.427,0.0,0
-virtual_singer\dependentfritters\jp.yaml,4.1.0,C (10 holes),koyori (電ポルP) feat. 初音ミク,従属ふりったー,,,0,jp /// rhythm,gggrv,1,1,0.945,60,1.395,1.345,0.338,0.0,1
-main\feelgood\en.yaml,4.1.0,C (10 holes),Gorillaz,Feel Good Inc.,,,0,"en /// rhythm, stress marks",gggrv,0,1,0.994,60,1.337,1.375,0.384,0.0,0
-virtual_singer\hirosetmefree\jp.yaml,4.1.0,C (10 holes),鼻そうめんP (Kanzaki Hiro) feat. Fukase,Set Me Free,,,0,"jp /// rhythm, stress marks",gggrv,1,1,0.998,60,1.59,0.719,0.325,0.019,0
+virtual_singer\zilart_amedama\jp.yaml,4.1.0,C (10 holes),ジラートP feat. 初音ミク,滲む原色,,,0,"jp /// rhythm, stress marks",gggrv,1,1,0.932,60,1.657,0.708,0.326,0.016,0
+tried_to_sing\atolshametsu\jp.yaml,4.1.0,C (10 holes),ATOLS feat. 腹話,ハメツ,,,0,jp /// rhythm,gggrv,1,1,0.95,60,1.636,1.233,0.433,0.0,0
+virtual_singer\vampireandpiano\jp_easy.yaml,4.1.0,C (10 holes),"まぞっぷ feat. KAITO, 鏡音レン, 鏡音リン",吸血鬼とピアノ,,,0,jp /// rhythm,gggrv,1,1,0.954,60,1.509,1.278,0.403,0.0,0
+virtual_singer\selfconfirmcrisis\jp.yaml,4.1.0,C (10 holes),"米库喵, Ncha-P feat. 初音ミク",自我認識クライシス,,,0,jp /// rhythm,gggrv,1,1,0.987,70,1.851,0.46,0.3,0.026,0
+virtual_singer\hazeskyscraper\jp.yaml,4.1.0,C (10 holes),Clean Tears feat. 初音ミク,Skyscraper,,,0,jp /// rhythm,gggrv,1,1,1.039,60,1.431,1.568,0.314,0.0,0
+virtual_singer\wanpopecho\jp_v41.yaml,4.1.0,C (10 holes),"じーざすP feat. 鏡音リン, 鏡音レン",E.C.H.O (ワン☆オポ！VOL.4.1 Version),,,1,jp /// rhythm,gggrv,1,1,1.087,60,1.541,1.37,0.242,0.01,0
+main\surovazima\ru.yaml,4.1.0,C (10 holes),Александр Пушной & КиевБро,Зима,,,0,"ru /// rhythm, stress marks",gggrv,1,1,1.088,60,1.662,1.379,0.24,0.01,0
 virtual_singer\tinyparadise\jp.yaml,4.1.0,C (10 holes),かごめP feat. 結月ゆかり,Tiny PaRadisE,,,0,jp /// rhythm,gggrv,1,1,1.094,60,1.762,1.201,0.407,0.009,0
 main\lastmanonearth\ru_marmar.yaml,4.1.0,C (10 holes),Alice Cooper,Last Man on Earth,,,0,ru translation by ○○ /// stress marks,gggrv,1,1,1.14,80,1.444,0.163,0.177,0.045,0
-virtual_singer\wanpopecho\jp_v41.yaml,4.1.0,C (10 holes),"じーざすP feat. 鏡音リン, 鏡音レン",E.C.H.O (ワン☆オポ！VOL.4.1 Version),,,1,jp /// rhythm,gggrv,1,1,1.141,60,1.541,1.479,0.242,0.01,0
-other\wannabeagirl\jp.yaml,4.1.0,C (10 holes),まふまふ,女の子になりたい,,,0,jp /// rhythm,gggrv,1,1,1.172,70,1.475,0.867,0.264,0.026,0
 main\lastmanonearth\en.yaml,4.1.0,C (10 holes),Alice Cooper,Last Man on Earth,,,0,en /// stress marks,gggrv,1,1,1.178,80,1.529,0.163,0.177,0.047,0
-virtual_singer\36seiren\jp.yaml,4.1.0,C (10 holes),36g feat. 初音ミク,せいれーん,,,0,jp /// rhythm,gggrv,1,1,1.217,60,1.447,1.186,0.357,0.017,1
-tried_to_sing\ymdirtyroom\inst.yaml,4.1.0,C (10 holes),YM feat. 灯油,ベイビーダーティルーム,,,0,instrumental /// rhythm,gggrv,1,1,1.267,80,1.667,0.172,0.301,0.047,0
-virtual_singer\selfconfirmcrisis\jp.yaml,4.1.0,C (10 holes),"米库喵, Ncha-P feat. 初音ミク",自我認識クライシス,,,0,jp /// rhythm,gggrv,1,1,1.372,70,1.851,1.23,0.3,0.026,0
-tried_to_sing\atolshametsu\jp_n.yaml,4.1.0,C (10 holes),ATOLS feat. 腹話,ハメツ,,,0,jp /// rhythm,gggrv,1,1,1.397,80,1.638,0.447,0.433,0.042,0
-tried_to_sing\atolseye\jp.yaml,4.1.0,C (10 holes),ATOLS feat. 腹話,アイ,,,1,jp /// rhythm,gggrv,1,1,1.465,80,1.428,0.505,0.197,0.052,0
-virtual_singer\plama_lost_children\en.yaml,4.1.0,C (10 holes),"PLAMA feat. 鏡音リン, 鏡音レン",Lost Children,,,0,"en /// rhythm, stress marks",gggrv,1,1,1.482,80,1.275,0.527,0.399,0.045,0
-virtual_singer\ac_volosy\ru.yaml,4.1.0,C (10 holes),AContrari,МОИ ВОЛОСЫ,,,0,"ru /// rhythm, stress marks",gggrv,1,1,2.044,80,1.044,1.5,0.295,0.052,0
-tried_to_sing\minjtaghost\jp.yaml,4.1.0,C (10 holes),minjta feat. 鹿乃,ghost,,,1,jp /// rhythm,gggrv,1,1,2.996,90,1.675,0.937,0.368,0.112,0
+tried_to_sing\ymdirtyroom\inst.yaml,4.1.0,C (10 holes),YM feat. 灯油,ベイビーダーティルーム,,,0,instrumental /// rhythm,gggrv,1,1,1.547,80,1.667,0.732,0.301,0.047,0
+virtual_singer\plama_lost_children\en.yaml,4.1.0,C (10 holes),"PLAMA feat. 鏡音リン, 鏡音レン",Lost Children,,,0,"en /// rhythm, stress marks",gggrv,1,1,1.58,80,1.275,0.722,0.399,0.045,0
+virtual_singer\ac_volosy\ru.yaml,4.1.0,C (10 holes),AContrari,МОИ ВОЛОСЫ,,,0,"ru /// rhythm, stress marks",gggrv,1,1,1.628,80,1.044,0.667,0.295,0.052,0
+tried_to_sing\atolshametsu\jp_n.yaml,4.1.0,C (10 holes),ATOLS feat. 腹話,ハメツ,,,0,jp /// rhythm,gggrv,1,1,1.785,80,1.638,1.223,0.433,0.042,0
+tried_to_sing\atolseye\jp.yaml,4.1.0,C (10 holes),ATOLS feat. 腹話,アイ,,,1,jp /// rhythm,gggrv,1,1,1.815,80,1.428,1.204,0.197,0.052,0
+tried_to_sing\minjtaghost\jp.yaml,4.1.0,C (10 holes),minjta feat. 鹿乃,ghost,,,1,jp /// rhythm,gggrv,1,1,2.841,90,1.675,0.627,0.368,0.112,0
 main\becominginsane\en.yaml,4.1.0,C (10 holes),Infected Mushroom,Becoming Insane,,,0,"en /// rhythm, stress marks",gggrv,1,1,3.262,90,1.177,0.195,0.689,0.132,0
 virtual_singer\rarararafulezia\jp.yaml,4.1.0,C (10 holes),鬱P feat. 初音ミク,ララララフレシア,,,0,jp /// rhythm,gggrv,1,1,4.605,90,1.696,0.634,0.541,0.194,0
-tried_to_sing\atolseye\jp_main.yaml,4.1.0,C (10 holes),ATOLS feat. 腹話,アイ,,,1,jp /// rhythm,gggrv,1,1,5.046,90,1.471,0.27,0.338,0.232,0
+tried_to_sing\atolseye\jp_main.yaml,4.1.0,C (10 holes),ATOLS feat. 腹話,アイ,,,1,jp /// rhythm,gggrv,1,1,5.381,90,1.471,0.941,0.338,0.232,0
