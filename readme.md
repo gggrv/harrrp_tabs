@@ -2,7 +2,7 @@
 
 | Item | Description |
 | ------------- | ------------- |
-| What is this? | Part of project `harrrp`, several raw harmonica tabs in .yaml format. |
+| What is this? | Part of project `harrrp`, several raw harmonica tabs in `.yaml` format. |
 | What does it contain? | Human-readable and machine-readable at the same time harmonica tabs with tailor-made unique audio guides in `.mid` format and embedded timecodes (beta, partially applied until further notice). |
 | What does it NOT contain? | Rendering/editing/generating/transposing or any other tools or apps. |
 | Why does it NOT contain some items? | Because the items in question are available in dedicated repositories. |
@@ -21,7 +21,7 @@ At any moment in time the tabs can be opened with any text editor and be perform
 
 ### Machine-readable
 
-Any application, which supports `.yaml` format, can be used to process the harmonica tabs according to immediate user needs.
+Any application, which supports `.yaml` or at least can read plaintext, can be used to process the harmonica tabs according to immediate user needs.
 
 ## Legal
 
