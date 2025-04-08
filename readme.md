@@ -1,5 +1,7 @@
 # [harrrp] Harmonica Tabs
 
+<p style="text-align:right;"><a href="https://gggrv.github.io/something/2022/03/22/devinfo-harrrp/">🏠 Project Homepage</a></p>
+
 | Item | Description |
 | ------------- | ------------- |
 | What is this? | Part of project `harrrp`, several raw harmonica tabs in `.yaml` format. |
@@ -10,7 +12,7 @@
 ## Relevant Links
 
 - [Python interfaces and tools](https://github.com/gggrv/harrrp_tab_format) (click to open) - automatic difficulty estimation, `index.csv` creation, etc. ✔️Fully functional.
-- [Game-like webapp](https://github.com/gggrv/harrrp_webapp_build) (click to open) - interactive tab renderer that looks like a rhythm game. 🚧Under construction.
+- [Game-like webapp](https://github.com/gggrv/harrrp_webapp_build) (click to open, empty at this moment) - interactive tab renderer that looks like a rhythm game. 🚧Under construction.
 - [Request a tab](https://airtable.com/app03ufpLxoZTDiCd/pagGogV8fhzCP805w/form) (click to open) - an online form which can be used to request custom harmonica tabs.
 
 ## Usage

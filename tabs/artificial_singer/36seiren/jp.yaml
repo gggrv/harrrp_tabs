@@ -27,8 +27,14 @@ harp:
 song:
   artist: 36g feat. 初音ミク
   title: せいれーん
+  artist_latin: 36g feat. Hatsune Miku
+  title_latin: Siren
   links:
     song: www.nicovideo.jp/watch/sm19565776
+  background: >
+    Sirens are evil spirits from Greek mythology.
+    They sing hauntingly beautiful songs and guide any passing sailors into suicidal delirium.
+    Even without dark ambience, a soulful harmonica performance can highlight deep murky sorrow of this melody.
 file:
   lyrics:
     language: jp

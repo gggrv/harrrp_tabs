@@ -27,8 +27,16 @@ harp:
 song:
   artist: PLAMA feat. 鏡音リン, 鏡音レン
   title: Lost Children
+  artist_latin: PLAMA feat. Kagamine Rin, Kagamine Len
+  title_latin: Lost Children
   links:
     album: www.youtube.com/watch?v=D-WhpF3nkSo
+  background: >
+    Soothing, almost ballad-like main theme, accompanied by sweet vocals,
+    is unexpectedly succeeded by the total ear assault,
+    leaving the listener wondering: "Whoa, what are these kids up to?".
+    Rather than relying on the sound design intensity,
+    harmonica performance begs for on-the-spot ballad-like improvisation.
 file:
   lyrics:
     language: en

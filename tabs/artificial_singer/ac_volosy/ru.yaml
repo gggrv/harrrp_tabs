@@ -27,8 +27,14 @@ harp:
 song:
   artist: AContrari
   title: МОИ ВОЛОСЫ
+  artist_latin: AContrari
+  title_latin: MOI VOLOSY
   links:
     song: youtu.be/-mwWtUmqKAo?t=55
+  background: >
+    Layered audiovisual work that showcases nonsensical rhyme: hair in need of kielbasa.
+    The singer's voice appears to be sampled from the default Microsoft Windows TTS
+    via software like "Balabolka".
 file:
   lyrics:
     language: ru

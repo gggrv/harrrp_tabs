@@ -27,8 +27,18 @@ harp:
 song:
   artist: AContrari
   title: МАТЕМАТИЧКА
+  artist_latin: AContrari
+  title_latin: MATEMATICHKA
   links:
     song: youtu.be/3-m2YT6NPNs
+  background: >
+    Intergenerational and cross-cultural conflicts come in many shapes and sizes.
+    Regardless of the exact nature of the dispute, the aftermath often brings
+    nothing but lingering regret and bitterness for both sides.
+    The video highlights the struggles of the fragile and maladaptive human being
+    that often can be found under the guise of a staunchy authority pillar.
+    The singer's voice appears to be sampled from the default Microsoft Windows TTS
+    via software like "Balabolka".
 file:
   lyrics:
     language: ru
