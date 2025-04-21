@@ -27,8 +27,19 @@ harp:
 song:
   artist: YM feat. 灯油
   title: ベイビーダーティルーム
+  artist_latin: YM feat. Touyu
+  title_latin: Baby Dirty Room
   links:
     album: www.nicovideo.jp/watch/sm27788257
+  background: >
+    An obvious cry for help, ignoring it is impossible.
+    Access to reliably transcribed lyrics could shed more light into the song's actual meaning.
+    The lyrical hero appears to be a self-conscious boaster.
+    In their desperate attempts to prove their worth,
+    they repeatedly cause trouble and barely withstand
+    an overwhelming sense of fear and shame that naturally emerges afterwards.
+    Precise, sharp, methodical harmonica performance can highlight
+    explosive pain and frustration, depicted in this melody.
 file:
   lyrics:
     language: instrumental
@@ -39,7 +50,7 @@ audio guide:
   .mid:
     paths:
       main.mid: song key
-    comment: guitar solo not included
+    comment: ok
     mapper: gggrv
     means: # how the file was created
       - listen

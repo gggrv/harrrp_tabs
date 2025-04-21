@@ -27,8 +27,18 @@ harp:
 song:
   artist: AVTechNO! feat. 初音ミク
   title: Blue／Green
+  artist_latin: AVTechNO! feat. Hatsune Miku
+  title_latin: Blue／Green
   links:
     album: music.apple.com/jp/album/e-roiro-ep/345275867
+  background: >
+    This song utilizes softly layered ambient sound effects and lyrics
+    in order to direct the listener's attention
+    towards everyday background noises that are usually ignored.
+    The resulting atmosphere is a peaceful, hopeful, and slightly wistful
+    harmony between natural and artificial environments.
+    A proper bagpipe rearrange would be very interesting.
+    Soft and sentimental harmonica performance can highlight inherent romanticism of this melody.
 file:
   lyrics:
     language: jp
@@ -36,7 +46,10 @@ file:
       third-party website: vocadb.net
     tab label position: [rhythm]
     widechar: 1
-  comment: this map adheres to the original song structure, ambient break not included
+  comment: >
+    This map adheres to the original song structure.
+    Ambient break not included.
+    Bagpipe synth parts not included.
   mapper: gggrv
 audio guide:
   .mid:

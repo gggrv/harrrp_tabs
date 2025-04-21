@@ -27,8 +27,22 @@ harp:
 song:
   artist: koyori (電ポルP) feat. 初音ミク
   title: 従属ふりったー
+  artist_latin: koyori (DenpolP) feat. Hatsune Miku
+  title_latin: Juuzoku Fritters
   links:
     song: www.nicovideo.jp/watch/sm23964020
+  background: >
+    Whimsical and prickly, both in melody and lyrics,
+    this song retells a classical scenario of a breakup
+    that ensues a complex series of love affairs.
+    The lyrical hero confronts and mocks their lover
+    for their indecisiveness, habitual melodramatic repentance with promises of eternal love
+    and standoffish attempts to look like a proud winner.
+    Funky beats and catchy main theme create a surprisingly fun, relaxed atmosphere,
+    highlighting the contrast between the hero's mildly annoyed
+    and the lover's thoroughly paranoid emotional states.
+    Precise, playful harmonica performance can help convey
+    mischief and sober disillusionment, portrayed in this melody.
 file:
   lyrics:
     language: jp

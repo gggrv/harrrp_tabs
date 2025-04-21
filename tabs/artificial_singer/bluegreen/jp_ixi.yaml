@@ -27,12 +27,24 @@ harp:
 song:
   artist: AVTechNO! feat. 初音ミク
   title: Blue Green IIXII
+  artist_latin: AVTechNO! feat. Hatsune Miku
+  title_latin: Blue Green IIXII
   traceback:
     -
-      artist: AVTechNO!
+      artist: AVTechNO! feat. 初音ミク
       title: Blue／Green
+      artist_latin: AVTechNO! feat. Hatsune Miku
+      title_latin: Blue／Green
   links:
     album: music.apple.com/jp/album/hatsune-miku-tear-ep/488097294
+  background: >
+    This song heavily utilizes layered ambient sound effects and lyrics
+    in order to direct the listener's attention
+    towards everyday background noises that are usually ignored.
+    The resulting atmosphere is a unique harmony between natural and artificial environments
+    with additional emphasis on rather dark sense of wistfulness,
+    combined with unwavering hope and clarity.
+    Relaxed yet powerful harmonica performance can highlight strong and complex emotions of this melody.
 file:
   lyrics:
     language: jp
