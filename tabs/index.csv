@@ -12,8 +12,8 @@ other\fantasylama\ru_marmar.yaml,4.1.0,C (10 holes),LAMA,Fantasy,,,0,"ru transla
 other\fantasylama\jp.yaml,4.1.0,C (10 holes),LAMA,Fantasy,,,0,jp /// rhythm,gggrv,0,1,0.582,40,1.388,0.687,0.289,0.0,0
 other\amaoto\jp.yaml,4.1.0,C (10 holes),天遊 feat. 東京塔子,雪の雫・雨の音,,,0,jp /// rhythm,gggrv,1,1,0.589,40,1.835,0.645,0.342,0.0,0
 artificial_singer\realogideo\jp.yaml,4.1.0,C (10 holes),ゴボウメン feat. IA,現実的論理主義者,,,0,jp /// rhythm,gggrv,1,1,0.597,40,1.616,0.566,0.318,0.003,0
-artificial_singer\dependentfritters\jp.yaml,4.1.0,C (10 holes),koyori (電ポルP) feat. 初音ミク,従属ふりったー,koyori (DenpolP) feat. Hatsune Miku,Juuzoku Fritters,0,jp /// rhythm,gggrv,1,1,0.609,40,1.395,0.673,0.338,0.0,1
 artificial_singer\dropsofdew\jp.yaml,4.1.0,C (10 holes),Clean Tears feat. 初音ミク,Drops of dew,,,0,jp /// rhythm,gggrv,1,1,0.613,40,1.037,0.891,0.17,0.0,0
+artificial_singer\dependentfritters\jp.yaml,4.1.0,C (10 holes),koyori (電ポルP) feat. 初音ミク,従属ふりったー,koyori (DenpolP) feat. Hatsune Miku,Juuzoku Fritters,0,jp /// rhythm,gggrv,1,1,0.618,40,1.494,0.688,0.344,0.0,1
 main\classicluyah\en.yaml,4.1.0,C (10 holes),Rufus Wrainwright,Hallelujah,,,1,en /// stress marks,publicly sourced,0,1,0.638,40,0.93,1.0,0.12,0.0,0
 main\feelgood\en.yaml,4.1.0,C (10 holes),Gorillaz,Feel Good Inc.,,,0,"en /// rhythm, stress marks",gggrv,0,1,0.64,40,1.337,0.667,0.384,0.0,0
 artificial_singer\ac_matem\ru.yaml,4.1.0,C (10 holes),AContrari,МАТЕМАТИЧКА,AContrari,MATEMATICHKA,0,"ru /// rhythm, stress marks",gggrv,1,1,0.654,40,1.394,0.541,0.268,0.008,0
