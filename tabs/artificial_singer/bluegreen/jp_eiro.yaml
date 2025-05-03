@@ -39,6 +39,10 @@ song:
     harmony between natural and artificial environments.
     A proper bagpipe rearrange would be very interesting.
     Soft and sentimental harmonica performance can highlight inherent romanticism of this melody.
+  background_contents:
+    - story speculation (spoiler-free)
+    - trivia
+    - harmonica performance suggestion
 file:
   lyrics:
     language: jp
@@ -56,7 +60,11 @@ audio guide:
     paths:
       eiro_harp.mid: key change
       eiro.mid: song key
-    comment: sliding notes not included
+    comment: >
+      A rough sketch of the whole song.
+      Sliding notes not included.
+      Bagpipe synth parts included.
+      Hidden guitar outro included.
     mapper: gggrv
     means: # how the file was created
       - listen

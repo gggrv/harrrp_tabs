@@ -37,19 +37,27 @@ song:
     leaving the listener wondering: "Whoa, what are these kids up to?".
     Rather than relying on the sound design intensity,
     harmonica performance begs for on-the-spot ballad-like improvisation.
+  background_contents:
+    - audio production speculation (spoiler)
+    - harmonica performance suggestion
 file:
   lyrics:
     language: en
     links:
       third-party website: vocadb.net
     tab label position: [stress marks,rhythm]
-  comment: this map is custom-made from scratch and adheres to the original song structure
+  comment: >
+    This map adheres to the original song structure.
+    Piano break not included.
+    This tab is primarily used for the index.csv validation.
   mapper: gggrv
 audio guide:
   .mid:
     paths:
       main.mid: song key
-    comment: repetitive
+    comment: >
+      A rough sketch of the whole song.
+      Piano break included.
     mapper: gggrv
     means: # how the file was created
       - listen

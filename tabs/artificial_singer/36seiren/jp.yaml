@@ -33,8 +33,24 @@ song:
     song: www.nicovideo.jp/watch/sm19565776
   background: >
     Sirens are evil spirits from Greek mythology.
-    They sing hauntingly beautiful songs and guide any passing sailors into suicidal delirium.
-    Even without dark ambience, a soulful harmonica performance can highlight deep murky sorrow of this melody.
+    They are known for singing hauntingly beautiful songs
+    and guiding any passersby into suicidal delirium.
+    The number of lyrical heroes in this song is unclear:
+    either a siren, its victim, or both.
+    Regardless, they all comment on the same "empty dream" they see.
+    First half of the song is tranquil and focuses on the exposition,
+    in which the lyrical hero melancholically states their intention
+    to disrupt the recurring dream's "hollow" "worthless" "blank" ending,
+    instead yearning for the starry skies above.
+    The latter half of the song subverts set expectations
+    as the hero's voice gradually switches to an ear-piercing cry,
+    lamenting unreachable blue skies and rushing towards their own demise.
+    Alternating beween serene and soulful styles during harmonica performance
+    can highlight deep murky sorrow of this melody.
+  background_contents:
+    - story speculation (spoiler)
+    - trivia
+    - harmonica performance suggestion
 file:
   lyrics:
     language: jp
@@ -42,14 +58,17 @@ file:
       third-party website: vocadb.net/S/18830
     tab label position: [rhythm]
     widechar: 1
-  comment: this map adheres to the original song structure, not suitable for harmonica
+  comment: >
+    This map adheres to the original song structure.
   mapper: gggrv
 audio guide:
   .mid:
     paths:
       harp.mid: key change
       main.mid: song key
-    comment: repetitive
+    comment: >
+      A rough sketch of the whole song.
+      Includes background guitar (without chords) and vocals.
     mapper: gggrv
     means: # how the file was created
       - listen

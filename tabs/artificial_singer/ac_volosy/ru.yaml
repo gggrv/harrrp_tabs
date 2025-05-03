@@ -32,23 +32,33 @@ song:
   links:
     song: youtu.be/-mwWtUmqKAo?t=55
   background: >
-    Layered audiovisual work that showcases nonsensical rhyme: hair in need of kielbasa.
+    Built atop a nonsensical rhyme (hair in need of kielbasa),
+    this layered audiovisual work sounds surprisingly dramatic and dark,
+    progressively deepening the listener's initial confusion,
+    never providing answers or even hints as to what is happening and why.
     The singer's voice appears to be sampled from the default Microsoft Windows TTS
     via software like "Balabolka".
+  background_contents:
+    - story speculation (spoiler)
+    - audio production speculation
 file:
   lyrics:
     language: ru
     links:
       official: youtu.be/-mwWtUmqKAo?t=55
     tab label position: [stress marks,rhythm]
-  comment: simplified song structure
+  comment: >
+    Song structure is greatly simplified.
+    This tab is primarily used for the index.csv validation.
   mapper: gggrv
 audio guide:
   .mid:
     paths:
       harp.mid: key change
       main.mid: song key
-    comment: minimal, sliding notes not included
+    comment: >
+      Minimal song outline is sketched.
+      Sliding notes not included.
     mapper: gggrv
     means: # how the file was created
       - listen

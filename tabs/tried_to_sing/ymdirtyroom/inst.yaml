@@ -40,17 +40,24 @@ song:
     an overwhelming sense of fear and shame that naturally emerges afterwards.
     Precise, sharp, methodical harmonica performance can highlight
     explosive pain and frustration, depicted in this melody.
+  background_contents:
+    - story speculation (spoiler)
+    - harmonica performance suggestion
 file:
   lyrics:
     language: instrumental
     tab label position: [rhythm]
-  comment: this map is custom-made from scratch and adheres to the original song structure
+  comment: >
+    This map adheres to the original song structure.
+    Only vocal parts are included.
   mapper: gggrv
 audio guide:
   .mid:
     paths:
       main.mid: song key
-    comment: ok
+    comment: >
+      A rough sketch of the whole song.
+      Few guitar parts (without chords) are included.
     mapper: gggrv
     means: # how the file was created
       - listen
