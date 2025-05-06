@@ -1,7 +1,7 @@
 path,tab_format_version,physical_harmonica_name,artist,title,artist_latin,title_latin,is_cover,unique_descriptor,mapper,has_audio_guide,has_map,sort_order,tier,score_melody_variety,score_jump,score_same_breath,score_bend,has_audio_timecodes
 other\puppetheart\jp.yaml,4.1.0,C (10 holes),まふまふ feat. まふまふ,傀儡の心臓,,,0,jp /// rhythm,gggrv,1,1,0.175,0,1.665,0.051,0.171,0.0,0
 artificial_singer\bluegreen\jp_eiro.yaml,4.1.0,C (10 holes),AVTechNO! feat. 初音ミク,Blue／Green,AVTechNO! feat. Hatsune Miku,Blue／Green,0,jp /// rhythm,gggrv,1,1,0.257,20,1.671,0.046,0.291,0.0,1
-artificial_singer\whatsinside\jp.yaml,4.1.0,C (10 holes),ピノキオピー feat. 初音ミク,内臓ありますか,,,0,jp /// rhythm,gggrv,1,1,0.26,20,1.663,0.099,0.258,0.0,0
+artificial_singer\whatsinside\jp.yaml,4.1.0,C (10 holes),ピノキオピー feat. 初音ミク,内臓ありますか,,,0,jp /// rhythm,gggrv,1,1,0.26,30,1.663,0.099,0.258,0.0,0
 artificial_singer\hifumiloneliness\jp.yaml,4.1.0,C (10 holes),一二三 feat. 初音ミク,猛独が襲う,,,0,jp /// rhythm,gggrv,0,1,0.448,20,1.623,0.469,0.261,0.0,0
 other\fuyuno\jp.yaml,4.1.0,C (10 holes),ヒトリエ (wowaka),フユノ,,,0,jp /// rhythm,gggrv,1,1,0.477,20,1.55,0.494,0.283,0.0,0
 artificial_singer\bluegreen\jp_ixi.yaml,4.1.0,C (10 holes),AVTechNO! feat. 初音ミク,Blue Green IIXII,AVTechNO! feat. Hatsune Miku,Blue Green IIXII,1,jp /// rhythm,gggrv,1,1,0.482,60,1.66,0.306,0.427,0.0,1
@@ -44,7 +44,7 @@ main\surovazima\ru.yaml,4.1.0,C (10 holes),Александр Пушной & К�
 artificial_singer\tinyparadise\jp.yaml,4.1.0,C (10 holes),かごめP feat. 結月ゆかり,Tiny PaRadisE,,,0,jp /// rhythm,gggrv,1,1,1.094,60,1.762,1.201,0.407,0.009,0
 main\lastmanonearth\ru_marmar.yaml,4.1.0,C (10 holes),Alice Cooper,Last Man on Earth,,,0,ru translation by ○○ /// stress marks,gggrv,1,1,1.14,80,1.444,0.163,0.177,0.045,0
 main\lastmanonearth\en.yaml,4.1.0,C (10 holes),Alice Cooper,Last Man on Earth,,,0,en /// stress marks,gggrv,1,1,1.178,80,1.529,0.163,0.177,0.047,0
-tried_to_sing\ymdirtyroom\inst.yaml,4.1.0,C (10 holes),YM feat. 灯油,ベイビーダーティルーム,YM feat. Touyu,Baby Dirty Room,0,instrumental /// rhythm,gggrv,1,1,1.547,80,1.667,0.732,0.301,0.047,0
+tried_to_sing\ymdirtyroom\inst.yaml,4.1.0,C (10 holes),YM feat. 灯油,ベイビーダーティルーム,YM feat. Touyu,Baby Dirty Room,0,instrumental /// rhythm,gggrv,1,1,1.547,80,1.647,0.734,0.3,0.047,0
 artificial_singer\plama_lost_children\en.yaml,4.1.0,C (10 holes),"PLAMA feat. 鏡音リン, 鏡音レン",Lost Children,"PLAMA feat. Kagamine Rin, Kagamine Len",Lost Children,0,"en /// rhythm, stress marks",gggrv,1,1,1.58,80,1.275,0.722,0.399,0.045,0
 artificial_singer\ac_volosy\ru.yaml,4.1.0,C (10 holes),AContrari,МОИ ВОЛОСЫ,AContrari,MOI VOLOSY,0,"ru /// rhythm, stress marks",gggrv,1,1,1.628,80,1.044,0.667,0.295,0.052,0
 tried_to_sing\atolshametsu\jp_n.yaml,4.1.0,C (10 holes),ATOLS feat. 腹話,ハメツ,,,0,jp /// rhythm,gggrv,1,1,1.785,80,1.638,1.223,0.433,0.042,0
