@@ -43,7 +43,7 @@ song:
     to disrupt the recurring dream's "hollow" "worthless" "blank" ending,
     instead yearning for the starry skies above.
     The latter half of the song subverts set expectations
-    as the hero's voice gradually switches to an ear-piercing cry,
+    as the hero's voice gradually changes into an ear-piercing cry,
     lamenting unreachable blue skies and rushing towards their own demise.
     Alternating beween serene and soulful styles during harmonica performance
     can highlight deep murky sorrow of this melody.
@@ -60,6 +60,7 @@ file:
     widechar: 1
   comment: >
     This map adheres to the original song structure.
+    This tab is primarily used for the index.csv validation.
   mapper: gggrv
 audio guide:
   .mid:

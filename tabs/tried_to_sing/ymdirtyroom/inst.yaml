@@ -35,7 +35,7 @@ song:
     An obvious cry for help, ignoring it is impossible.
     Access to reliably transcribed lyrics could shed more light into the song's actual meaning.
     The lyrical hero appears to be a self-conscious boaster.
-    In their desperate attempts to prove their worth,
+    In their desperate attempts to prove their worth
     they repeatedly cause trouble and barely withstand
     an overwhelming sense of fear and shame that naturally emerges afterwards.
     Precise, sharp, methodical harmonica performance can highlight
@@ -50,6 +50,7 @@ file:
   comment: >
     This map adheres to the original song structure.
     Only vocal parts are included.
+    This tab is primarily used for the index.csv validation.
   mapper: gggrv
 audio guide:
   .mid:
@@ -223,7 +224,7 @@ map:
         +: '           33'
         x: '898    899 hh8h89'
       -
-        x: 'srs rsr6r    srs7s h7s ts'
+        x: 'srs rsr6r    srs7s h7s rs'
       -
         +: '   3'
         x: 'h8 h'
